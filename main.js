@@ -176,12 +176,12 @@ function BotInterviewsComponent_span_49_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_tbody_66_tr_1_Template(rf, ctx) {
+function BotInterviewsComponent_tbody_68_tr_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "tr")(1, "td")(2, "a", 53);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function BotInterviewsComponent_tbody_66_tr_1_Template_a_click_2_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function BotInterviewsComponent_tbody_68_tr_1_Template_a_click_2_listener() {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r29);
       const row_r26 = restoredCtx.$implicit;
       const i_r27 = restoredCtx.index;
@@ -196,14 +196,17 @@ function BotInterviewsComponent_tbody_66_tr_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "td", 54);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](8, "td", 55);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](8, "td", 54);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](10, "td", 56);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](10, "td", 54);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](12, "td");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](14, "td", 55);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](15);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
   }
 
@@ -221,13 +224,15 @@ function BotInterviewsComponent_tbody_66_tr_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtextInterpolate"](row_r26.location);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtextInterpolate"](row_r26.mobile);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtextInterpolate"](row_r26.interview_timestamp);
   }
 }
 
-function BotInterviewsComponent_tbody_66_Template(rf, ctx) {
+function BotInterviewsComponent_tbody_68_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, BotInterviewsComponent_tbody_66_tr_1_Template, 14, 6, "tr", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, BotInterviewsComponent_tbody_68_tr_1_Template, 16, 7, "tr", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
   }
 
@@ -238,15 +243,15 @@ function BotInterviewsComponent_tbody_66_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_tbody_67_Template(rf, ctx) {
+function BotInterviewsComponent_tbody_69_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "tbody")(1, "tr")(2, "td", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "tbody")(1, "tr")(2, "td", 56);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](3, "No Record Found!");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
   }
 }
 
-function BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_div_3_tr_28_Template(rf, ctx) {
   if (rf & 1) {
     const _r38 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
@@ -265,32 +270,32 @@ function BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](9, "td");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "td")(12, "textarea", 81);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template_textarea_ngModelChange_12_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "td")(12, "textarea", 80);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_div_3_tr_28_Template_textarea_ngModelChange_12_listener($event) {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r38);
       const row_r35 = restoredCtx.$implicit;
       return row_r35.user_response = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](13, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](14, "td")(15, "textarea", 81);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template_textarea_ngModelChange_15_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](14, "td")(15, "textarea", 80);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_div_3_tr_28_Template_textarea_ngModelChange_15_listener($event) {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r38);
       const row_r35 = restoredCtx.$implicit;
       return row_r35.genai_script_evaluation = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](16, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "td")(18, "textarea", 81);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template_textarea_ngModelChange_18_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "td")(18, "textarea", 80);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_div_3_tr_28_Template_textarea_ngModelChange_18_listener($event) {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r38);
       const row_r35 = restoredCtx.$implicit;
       return row_r35.genai_assessment_summary = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](19, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](20, "td")(21, "input", 82);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template_input_ngModelChange_21_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](20, "td")(21, "input", 81);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_div_3_tr_28_Template_input_ngModelChange_21_listener($event) {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r38);
       const row_r35 = restoredCtx.$implicit;
       return row_r35.genai_assessment_score = $event;
@@ -321,12 +326,12 @@ function BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_div_68_div_10_div_3_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 7)(1, "div", 77)(2, "h5", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 7)(1, "div", 76)(2, "h5", 77);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](3, "Question wise assessment");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 27)(5, "div", 79)(6, "table", 80)(7, "thead")(8, "tr")(9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 27)(5, "div", 78)(6, "table", 79)(7, "thead")(8, "tr")(9, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10, "Parent Id ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "th");
@@ -345,16 +350,16 @@ function BotInterviewsComponent_div_68_div_10_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](20, "Candidate Answer");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](21, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](22, "Bot evaluation");
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](22, "AI evaluation");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](23, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](24, "Bot summary");
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](24, "AI summary");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](25, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](26, "Score");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](27, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](28, BotInterviewsComponent_div_68_div_10_div_3_tr_28_Template, 22, 9, "tr", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](28, BotInterviewsComponent_div_70_div_10_div_3_tr_28_Template, 22, 9, "tr", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()();
   }
 
@@ -367,23 +372,23 @@ function BotInterviewsComponent_div_68_div_10_div_3_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_div_68_div_10_div_4_tr_16_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_div_4_tr_16_Template(rf, ctx) {
   if (rf & 1) {
     const _r46 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "tr")(1, "td");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](3, "td")(4, "textarea", 83);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_div_4_tr_16_Template_textarea_ngModelChange_4_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](3, "td")(4, "textarea", 82);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_div_4_tr_16_Template_textarea_ngModelChange_4_listener($event) {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r46);
       const row_r43 = restoredCtx.$implicit;
       return row_r43.summary = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](5, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "td")(7, "input", 84);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_div_4_tr_16_Template_input_ngModelChange_7_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "td")(7, "input", 83);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_div_4_tr_16_Template_input_ngModelChange_7_listener($event) {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r46);
       const row_r43 = restoredCtx.$implicit;
       return row_r43.score = $event;
@@ -402,22 +407,22 @@ function BotInterviewsComponent_div_68_div_10_div_4_tr_16_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_div_68_div_10_div_4_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 7)(1, "div", 77)(2, "h5", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 7)(1, "div", 76)(2, "h5", 77);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](3, "Skill wise assessment");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 27)(5, "div", 79)(6, "table", 80)(7, "thead")(8, "tr")(9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 27)(5, "div", 78)(6, "table", 79)(7, "thead")(8, "tr")(9, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10, "Candidate skill ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](12, "Bot summary");
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](12, "AI summary");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](14, "Score");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](16, BotInterviewsComponent_div_68_div_10_div_4_tr_16_Template, 8, 3, "tr", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](16, BotInterviewsComponent_div_70_div_10_div_4_tr_16_Template, 8, 3, "tr", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()();
   }
 
@@ -430,9 +435,9 @@ function BotInterviewsComponent_div_68_div_10_div_4_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_div_68_div_10_div_5_tr_14_option_5_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_div_5_tr_14_option_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "option", 87);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "option", 86);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
   }
@@ -451,20 +456,20 @@ const _c5 = function () {
   };
 };
 
-function BotInterviewsComponent_div_68_div_10_div_5_tr_14_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_div_5_tr_14_Template(rf, ctx) {
   if (rf & 1) {
     const _r54 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "tr")(1, "td");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](3, "td")(4, "select", 85);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_div_5_tr_14_Template_select_ngModelChange_4_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](3, "td")(4, "select", 84);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_div_5_tr_14_Template_select_ngModelChange_4_listener($event) {
       const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r54);
       const row_r49 = restoredCtx.$implicit;
       return row_r49.score = $event;
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](5, BotInterviewsComponent_div_68_div_10_div_5_tr_14_option_5_Template, 2, 2, "option", 86);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](5, BotInterviewsComponent_div_70_div_10_div_5_tr_14_option_5_Template, 2, 2, "option", 85);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
   }
 
@@ -480,19 +485,19 @@ function BotInterviewsComponent_div_68_div_10_div_5_tr_14_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_div_68_div_10_div_5_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_div_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 7)(1, "div", 77)(2, "h5", 78);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 7)(1, "div", 76)(2, "h5", 77);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](3, "Soft Skill assessment");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 27)(5, "div", 79)(6, "table", 80)(7, "thead")(8, "tr")(9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 27)(5, "div", 78)(6, "table", 79)(7, "thead")(8, "tr")(9, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10, "Soft skill ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](12, "Score");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](14, BotInterviewsComponent_div_68_div_10_div_5_tr_14_Template, 6, 5, "tr", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](14, BotInterviewsComponent_div_70_div_10_div_5_tr_14_Template, 6, 5, "tr", 52);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()();
   }
 
@@ -505,41 +510,41 @@ function BotInterviewsComponent_div_68_div_10_div_5_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_div_68_div_10_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_div_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r56 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 33)(1, "div", 67)(2, "div", 68);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](3, BotInterviewsComponent_div_68_div_10_div_3_Template, 29, 3, "div", 69);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](4, BotInterviewsComponent_div_68_div_10_div_4_Template, 17, 3, "div", 69);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](5, BotInterviewsComponent_div_68_div_10_div_5_Template, 15, 3, "div", 69);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 33)(1, "div", 66)(2, "div", 67);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](3, BotInterviewsComponent_div_70_div_10_div_3_Template, 29, 3, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](4, BotInterviewsComponent_div_70_div_10_div_4_Template, 17, 3, "div", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](5, BotInterviewsComponent_div_70_div_10_div_5_Template, 15, 3, "div", 68);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "div", 70)(7, "tr")(8, "td")(9, "button", 71);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function BotInterviewsComponent_div_68_div_10_Template_button_click_9_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "div", 69)(7, "tr")(8, "td")(9, "button", 70);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function BotInterviewsComponent_div_70_div_10_Template_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r56);
       const ctx_r55 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
       return ctx_r55.submitUpdates();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10, "Update");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "td")(12, "input", 72);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_Template_input_ngModelChange_12_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "td")(12, "input", 71);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_Template_input_ngModelChange_12_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r56);
       const ctx_r57 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
       return ctx_r57.botInterviewApproved = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "label", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "label", 72);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](14, " Approve Interview ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "td", 74)(16, "input", 75);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_68_div_10_Template_input_ngModelChange_16_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "td", 73)(16, "input", 74);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("ngModelChange", function BotInterviewsComponent_div_70_div_10_Template_input_ngModelChange_16_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r56);
       const ctx_r58 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
       return ctx_r58.total_score = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "label", 76);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "label", 75);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](18, " Total Score: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()()();
   }
@@ -559,15 +564,15 @@ function BotInterviewsComponent_div_68_div_10_Template(rf, ctx) {
   }
 }
 
-function BotInterviewsComponent_div_68_Template(rf, ctx) {
+function BotInterviewsComponent_div_70_Template(rf, ctx) {
   if (rf & 1) {
     const _r60 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 58)(1, "div", 59)(2, "div", 60)(3, "div", 61)(4, "ul", 62)(5, "li", 63)(6, "a", 64);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 57)(1, "div", 58)(2, "div", 59)(3, "div", 60)(4, "ul", 61)(5, "li", 62)(6, "a", 63);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](7, "Assessment Details");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](8, "button", 65);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function BotInterviewsComponent_div_68_Template_button_click_8_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](8, "button", 64);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function BotInterviewsComponent_div_70_Template_button_click_8_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r60);
       const ctx_r59 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
       ctx_r59.showfullprofile = false;
@@ -575,7 +580,7 @@ function BotInterviewsComponent_div_68_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](9, "\u00D7");
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](10, BotInterviewsComponent_div_68_div_10_Template, 19, 5, "div", 66);
+    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](10, BotInterviewsComponent_div_70_div_10_Template, 19, 5, "div", 65);
     _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
   }
 
@@ -646,7 +651,8 @@ class BotInterviewsComponent {
       mobile: null,
       location: null,
       remarks: null,
-      interviewId: 0
+      interviewId: 0,
+      interview_timestamp: null
     };
     this.dynamic_html_top = ["25%", "35%", "45%", "55%"];
     this.video_file = "";
@@ -994,9 +1000,9 @@ BotInterviewsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       });
     }
   },
-  decls: 69,
+  decls: 71,
   vars: 11,
-  consts: [[1, "section"], [1, "container"], [1, "row", "with-filter-panel"], [1, "col-md-3", "col-lg-3"], [1, "left-sideabr"], [1, "filter-by"], ["id", "accordionFilter", "role", "tablist", "aria-multiselectable", "true", 1, "accordion", "filter-accordion"], [1, "card"], ["role", "tab", 1, "card-header"], ["data-toggle", "collapse", "href", "#skills", "aria-expanded", "false", "aria-controls", "skills", 1, ""], [1, "mb-0"], [1, "fas", "fa-angle-down", "rotate-icon"], ["id", "skills", "role", "tabpanel", "aria-labelledby", "skills", 1, "collapse"], [1, "card-body", "filter-card-body"], ["matInput", "", "placeholder", "Ex. search", 3, "keyup"], ["input", ""], [1, "example-container", "mat-elevation-z8"], ["mat-table", "", "matSort", "", 3, "dataSource"], ["skillsMat", "", "skillsMatSort", "matSort"], ["matColumnDef", "select"], ["mat-header-cell", "", "class", "width-40", 4, "matHeaderCellDef"], ["mat-cell", "", 4, "matCellDef"], ["matColumnDef", "name"], ["mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["mat-row", "", 4, "matRowDef", "matRowDefColumns"], ["class", "mat-row", 4, "matNoDataRow"], [1, "card-body"], [1, "form-inline", "justify-content-between"], [1, "form-group"], ["type", "textarea", "placeholder", "Reference ID", 1, "form-control", "width-150", "mr-2", 3, "ngModel", "ngModelChange"], [1, "btn", "btn-primary", 3, "click"], [1, "col-md-9", "col-lg-9"], [1, "tab-content"], ["id", "profiles", 1, "tab-pane", "active"], [1, "filters-applied"], [1, "filter-category", 3, "hidden"], ["class", "badge badge-info", 3, "hidden", "click", 4, "ngFor", "ngForOf"], ["id", "display_table", 1, "mb-3"], ["id", "excel-table", "datatable", "", "width", "100%", 1, "table", "table-striped", "table-hover", "table-bordered", "table-fixed-head", 3, "dtOptions", "dtTrigger"], [4, "ngIf"], ["class", "modal", "id", "fullProfileInterviewer", 4, "ngIf"], ["mat-header-cell", "", 1, "width-40"], ["mat-cell", ""], [3, "ngModel", "ngModelChange"], ["mat-header-cell", "", "mat-sort-header", ""], [1, "pl-2"], ["mat-header-row", ""], ["mat-row", ""], [1, "mat-row"], ["colspan", "4", 1, "mat-cell"], [1, "badge", "badge-info", 3, "hidden", "click"], [4, "ngFor", "ngForOf"], ["href", "#", "data-toggle", "modal", "data-target", "#fullProfileInterviewer", 1, "link-blue", 3, "click"], [1, "width-150"], [1, "width-120"], [1, "width-110"], ["colspan", "14", 1, "no-data-available"], ["id", "fullProfileInterviewer", 1, "modal"], [1, "modal-dialog", "modal-xl"], [1, "modal-content"], [1, "modal-header", "with-tabs"], [1, "nav", "nav-tabs", "nav-tabs-bottom", "sm", "mb-0"], [1, "nav-item"], ["data-toggle", "tab", "href", "#view-assessment", 1, "nav-link"], ["type", "button", "data-dismiss", "modal", 1, "close", 3, "click"], ["class", "tab-content", 4, "ngIf"], ["id", "view-assessment", 1, "tab-pane", "active"], [1, "modal-body", "modal-full-height", "with-footer"], ["class", "card", 4, "ngIf"], [1, "modal-footer"], [1, "btn", "mx-2", "btn-primary", 3, "click"], ["type", "checkbox", "id", "approve", "name", "vehicle1", 3, "ngModel", "ngModelChange"], ["for", "approve"], ["width", "20%"], ["id", "total_score", "type", "number", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "total_score"], [1, "card-header"], [1, "card-title"], [1, "table-responsive"], ["id", "upcoming-table", "datatable", "", 1, "table", "table-bordered", "table-striped", "table-hover", 3, "dtOptions", "dtTrigger"], ["type", "text", "cols", "20", "rows", "3", 1, "form-control", "textarea-sm", 3, "ngModel", "ngModelChange"], ["type", "text", 1, "form-control", "sm", "width-120", 3, "ngModel", "ngModelChange"], ["cols", "50", "rows", "5", 1, "form-control", "font-small-3", 3, "ngModel", "ngModelChange"], ["type", "number", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "form-control", 3, "ngModel", "ngModelOptions", "ngModelChange"], [3, "ngValue", 4, "ngFor", "ngForOf"], [3, "ngValue"]],
+  consts: [[1, "section"], [1, "container"], [1, "row", "with-filter-panel"], [1, "col-md-3", "col-lg-3"], [1, "left-sideabr"], [1, "filter-by"], ["id", "accordionFilter", "role", "tablist", "aria-multiselectable", "true", 1, "accordion", "filter-accordion"], [1, "card"], ["role", "tab", 1, "card-header"], ["data-toggle", "collapse", "href", "#skills", "aria-expanded", "false", "aria-controls", "skills", 1, ""], [1, "mb-0"], [1, "fas", "fa-angle-down", "rotate-icon"], ["id", "skills", "role", "tabpanel", "aria-labelledby", "skills", 1, "collapse"], [1, "card-body", "filter-card-body"], ["matInput", "", "placeholder", "Ex. search", 3, "keyup"], ["input", ""], [1, "example-container", "mat-elevation-z8"], ["mat-table", "", "matSort", "", 3, "dataSource"], ["skillsMat", "", "skillsMatSort", "matSort"], ["matColumnDef", "select"], ["mat-header-cell", "", "class", "width-40", 4, "matHeaderCellDef"], ["mat-cell", "", 4, "matCellDef"], ["matColumnDef", "name"], ["mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["mat-row", "", 4, "matRowDef", "matRowDefColumns"], ["class", "mat-row", 4, "matNoDataRow"], [1, "card-body"], [1, "form-inline", "justify-content-between"], [1, "form-group"], ["type", "textarea", "placeholder", "Reference ID", 1, "form-control", "width-150", "mr-2", 3, "ngModel", "ngModelChange"], [1, "btn", "btn-primary", 3, "click"], [1, "col-md-9", "col-lg-9"], [1, "tab-content"], ["id", "profiles", 1, "tab-pane", "active"], [1, "filters-applied"], [1, "filter-category", 3, "hidden"], ["class", "badge badge-info", 3, "hidden", "click", 4, "ngFor", "ngForOf"], ["id", "display_table", 1, "mb-3"], ["id", "excel-table", "datatable", "", "width", "100%", 1, "table", "table-striped", "table-hover", "table-bordered", "table-fixed-head", 3, "dtOptions", "dtTrigger"], [4, "ngIf"], ["class", "modal", "id", "fullProfileInterviewer", 4, "ngIf"], ["mat-header-cell", "", 1, "width-40"], ["mat-cell", ""], [3, "ngModel", "ngModelChange"], ["mat-header-cell", "", "mat-sort-header", ""], [1, "pl-2"], ["mat-header-row", ""], ["mat-row", ""], [1, "mat-row"], ["colspan", "4", 1, "mat-cell"], [1, "badge", "badge-info", 3, "hidden", "click"], [4, "ngFor", "ngForOf"], ["href", "#", "data-toggle", "modal", "data-target", "#fullProfileInterviewer", 1, "link-blue", 3, "click"], [1, "width-50"], [1, "width-160"], ["colspan", "15", 1, "no-data-available"], ["id", "fullProfileInterviewer", 1, "modal"], [1, "modal-dialog", "modal-xl"], [1, "modal-content"], [1, "modal-header", "with-tabs"], [1, "nav", "nav-tabs", "nav-tabs-bottom", "sm", "mb-0"], [1, "nav-item"], ["data-toggle", "tab", "href", "#view-assessment", 1, "nav-link"], ["type", "button", "data-dismiss", "modal", 1, "close", 3, "click"], ["class", "tab-content", 4, "ngIf"], ["id", "view-assessment", 1, "tab-pane", "active"], [1, "modal-body", "modal-full-height", "with-footer"], ["class", "card", 4, "ngIf"], [1, "modal-footer"], [1, "btn", "mx-2", "btn-primary", 3, "click"], ["type", "checkbox", "id", "approve", "name", "vehicle1", 3, "ngModel", "ngModelChange"], ["for", "approve"], ["width", "20%"], ["id", "total_score", "type", "number", 1, "form-control", 3, "ngModel", "ngModelChange"], ["for", "total_score"], [1, "card-header"], [1, "card-title"], [1, "table-responsive"], ["id", "upcoming-table", "datatable", "", 1, "table", "table-bordered", "table-striped", "table-hover", 3, "dtOptions", "dtTrigger"], ["type", "text", "cols", "20", "rows", "3", 1, "form-control", "textarea-sm", 3, "ngModel", "ngModelChange"], ["type", "text", 1, "form-control", "sm", "width-120", 3, "ngModel", "ngModelChange"], ["cols", "50", "rows", "5", 1, "form-control", "font-small-3", 3, "ngModel", "ngModelChange"], ["type", "number", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "form-control", 3, "ngModel", "ngModelOptions", "ngModelChange"], [3, "ngValue", 4, "ngFor", "ngForOf"], [3, "ngValue"]],
   template: function BotInterviewsComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
@@ -1061,11 +1067,14 @@ BotInterviewsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](64, "th");
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](65, "Mobile \u00A0#");
+      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](66, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](67, "Date");
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](66, BotInterviewsComponent_tbody_66_Template, 2, 1, "tbody", 40);
-      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](67, BotInterviewsComponent_tbody_67_Template, 4, 0, "tbody", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](68, BotInterviewsComponent_tbody_68_Template, 2, 1, "tbody", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](69, BotInterviewsComponent_tbody_69_Template, 4, 0, "tbody", 40);
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](68, BotInterviewsComponent_div_68_Template, 11, 3, "div", 41);
+      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](70, BotInterviewsComponent_div_70_Template, 11, 3, "div", 41);
     }
 
     if (rf & 2) {
@@ -1083,7 +1092,7 @@ BotInterviewsComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngForOf", ctx.selected_skills);
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("dtOptions", ctx.dtOptions)("dtTrigger", ctx.dtTrigger);
-      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](17);
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (ctx.profiles_data == null ? null : ctx.profiles_data.length) != 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (ctx.profiles_data == null ? null : ctx.profiles_data.length) == 0);
@@ -4548,6 +4557,167 @@ class ApiService {
     })();
   }
 
+  fetchAssessments(input) {
+    function postData() {
+      return _postData50.apply(this, arguments);
+    }
+
+    function _postData50() {
+      _postData50 = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        const apiName = 'MyCustomLambda';
+        const path = '/fetchAssessments';
+        const myInit = {
+          body: input,
+          headers: {
+            Authorization: `Bearer ${yield (0,_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_JWT_TOKEN)()}`
+          }
+        };
+        return yield aws_amplify__WEBPACK_IMPORTED_MODULE_6__.API.post(apiName, path, myInit);
+      });
+      return _postData50.apply(this, arguments);
+    }
+
+    return postData();
+  }
+
+  realtimeapi(input) {
+    function postData() {
+      return _postData51.apply(this, arguments);
+    }
+
+    function _postData51() {
+      _postData51 = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        const apiName = 'MyCustomLambda';
+        const path = '/realtimeapi';
+        const myInit = {
+          body: input,
+          headers: {
+            Authorization: `Bearer ${yield (0,_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_JWT_TOKEN)()}`
+          }
+        };
+        return yield aws_amplify__WEBPACK_IMPORTED_MODULE_6__.API.post(apiName, path, myInit);
+      });
+      return _postData51.apply(this, arguments);
+    }
+
+    return postData();
+  }
+
+  fetchfeatures(input) {
+    function postData() {
+      return _postData52.apply(this, arguments);
+    }
+
+    function _postData52() {
+      _postData52 = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        const apiName = 'MyCustomLambda';
+        const path = '/fetchFeatures';
+        const myInit = {
+          body: input,
+          headers: {
+            Authorization: `Bearer ${yield (0,_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_JWT_TOKEN)()}`
+          }
+        };
+        return yield aws_amplify__WEBPACK_IMPORTED_MODULE_6__.API.post(apiName, path, myInit);
+      });
+      return _postData52.apply(this, arguments);
+    }
+
+    return postData();
+  }
+
+  publishfelogs(input) {
+    function postData() {
+      return _postData53.apply(this, arguments);
+    }
+
+    function _postData53() {
+      _postData53 = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        const apiName = 'MyCustomLambda';
+        const path = '/publishfelogs';
+        const myInit = {
+          body: input,
+          headers: {
+            Authorization: `Bearer ${yield (0,_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_JWT_TOKEN)()}`
+          }
+        };
+        return yield aws_amplify__WEBPACK_IMPORTED_MODULE_6__.API.post(apiName, path, myInit);
+      });
+      return _postData53.apply(this, arguments);
+    }
+
+    return postData();
+  }
+
+  razorpaycallback(input) {
+    function postData() {
+      return _postData54.apply(this, arguments);
+    }
+
+    function _postData54() {
+      _postData54 = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        const apiName = 'MyCustomLambda';
+        const path = '/razorpaycallback';
+        const myInit = {
+          body: input,
+          headers: {
+            Authorization: `Bearer ${yield (0,_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_JWT_TOKEN)()}`
+          }
+        };
+        return yield aws_amplify__WEBPACK_IMPORTED_MODULE_6__.API.post(apiName, path, myInit);
+      });
+      return _postData54.apply(this, arguments);
+    }
+
+    return postData();
+  }
+
+  razorpaycancel(input) {
+    function postData() {
+      return _postData55.apply(this, arguments);
+    }
+
+    function _postData55() {
+      _postData55 = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        const apiName = 'MyCustomLambda';
+        const path = '/razorpaycancel';
+        const myInit = {
+          body: input,
+          headers: {
+            Authorization: `Bearer ${yield (0,_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_JWT_TOKEN)()}`
+          }
+        };
+        return yield aws_amplify__WEBPACK_IMPORTED_MODULE_6__.API.post(apiName, path, myInit);
+      });
+      return _postData55.apply(this, arguments);
+    }
+
+    return postData();
+  }
+
+  razorpaycreateorder(input) {
+    function postData() {
+      return _postData56.apply(this, arguments);
+    }
+
+    function _postData56() {
+      _postData56 = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        const apiName = 'MyCustomLambda';
+        const path = '/razorpayCreateOrder';
+        const myInit = {
+          body: input,
+          headers: {
+            Authorization: `Bearer ${yield (0,_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_JWT_TOKEN)()}`
+          }
+        };
+        return yield aws_amplify__WEBPACK_IMPORTED_MODULE_6__.API.post(apiName, path, myInit);
+      });
+      return _postData56.apply(this, arguments);
+    }
+
+    return postData();
+  }
+
 }
 
 ApiService.ɵfac = function ApiService_Factory(t) {
@@ -4574,7 +4744,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AppRoutingModule": () => (/* binding */ AppRoutingModule),
 /* harmony export */   "RoutingComponent": () => (/* binding */ RoutingComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/router */ 52816);
 /* harmony import */ var _recruiter_recruiter_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./recruiter/recruiter.component */ 43991);
 /* harmony import */ var _recruiter_profiles_profiles_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./recruiter/profiles/profiles.component */ 63493);
 /* harmony import */ var _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home-page/home-page.component */ 5079);
@@ -4612,7 +4782,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _candidate_assessment_bot_interview_main_interview_main_interview_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./candidate/assessment/bot-interview/main-interview/main-interview.component */ 83981);
 /* harmony import */ var _general_refund_policy_refund_policy_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./general/refund-policy/refund-policy.component */ 31772);
 /* harmony import */ var _general_pricing_pricing_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./general/pricing/pricing.component */ 32004);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _candidate_assessment_bot_interview_realtime_convo_realtime_convo_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./candidate/assessment/bot-interview/realtime-convo/realtime-convo.component */ 11861);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/core */ 3184);
+
 
 
 
@@ -4688,7 +4860,7 @@ const routes = [
     {
         path: "candidate",
         component: _candidate_candidate_component__WEBPACK_IMPORTED_MODULE_10__.CandidateComponent,
-        canActivate: [_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_22__.AuthGuard],
+        // canActivate: [AuthGuard],
         canActivateChild: [_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_22__.AuthGuard],
         data: { roles: [_models_auth_model__WEBPACK_IMPORTED_MODULE_23__.Roles.CANDIDATE] },
         children: [
@@ -4705,7 +4877,7 @@ const routes = [
     {
         path: "interviewer",
         component: _interviewer_interviewer_component__WEBPACK_IMPORTED_MODULE_15__.InterviewerComponent,
-        canActivate: [_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_22__.AuthGuard],
+        // canActivate: [AuthGuard],
         canActivateChild: [_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_22__.AuthGuard],
         data: { roles: [_models_auth_model__WEBPACK_IMPORTED_MODULE_23__.Roles.INTERVIEWER] },
         children: [
@@ -4716,7 +4888,7 @@ const routes = [
     {
         path: "recruiter",
         component: _recruiter_recruiter_component__WEBPACK_IMPORTED_MODULE_0__.RecruiterComponent,
-        canActivate: [_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_22__.AuthGuard],
+        // canActivate: [AuthGuard],
         canActivateChild: [_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_22__.AuthGuard],
         data: { roles: [_models_auth_model__WEBPACK_IMPORTED_MODULE_23__.Roles.RECRUITER] },
         children: [
@@ -4758,6 +4930,12 @@ const routes = [
         data: { roles: [_models_auth_model__WEBPACK_IMPORTED_MODULE_23__.Roles.CANDIDATE, _models_auth_model__WEBPACK_IMPORTED_MODULE_23__.Roles.INTERVIEWER] },
         component: _candidate_assessment_bot_interview_main_interview_main_interview_component__WEBPACK_IMPORTED_MODULE_34__.MainInterviewComponent
     },
+    {
+        path: "realtime-convo/:data",
+        canActivate: [_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_22__.AuthGuard],
+        data: { roles: [_models_auth_model__WEBPACK_IMPORTED_MODULE_23__.Roles.CANDIDATE, _models_auth_model__WEBPACK_IMPORTED_MODULE_23__.Roles.INTERVIEWER] },
+        component: _candidate_assessment_bot_interview_realtime_convo_realtime_convo_component__WEBPACK_IMPORTED_MODULE_37__.RealtimeConvoComponent
+    },
     { path: "about", component: _general_about_about_component__WEBPACK_IMPORTED_MODULE_18__.AboutComponent, },
     { path: "pricing", component: _general_pricing_pricing_component__WEBPACK_IMPORTED_MODULE_36__.PricingComponent, },
     { path: "contact-us", component: _general_contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_19__.ContactUsComponent, },
@@ -4776,9 +4954,9 @@ const routes = [
 class AppRoutingModule {
 }
 AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); };
-AppRoutingModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_37__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
-AppRoutingModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_37__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_38__.RouterModule.forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_38__.RouterModule] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_37__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_38__.RouterModule], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_38__.RouterModule] }); })();
+AppRoutingModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_38__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
+AppRoutingModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_38__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_39__.RouterModule.forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_39__.RouterModule] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_38__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_39__.RouterModule], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_39__.RouterModule] }); })();
 const RoutingComponent = [
     _candidate_candidate_login_candidate_login_component__WEBPACK_IMPORTED_MODULE_7__.CandidateLoginComponent,
     _candidate_candidate_register_candidate_register_component__WEBPACK_IMPORTED_MODULE_6__.CandidateRegisterComponent,
@@ -5034,41 +5212,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! @angular/platform-browser */ 50318);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! @angular/forms */ 90587);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! @angular/platform-browser */ 50318);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! @angular/forms */ 90587);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app-routing.module */ 90158);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ 55041);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! @angular/common/http */ 28784);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! @angular/common/http */ 28784);
 /* harmony import */ var _api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./api.service */ 51491);
-/* harmony import */ var ngx_doc_viewer__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ngx-doc-viewer */ 13778);
+/* harmony import */ var ngx_doc_viewer__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ngx-doc-viewer */ 13778);
 /* harmony import */ var ngx_bootstrap_accordion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-bootstrap/accordion */ 34495);
 /* harmony import */ var ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-bootstrap/modal */ 26528);
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ngx-toastr */ 34101);
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! @angular/platform-browser/animations */ 73598);
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ngx-toastr */ 34101);
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! @angular/platform-browser/animations */ 73598);
 /* harmony import */ var _recruiter_recruiter_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./recruiter/recruiter.component */ 43991);
 /* harmony import */ var _recruiter_profiles_profiles_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./recruiter/profiles/profiles.component */ 63493);
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! @angular/material/input */ 43365);
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! @angular/material/table */ 97217);
-/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! @angular/material/sort */ 64316);
-/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! @angular/material/checkbox */ 61534);
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! @angular/material/card */ 11961);
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! @angular/material/button */ 87317);
-/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! @angular/material/toolbar */ 64517);
-/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! @angular/material/icon */ 65590);
-/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! @angular/material/sidenav */ 7216);
-/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! @angular/material/list */ 26131);
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! @angular/material/select */ 91434);
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! @angular/material/input */ 43365);
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! @angular/material/table */ 97217);
+/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! @angular/material/sort */ 64316);
+/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! @angular/material/checkbox */ 61534);
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! @angular/material/card */ 11961);
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! @angular/material/button */ 87317);
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! @angular/material/toolbar */ 64517);
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! @angular/material/icon */ 65590);
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! @angular/material/sidenav */ 7216);
+/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! @angular/material/list */ 26131);
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! @angular/material/select */ 91434);
 /* harmony import */ var _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./home-page/home-page.component */ 5079);
 /* harmony import */ var angular_datatables__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! angular-datatables */ 51282);
-/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! @angular/material/slider */ 61859);
-/* harmony import */ var _angular_slider_ngx_slider__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! @angular-slider/ngx-slider */ 92498);
+/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! @angular/material/slider */ 61859);
+/* harmony import */ var _angular_slider_ngx_slider__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! @angular-slider/ngx-slider */ 92498);
 /* harmony import */ var src_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/guards/auth/auth.guard */ 9740);
 /* harmony import */ var src_services_auth_auth_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! src/services/auth/auth.service */ 74067);
 /* harmony import */ var _recruiter_video_links_video_links_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./recruiter/video-links/video-links.component */ 54781);
 /* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./header/header.component */ 93482);
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./footer/footer.component */ 10970);
 /* harmony import */ var _recruiter_assessment_test_assessment_test_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./recruiter/assessment-test/assessment-test.component */ 74913);
-/* harmony import */ var ngx_countdown__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ngx-countdown */ 96439);
+/* harmony import */ var ngx_countdown__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ngx-countdown */ 96439);
 /* harmony import */ var _candidate_recruitment_hiretest_hiretest_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./candidate/recruitment/hiretest/hiretest.component */ 83829);
 /* harmony import */ var _candidate_recruitment_recruitment_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./candidate/recruitment/recruitment.component */ 46752);
 /* harmony import */ var _candidate_profile_skills_skills_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./candidate/profile/skills/skills.component */ 36272);
@@ -5080,14 +5258,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _candidate_assessment_test_test_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./candidate/assessment/test/test.component */ 70616);
 /* harmony import */ var _candidate_assessment_profile_activity_profile_activity_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./candidate/assessment/profile-activity/profile-activity.component */ 90477);
 /* harmony import */ var _candidate_assessment_interview_interview_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./candidate/assessment/interview/interview.component */ 43796);
-/* harmony import */ var ng_http_loader__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ng-http-loader */ 23020);
+/* harmony import */ var ng_http_loader__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ng-http-loader */ 23020);
 /* harmony import */ var _error_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./error/not-found/not-found.component */ 48694);
 /* harmony import */ var _admin_verifytests_verify_tests_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./admin/verifytests/verify-tests.component */ 90145);
-/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! @angular/material/chips */ 81196);
-/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! @angular/material/autocomplete */ 43188);
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! @angular/material/chips */ 81196);
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! @angular/material/autocomplete */ 43188);
 /* harmony import */ var _auth_candidate_sign_in_candidate_sign_in_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./auth/candidate-sign-in/candidate-sign-in.component */ 21091);
 /* harmony import */ var _auth_candidate_sign_up_candidate_sign_up_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./auth/candidate-sign-up/candidate-sign-up.component */ 73318);
-/* harmony import */ var _fullcalendar_angular__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! @fullcalendar/angular */ 35717);
+/* harmony import */ var _fullcalendar_angular__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! @fullcalendar/angular */ 35717);
 /* harmony import */ var _fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @fullcalendar/daygrid */ 13947);
 /* harmony import */ var _fullcalendar_timegrid__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @fullcalendar/timegrid */ 69901);
 /* harmony import */ var _fullcalendar_interaction__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @fullcalendar/interaction */ 85194);
@@ -5095,9 +5273,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _interviewer_assessment_interview_interview_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./interviewer/assessment/interview/interview.component */ 72597);
 /* harmony import */ var _util_location_select_location_select_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./util/location-select/location-select.component */ 2129);
 /* harmony import */ var _util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./util/alert-dialog/alert-dialog.component */ 12278);
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
 /* harmony import */ var _util_reference_select_reference_select_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./util/reference-select/reference-select.component */ 26984);
-/* harmony import */ var ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ngx-intl-tel-input */ 68831);
+/* harmony import */ var ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ngx-intl-tel-input */ 68831);
 /* harmony import */ var _candidate_assessment_test_take_test_take_test_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./candidate/assessment/test/take-test/take-test.component */ 90744);
 /* harmony import */ var _modules_test_test_module__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../modules/test/test.module */ 98459);
 /* harmony import */ var _util_profile_card_profile_card_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./util/profile-card/profile-card.component */ 56078);
@@ -5127,7 +5305,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _recruiter_my_account_subscription_subscription_component__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./recruiter/my-account/subscription/subscription.component */ 43290);
 /* harmony import */ var _util_pdf_viewer_pdf_viewer_component__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./util/pdf-viewer/pdf-viewer.component */ 7624);
 /* harmony import */ var _admin_interviewers_interviewers_component__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./admin/interviewers/interviewers.component */ 26374);
-/* harmony import */ var ngx_autosize__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ngx-autosize */ 93535);
+/* harmony import */ var ngx_autosize__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ngx-autosize */ 93535);
 /* harmony import */ var _util_web_cam_record_video_record_video_component__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./util/web-cam/record-video/record-video.component */ 75252);
 /* harmony import */ var _util_web_cam_transcribe_transcribe_component__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./util/web-cam/transcribe/transcribe.component */ 30545);
 /* harmony import */ var _util_web_cam_transcribe_audio_transcribe_audio_component__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./util/web-cam/transcribe-audio/transcribe-audio.component */ 80539);
@@ -5137,10 +5315,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _candidate_assessment_bot_interview_main_interview_main_interview_component__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ./candidate/assessment/bot-interview/main-interview/main-interview.component */ 83981);
 /* harmony import */ var _general_refund_policy_refund_policy_component__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ./general/refund-policy/refund-policy.component */ 31772);
 /* harmony import */ var _general_pricing_pricing_component__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ./general/pricing/pricing.component */ 32004);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _candidate_candidate_login_candidate_login_component__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./candidate/candidate-login/candidate-login.component */ 22271);
-/* harmony import */ var _candidate_candidate_register_candidate_register_component__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ./candidate/candidate-register/candidate-register.component */ 18638);
-/* harmony import */ var _candidate_profile_profile_component__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ./candidate/profile/profile.component */ 27531);
+/* harmony import */ var _candidate_assessment_configure_assessment_configure_assessment_component__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./candidate/assessment/configure-assessment/configure-assessment.component */ 49182);
+/* harmony import */ var _candidate_assessment_assessment_report_assessment_report_component__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ./candidate/assessment/assessment-report/assessment-report.component */ 32582);
+/* harmony import */ var _candidate_assessment_bot_interview_realtime_convo_realtime_convo_component__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ./candidate/assessment/bot-interview/realtime-convo/realtime-convo.component */ 11861);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _candidate_candidate_login_candidate_login_component__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ./candidate/candidate-login/candidate-login.component */ 22271);
+/* harmony import */ var _candidate_candidate_register_candidate_register_component__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ./candidate/candidate-register/candidate-register.component */ 18638);
+/* harmony import */ var _candidate_profile_profile_component__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ./candidate/profile/profile.component */ 27531);
 
 
 
@@ -5255,7 +5436,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-_fullcalendar_angular__WEBPACK_IMPORTED_MODULE_79__.FullCalendarModule.registerPlugins([
+
+
+
+_fullcalendar_angular__WEBPACK_IMPORTED_MODULE_82__.FullCalendarModule.registerPlugins([
     _fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_30__["default"],
     _fullcalendar_interaction__WEBPACK_IMPORTED_MODULE_32__["default"],
     _fullcalendar_timegrid__WEBPACK_IMPORTED_MODULE_31__["default"]
@@ -5263,43 +5447,43 @@ _fullcalendar_angular__WEBPACK_IMPORTED_MODULE_79__.FullCalendarModule.registerP
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_80__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent] });
-AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_80__["ɵɵdefineInjector"]({ providers: [_api_service__WEBPACK_IMPORTED_MODULE_2__.ApiService, src_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_9__.AuthGuard, src_services_auth_auth_service__WEBPACK_IMPORTED_MODULE_10__.AuthService], imports: [[
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_81__.BrowserModule,
-            _angular_forms__WEBPACK_IMPORTED_MODULE_82__.ReactiveFormsModule,
+AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_83__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent] });
+AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_83__["ɵɵdefineInjector"]({ providers: [_api_service__WEBPACK_IMPORTED_MODULE_2__.ApiService, src_guards_auth_auth_guard__WEBPACK_IMPORTED_MODULE_9__.AuthGuard, src_services_auth_auth_service__WEBPACK_IMPORTED_MODULE_10__.AuthService], imports: [[
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_84__.BrowserModule,
+            _angular_forms__WEBPACK_IMPORTED_MODULE_85__.ReactiveFormsModule,
             _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule,
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_83__.HttpClientModule,
-            ngx_doc_viewer__WEBPACK_IMPORTED_MODULE_84__.NgxDocViewerModule,
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_86__.HttpClientModule,
+            ngx_doc_viewer__WEBPACK_IMPORTED_MODULE_87__.NgxDocViewerModule,
             ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_4__.ModalModule.forRoot(),
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_85__.BrowserAnimationsModule,
-            ngx_toastr__WEBPACK_IMPORTED_MODULE_86__.ToastrModule.forRoot(),
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_88__.BrowserAnimationsModule,
+            ngx_toastr__WEBPACK_IMPORTED_MODULE_89__.ToastrModule.forRoot(),
             ngx_bootstrap_accordion__WEBPACK_IMPORTED_MODULE_3__.AccordionModule.forRoot(),
-            _angular_forms__WEBPACK_IMPORTED_MODULE_82__.FormsModule,
-            _angular_material_input__WEBPACK_IMPORTED_MODULE_87__.MatInputModule,
-            _angular_material_table__WEBPACK_IMPORTED_MODULE_88__.MatTableModule,
-            _angular_material_sort__WEBPACK_IMPORTED_MODULE_89__.MatSortModule,
-            _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_90__.MatCheckboxModule,
-            _angular_material_card__WEBPACK_IMPORTED_MODULE_91__.MatCardModule,
-            _angular_material_button__WEBPACK_IMPORTED_MODULE_92__.MatButtonModule,
-            _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_93__.MatToolbarModule,
-            _angular_material_icon__WEBPACK_IMPORTED_MODULE_94__.MatIconModule,
-            _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_95__.MatSidenavModule,
-            _angular_material_list__WEBPACK_IMPORTED_MODULE_96__.MatListModule,
-            _angular_material_select__WEBPACK_IMPORTED_MODULE_97__.MatSelectModule,
+            _angular_forms__WEBPACK_IMPORTED_MODULE_85__.FormsModule,
+            _angular_material_input__WEBPACK_IMPORTED_MODULE_90__.MatInputModule,
+            _angular_material_table__WEBPACK_IMPORTED_MODULE_91__.MatTableModule,
+            _angular_material_sort__WEBPACK_IMPORTED_MODULE_92__.MatSortModule,
+            _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_93__.MatCheckboxModule,
+            _angular_material_card__WEBPACK_IMPORTED_MODULE_94__.MatCardModule,
+            _angular_material_button__WEBPACK_IMPORTED_MODULE_95__.MatButtonModule,
+            _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_96__.MatToolbarModule,
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_97__.MatIconModule,
+            _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_98__.MatSidenavModule,
+            _angular_material_list__WEBPACK_IMPORTED_MODULE_99__.MatListModule,
+            _angular_material_select__WEBPACK_IMPORTED_MODULE_100__.MatSelectModule,
             angular_datatables__WEBPACK_IMPORTED_MODULE_8__.DataTablesModule,
-            _angular_material_slider__WEBPACK_IMPORTED_MODULE_98__.MatSliderModule,
-            _angular_slider_ngx_slider__WEBPACK_IMPORTED_MODULE_99__.NgxSliderModule,
-            ngx_countdown__WEBPACK_IMPORTED_MODULE_100__.CountdownModule,
-            ng_http_loader__WEBPACK_IMPORTED_MODULE_101__.NgHttpLoaderModule.forRoot(),
-            _angular_material_chips__WEBPACK_IMPORTED_MODULE_102__.MatChipsModule,
-            _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_103__.MatAutocompleteModule,
-            _fullcalendar_angular__WEBPACK_IMPORTED_MODULE_79__.FullCalendarModule,
-            _angular_material_dialog__WEBPACK_IMPORTED_MODULE_104__.MatDialogModule,
-            ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_105__.NgxIntlTelInputModule,
+            _angular_material_slider__WEBPACK_IMPORTED_MODULE_101__.MatSliderModule,
+            _angular_slider_ngx_slider__WEBPACK_IMPORTED_MODULE_102__.NgxSliderModule,
+            ngx_countdown__WEBPACK_IMPORTED_MODULE_103__.CountdownModule,
+            ng_http_loader__WEBPACK_IMPORTED_MODULE_104__.NgHttpLoaderModule.forRoot(),
+            _angular_material_chips__WEBPACK_IMPORTED_MODULE_105__.MatChipsModule,
+            _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_106__.MatAutocompleteModule,
+            _fullcalendar_angular__WEBPACK_IMPORTED_MODULE_82__.FullCalendarModule,
+            _angular_material_dialog__WEBPACK_IMPORTED_MODULE_107__.MatDialogModule,
+            ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_108__.NgxIntlTelInputModule,
             _modules_test_test_module__WEBPACK_IMPORTED_MODULE_39__.TestModule,
-            ngx_autosize__WEBPACK_IMPORTED_MODULE_106__.AutosizeModule
+            ngx_autosize__WEBPACK_IMPORTED_MODULE_109__.AutosizeModule
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_80__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _candidate_candidate_login_candidate_login_component__WEBPACK_IMPORTED_MODULE_76__.CandidateLoginComponent, _candidate_candidate_register_candidate_register_component__WEBPACK_IMPORTED_MODULE_77__.CandidateRegisterComponent, _candidate_candidate_component__WEBPACK_IMPORTED_MODULE_19__.CandidateComponent, _candidate_profile_profile_component__WEBPACK_IMPORTED_MODULE_78__.ProfileComponent, _candidate_profile_resume_resume_component__WEBPACK_IMPORTED_MODULE_20__.ResumeComponent, _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_7__.HomePageComponent, _candidate_recruitment_recruitment_component__WEBPACK_IMPORTED_MODULE_16__.RecruitmentComponent,
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_83__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _candidate_candidate_login_candidate_login_component__WEBPACK_IMPORTED_MODULE_79__.CandidateLoginComponent, _candidate_candidate_register_candidate_register_component__WEBPACK_IMPORTED_MODULE_80__.CandidateRegisterComponent, _candidate_candidate_component__WEBPACK_IMPORTED_MODULE_19__.CandidateComponent, _candidate_profile_profile_component__WEBPACK_IMPORTED_MODULE_81__.ProfileComponent, _candidate_profile_resume_resume_component__WEBPACK_IMPORTED_MODULE_20__.ResumeComponent, _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_7__.HomePageComponent, _candidate_recruitment_recruitment_component__WEBPACK_IMPORTED_MODULE_16__.RecruitmentComponent,
         _candidate_recruitment_hiretest_hiretest_component__WEBPACK_IMPORTED_MODULE_15__.HiretestComponent,
         _recruiter_recruiter_component__WEBPACK_IMPORTED_MODULE_5__.RecruiterComponent,
         _recruiter_profiles_profiles_component__WEBPACK_IMPORTED_MODULE_6__.ProfilesComponent,
@@ -5362,32 +5546,35 @@ AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_80__["ɵ�
         _admin_bot_interviews_bot_interviews_component__WEBPACK_IMPORTED_MODULE_72__.BotInterviewsComponent,
         _candidate_assessment_bot_interview_main_interview_main_interview_component__WEBPACK_IMPORTED_MODULE_73__.MainInterviewComponent,
         _general_refund_policy_refund_policy_component__WEBPACK_IMPORTED_MODULE_74__.RefundPolicyComponent,
-        _general_pricing_pricing_component__WEBPACK_IMPORTED_MODULE_75__.PricingComponent], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_81__.BrowserModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_82__.ReactiveFormsModule,
+        _general_pricing_pricing_component__WEBPACK_IMPORTED_MODULE_75__.PricingComponent,
+        _candidate_assessment_configure_assessment_configure_assessment_component__WEBPACK_IMPORTED_MODULE_76__.ConfigureAssessmentComponent,
+        _candidate_assessment_assessment_report_assessment_report_component__WEBPACK_IMPORTED_MODULE_77__.AssessmentReportComponent,
+        _candidate_assessment_bot_interview_realtime_convo_realtime_convo_component__WEBPACK_IMPORTED_MODULE_78__.RealtimeConvoComponent], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_84__.BrowserModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_85__.ReactiveFormsModule,
         _app_routing_module__WEBPACK_IMPORTED_MODULE_0__.AppRoutingModule,
-        _angular_common_http__WEBPACK_IMPORTED_MODULE_83__.HttpClientModule,
-        ngx_doc_viewer__WEBPACK_IMPORTED_MODULE_84__.NgxDocViewerModule, ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_4__.ModalModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_85__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_86__.ToastrModule, ngx_bootstrap_accordion__WEBPACK_IMPORTED_MODULE_3__.AccordionModule, _angular_forms__WEBPACK_IMPORTED_MODULE_82__.FormsModule,
-        _angular_material_input__WEBPACK_IMPORTED_MODULE_87__.MatInputModule,
-        _angular_material_table__WEBPACK_IMPORTED_MODULE_88__.MatTableModule,
-        _angular_material_sort__WEBPACK_IMPORTED_MODULE_89__.MatSortModule,
-        _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_90__.MatCheckboxModule,
-        _angular_material_card__WEBPACK_IMPORTED_MODULE_91__.MatCardModule,
-        _angular_material_button__WEBPACK_IMPORTED_MODULE_92__.MatButtonModule,
-        _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_93__.MatToolbarModule,
-        _angular_material_icon__WEBPACK_IMPORTED_MODULE_94__.MatIconModule,
-        _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_95__.MatSidenavModule,
-        _angular_material_list__WEBPACK_IMPORTED_MODULE_96__.MatListModule,
-        _angular_material_select__WEBPACK_IMPORTED_MODULE_97__.MatSelectModule,
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_86__.HttpClientModule,
+        ngx_doc_viewer__WEBPACK_IMPORTED_MODULE_87__.NgxDocViewerModule, ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_4__.ModalModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_88__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_89__.ToastrModule, ngx_bootstrap_accordion__WEBPACK_IMPORTED_MODULE_3__.AccordionModule, _angular_forms__WEBPACK_IMPORTED_MODULE_85__.FormsModule,
+        _angular_material_input__WEBPACK_IMPORTED_MODULE_90__.MatInputModule,
+        _angular_material_table__WEBPACK_IMPORTED_MODULE_91__.MatTableModule,
+        _angular_material_sort__WEBPACK_IMPORTED_MODULE_92__.MatSortModule,
+        _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_93__.MatCheckboxModule,
+        _angular_material_card__WEBPACK_IMPORTED_MODULE_94__.MatCardModule,
+        _angular_material_button__WEBPACK_IMPORTED_MODULE_95__.MatButtonModule,
+        _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_96__.MatToolbarModule,
+        _angular_material_icon__WEBPACK_IMPORTED_MODULE_97__.MatIconModule,
+        _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_98__.MatSidenavModule,
+        _angular_material_list__WEBPACK_IMPORTED_MODULE_99__.MatListModule,
+        _angular_material_select__WEBPACK_IMPORTED_MODULE_100__.MatSelectModule,
         angular_datatables__WEBPACK_IMPORTED_MODULE_8__.DataTablesModule,
-        _angular_material_slider__WEBPACK_IMPORTED_MODULE_98__.MatSliderModule,
-        _angular_slider_ngx_slider__WEBPACK_IMPORTED_MODULE_99__.NgxSliderModule,
-        ngx_countdown__WEBPACK_IMPORTED_MODULE_100__.CountdownModule, ng_http_loader__WEBPACK_IMPORTED_MODULE_101__.NgHttpLoaderModule, _angular_material_chips__WEBPACK_IMPORTED_MODULE_102__.MatChipsModule,
-        _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_103__.MatAutocompleteModule,
-        _fullcalendar_angular__WEBPACK_IMPORTED_MODULE_79__.FullCalendarModule,
-        _angular_material_dialog__WEBPACK_IMPORTED_MODULE_104__.MatDialogModule,
-        ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_105__.NgxIntlTelInputModule,
+        _angular_material_slider__WEBPACK_IMPORTED_MODULE_101__.MatSliderModule,
+        _angular_slider_ngx_slider__WEBPACK_IMPORTED_MODULE_102__.NgxSliderModule,
+        ngx_countdown__WEBPACK_IMPORTED_MODULE_103__.CountdownModule, ng_http_loader__WEBPACK_IMPORTED_MODULE_104__.NgHttpLoaderModule, _angular_material_chips__WEBPACK_IMPORTED_MODULE_105__.MatChipsModule,
+        _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_106__.MatAutocompleteModule,
+        _fullcalendar_angular__WEBPACK_IMPORTED_MODULE_82__.FullCalendarModule,
+        _angular_material_dialog__WEBPACK_IMPORTED_MODULE_107__.MatDialogModule,
+        ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_108__.NgxIntlTelInputModule,
         _modules_test_test_module__WEBPACK_IMPORTED_MODULE_39__.TestModule,
-        ngx_autosize__WEBPACK_IMPORTED_MODULE_106__.AutosizeModule] }); })();
+        ngx_autosize__WEBPACK_IMPORTED_MODULE_109__.AutosizeModule] }); })();
 
 
 /***/ }),
@@ -5437,8 +5624,9 @@ function CandidateSignInComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx_r0.error.message);
 } }
 class CandidateSignInComponent {
-    constructor(formBuilder, headerUpdateService, router, spinnerVisibilityService) {
+    constructor(formBuilder, route, headerUpdateService, router, spinnerVisibilityService) {
         this.formBuilder = formBuilder;
+        this.route = route;
         this.headerUpdateService = headerUpdateService;
         this.router = router;
         this.spinnerVisibilityService = spinnerVisibilityService;
@@ -5456,6 +5644,7 @@ class CandidateSignInComponent {
     }
     ngOnInit() {
         //
+        this.redirectURL = this.route.snapshot.queryParams['redirectURL'] || '/';
     }
     login() {
         const values = this.signInForm.value;
@@ -5476,7 +5665,12 @@ class CandidateSignInComponent {
             .then(token => {
             const groups = token["cognito:groups"];
             const role = groups[0].toUpperCase();
-            this.redirectBasedOnRoles(role);
+            console.log(this.redirectURL);
+            if (this.redirectURL == '/' || this.redirectURL == null || this.redirectURL == '') {
+                this.redirectBasedOnRoles(role);
+            }
+            else
+                this.router.navigate([this.redirectURL]).catch(err => console.log(err));
             this.headerUpdateService.sendUpdate(_services_header_header_update_service__WEBPACK_IMPORTED_MODULE_0__.HeaderUpdateEvent.SIGN_IN);
         });
     }
@@ -5497,7 +5691,7 @@ class CandidateSignInComponent {
         }
     }
 }
-CandidateSignInComponent.ɵfac = function CandidateSignInComponent_Factory(t) { return new (t || CandidateSignInComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_4__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_services_header_header_update_service__WEBPACK_IMPORTED_MODULE_0__.HeaderUpdateService), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_6__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_7__.SpinnerVisibilityService)); };
+CandidateSignInComponent.ɵfac = function CandidateSignInComponent_Factory(t) { return new (t || CandidateSignInComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_4__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_6__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_services_header_header_update_service__WEBPACK_IMPORTED_MODULE_0__.HeaderUpdateService), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_6__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_7__.SpinnerVisibilityService)); };
 CandidateSignInComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: CandidateSignInComponent, selectors: [["app-candidate-sign-in"]], decls: 37, vars: 6, consts: [[1, "section"], [1, "container"], [1, "row", "justify-content-center"], [1, "col-lg-5", "col-md-6", "col-xs-12"], [1, "card"], [1, "card-header"], [1, "card-title"], [1, "card-body"], ["class", "alert alert-danger alert-dismissible mb-3", "role", "alert", 4, "ngIf"], [1, "login-form"], [1, "form-group"], [1, "required"], [1, "input-icon"], [1, "icon-user"], ["autocomplete", "user-name", "placeholder", "Username", "type", "text", 1, "form-control", 3, "formControl"], [1, "icon-lock5"], ["autocomplete", "password", "placeholder", "Password", "type", "password", 1, "form-control", 3, "formControl"], [1, "mb-3"], [1, "form-check-label"], [3, "routerLink"], [1, "btn", "btn-primary", "mb-2", 3, "disabled", "click"], ["role", "alert", 1, "alert", "alert-danger", "alert-dismissible", "mb-3"], [1, "d-flex"], [1, "icon-warning", "pt-1", "pr-3", 2, "top", "-3px"]], template: function CandidateSignInComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "div", 5)(6, "h4", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](7, "Sign In");
@@ -6778,6 +6972,302 @@ VerifyEmailComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
 
 /***/ }),
 
+/***/ 32582:
+/*!***************************************************************************************!*\
+  !*** ./src/app/candidate/assessment/assessment-report/assessment-report.component.ts ***!
+  \***************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AssessmentReportComponent": () => (/* binding */ AssessmentReportComponent)
+/* harmony export */ });
+/* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _services_candidate_my_profile_personal_details_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../services/candidate/my-profile/personal-details.service */ 52497);
+/* harmony import */ var ng_http_loader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ng-http-loader */ 23020);
+/* harmony import */ var src_app_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/api.service */ 51491);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var _util_skills_skills_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../util/skills/skills.component */ 7704);
+/* harmony import */ var _util_feedback_feedback_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../util/feedback/feedback.component */ 60243);
+/* harmony import */ var _util_bot_feedback_bot_feedback_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../util/bot-feedback/bot-feedback.component */ 8382);
+
+
+
+
+
+
+
+
+
+
+function AssessmentReportComponent_div_0_div_33_div_4_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "app-skills-util", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 6)(3, "div", 7)(4, "div", 8)(5, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Test Score");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](7, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+  }
+
+  if (rf & 2) {
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("test_id", ctx_r7.assessmentDetails["data"]["digital_assessment"]["id"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r7.assessmentDetails["data"]["digital_assessment"]["test_score"]);
+  }
+}
+
+function AssessmentReportComponent_div_0_div_33_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 14)(1, "div", 3)(2, "h5", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Assesment test");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](4, AssessmentReportComponent_div_0_div_33_div_4_Template, 8, 2, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r2.assessmentDetails["digital_assessment"]);
+  }
+}
+
+function AssessmentReportComponent_div_0_app_feedback_39_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "app-feedback", 17);
+  }
+
+  if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("interview_id", ctx_r3.assessmentDetails["data"]["panel_assessment"]["id"]);
+  }
+}
+
+function AssessmentReportComponent_div_0_div_40_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Interview Score");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](4, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+  }
+
+  if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r4.assessmentDetails["data"]["panel_assessment"]["score"]);
+  }
+}
+
+function AssessmentReportComponent_div_0_app_bot_feedback_46_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "app-bot-feedback", 17);
+  }
+
+  if (rf & 2) {
+    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("interview_id", ctx_r5.assessmentDetails["data"]["bot_assessment"]["id"]);
+  }
+}
+
+function AssessmentReportComponent_div_0_div_47_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Interview Score");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](4, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+  }
+
+  if (rf & 2) {
+    const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r6.assessmentDetails["data"]["bot_assessment"]["score"]);
+  }
+}
+
+function AssessmentReportComponent_div_0_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", null, 1)(2, "div", 2)(3, "div", 3)(4, "h5", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5, "Personal Details");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](6, "div", 5)(7, "div", 6)(8, "div", 7)(9, "div", 8)(10, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](11, "Full Name");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](12, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "div", 7)(14, "div", 8)(15, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](16, "Current Location");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](17, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](18, "div", 7)(19, "div", 8)(20, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](21, "Mobile Number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](22, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "div", 7)(24, "div", 8)(25, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](26, "Email Address");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](27, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "div", 7)(29, "div", 8)(30, "label", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](31, "Total experience");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](32, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](33, AssessmentReportComponent_div_0_div_33_Template, 5, 1, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](34, "div", 12)(35, "div", 3)(36, "h5", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](37, "Interview Details");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](39, AssessmentReportComponent_div_0_app_feedback_39_Template, 1, 1, "app-feedback", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](40, AssessmentReportComponent_div_0_div_40_Template, 5, 1, "div", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](41, "div", 12)(42, "div", 3)(43, "h5", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](44, "AI Assessment Details");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](46, AssessmentReportComponent_div_0_app_bot_feedback_46_Template, 1, 1, "app-bot-feedback", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](47, AssessmentReportComponent_div_0_div_47_Template, 5, 1, "div", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+  }
+
+  if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r0.userdetails.fullName);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r0.userdetails.location);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r0.userdetails.mobileNumber);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r0.userdetails.emailAddress);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("value", ctx_r0.userdetails.experience);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r0.assessmentDetails["digital_assessment"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", !ctx_r0.assessmentDetails["panel_assessment"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r0.assessmentDetails["panel_assessment"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r0.assessmentDetails["panel_assessment"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", !ctx_r0.assessmentDetails["bot_assessment"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r0.assessmentDetails["bot_assessment"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r0.assessmentDetails["bot_assessment"]);
+  }
+}
+
+class AssessmentReportComponent {
+  constructor(personalDetailService, spinnerVisibilityService, apiService) {
+    this.personalDetailService = personalDetailService;
+    this.spinnerVisibilityService = spinnerVisibilityService;
+    this.apiService = apiService;
+    this.loadComponent = false;
+    this.assessmentDetails = {
+      "data": {},
+      "digital_assessment": {},
+      "panel_assessment": {},
+      "bot_assessment": {}
+    };
+  }
+
+  ngOnInit() {
+    var _this = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this.spinnerVisibilityService.show();
+
+      yield _this.fetchuserdetails();
+      yield _this.fetchAssessments();
+
+      _this.spinnerVisibilityService.hide();
+
+      _this.loadComponent = true; // this.populatefeedback()
+    })();
+  }
+
+  ngOnChanges() {
+    this.fetchuserdetails();
+    this.fetchAssessments();
+  }
+
+  fetchAssessments() {
+    var _this2 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      let input = {
+        "referenceId": _this2.referenceId
+      };
+      yield _this2.apiService.fetchAssessments(input).then(data => {
+        console.log(data);
+        _this2.assessmentDetails['data'] = data;
+        _this2.assessmentDetails['digital_assessment'] = "id" in data['digital_assessment'] ? data['digital_assessment']['id'] != null ? true : false : false;
+        _this2.assessmentDetails['panel_assessment'] = "id" in data['panel_assessment'] ? data['panel_assessment']['id'] != null ? true : false : false;
+        _this2.assessmentDetails['bot_assessment'] = "id" in data['bot_assessment'] ? data['bot_assessment']['id'] != null ? true : false : false;
+        console.log(_this2.assessmentDetails);
+      });
+    })();
+  }
+
+  fetchuserdetails() {
+    var _this3 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      yield _this3.personalDetailService.fetchPersonalDetails(0).then(data => {
+        console.log(data);
+        _this3.userdetails = {
+          name: data['fullName'],
+          phone: data['mobileNumber'].toString(),
+          email: data['emailAddress'],
+          experience: data['experience'],
+          location: data['location']
+        };
+      });
+    })();
+  }
+
+}
+
+AssessmentReportComponent.ɵfac = function AssessmentReportComponent_Factory(t) {
+  return new (t || AssessmentReportComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_services_candidate_my_profile_personal_details_service__WEBPACK_IMPORTED_MODULE_1__.PersonalDetailsService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_7__.SpinnerVisibilityService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](src_app_api_service__WEBPACK_IMPORTED_MODULE_2__.ApiService));
+};
+
+AssessmentReportComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
+  type: AssessmentReportComponent,
+  selectors: [["app-assessment-report"]],
+  inputs: {
+    referenceId: "referenceId"
+  },
+  features: [_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵNgOnChangesFeature"]],
+  decls: 1,
+  vars: 1,
+  consts: [[4, "ngIf"], ["assessmentReport", ""], [1, "card", "noprint"], [1, "card-header"], [1, "card-title"], [1, "card-body"], [1, "row"], [1, "col-md-3"], [1, "form-group"], [1, "control-label"], ["readonly", "", "type", "text", 1, "form-control", 3, "value"], ["class", "card", 4, "ngIf"], [1, "card", 3, "hidden"], [3, "interview_id", 4, "ngIf"], [1, "card"], ["class", "card-body", 4, "ngIf"], [3, "test_id"], [3, "interview_id"]],
+  template: function AssessmentReportComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](0, AssessmentReportComponent_div_0_Template, 48, 12, "div", 0);
+    }
+
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.loadComponent);
+    }
+  },
+  directives: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _util_skills_skills_component__WEBPACK_IMPORTED_MODULE_3__.SkillsComponentUtil, _util_feedback_feedback_component__WEBPACK_IMPORTED_MODULE_4__.FeedbackComponent, _util_bot_feedback_bot_feedback_component__WEBPACK_IMPORTED_MODULE_5__.BotFeedbackComponent],
+  styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhc3Nlc3NtZW50LXJlcG9ydC5jb21wb25lbnQuY3NzIn0= */"]
+});
+
+/***/ }),
+
 /***/ 95368:
 /*!**************************************************************!*\
   !*** ./src/app/candidate/assessment/assessment.component.ts ***!
@@ -6789,13 +7279,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AssessmentComponent": () => (/* binding */ AssessmentComponent)
 /* harmony export */ });
-/* harmony import */ var _models_candidate_model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../models/candidate.model */ 19533);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _util_profile_card_profile_card_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../util/profile-card/profile-card.component */ 56078);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 36362);
-/* harmony import */ var _test_test_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./test/test.component */ 70616);
-/* harmony import */ var _interview_interview_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./interview/interview.component */ 43796);
-/* harmony import */ var _bot_interview_bot_interview_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./bot-interview/bot-interview.component */ 39921);
+/* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var _models_candidate_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../models/candidate.model */ 19533);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var src_app_api_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/api.service */ 51491);
+/* harmony import */ var _util_profile_card_profile_card_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../util/profile-card/profile-card.component */ 56078);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var _configure_assessment_configure_assessment_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./configure-assessment/configure-assessment.component */ 49182);
+/* harmony import */ var _test_test_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./test/test.component */ 70616);
+/* harmony import */ var _interview_interview_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./interview/interview.component */ 43796);
+/* harmony import */ var _bot_interview_bot_interview_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./bot-interview/bot-interview.component */ 39921);
 
 
 
@@ -6803,77 +7296,200 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function AssessmentComponent_candidate_test_18_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "candidate-test");
-} }
-function AssessmentComponent_candidate_interview_19_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "candidate-interview");
-} }
-function AssessmentComponent_app_bot_interview_20_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "app-bot-interview");
-} }
-class AssessmentComponent {
-    constructor() {
-    }
-    get AssessmentEnum() {
-        return _models_candidate_model__WEBPACK_IMPORTED_MODULE_0__.AssessmentEnum;
-    }
-    ngOnInit() {
-        this.assessmentView = { test: true };
-    }
-    updateView(view) {
-        switch (view) {
-            case _models_candidate_model__WEBPACK_IMPORTED_MODULE_0__.AssessmentEnum.TEST:
-                this.assessmentView = { test: true };
-                break;
-            case _models_candidate_model__WEBPACK_IMPORTED_MODULE_0__.AssessmentEnum.PROFILE_ACTIVITY:
-                this.assessmentView = { profileActivity: true };
-                break;
-            case _models_candidate_model__WEBPACK_IMPORTED_MODULE_0__.AssessmentEnum.MY_INTERVIEWS:
-                this.assessmentView = { myInterviews: true };
-                break;
-            case _models_candidate_model__WEBPACK_IMPORTED_MODULE_0__.AssessmentEnum.BOT_INTERVIEW:
-                this.assessmentView = { botInterview: true };
-                break;
-        }
-    }
+
+
+
+
+function AssessmentComponent_li_7_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
+
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "li")(1, "a", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function AssessmentComponent_li_7_Template_a_click_1_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r6);
+      const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+      return ctx_r5.updateView(ctx_r5.AssessmentEnum.CONFIGURE);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "Configure");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+  }
+
+  if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("active", ctx_r0.assessmentView.configure);
+  }
 }
-AssessmentComponent.ɵfac = function AssessmentComponent_Factory(t) { return new (t || AssessmentComponent)(); };
-AssessmentComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({ type: AssessmentComponent, selectors: [["candidate-assessment"]], decls: 21, vars: 9, consts: [[1, "section"], [1, "container"], [1, "row"], [1, "col-lg-3", "col-md-12", "col-xs-12"], [1, "left-sideabr"], ["role", "tablist", 1, "list-item", "nav"], [1, "nav-link", 3, "click"], [1, "col-lg-9", "col-md-12", "col-xs-12"], [1, "tab-content"], [4, "ngIf"]], template: function AssessmentComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](4, "app-profile-card");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "div", 4)(6, "ul", 5)(7, "li")(8, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function AssessmentComponent_Template_a_click_8_listener() { return ctx.updateView(ctx.AssessmentEnum.TEST); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](9, "Test");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](10, "li")(11, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function AssessmentComponent_Template_a_click_11_listener() { return ctx.updateView(ctx.AssessmentEnum.MY_INTERVIEWS); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](12, "My Interview");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](13, "li")(14, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function AssessmentComponent_Template_a_click_14_listener() { return ctx.updateView(ctx.AssessmentEnum.BOT_INTERVIEW); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](15, "Bot Interview");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](16, "div", 7)(17, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](18, AssessmentComponent_candidate_test_18_Template, 1, 0, "candidate-test", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](19, AssessmentComponent_candidate_interview_19_Template, 1, 0, "candidate-interview", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](20, AssessmentComponent_app_bot_interview_20_Template, 1, 0, "app-bot-interview", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵclassProp"]("active", ctx.assessmentView.test);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵclassProp"]("active", ctx.assessmentView.myInterviews);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵclassProp"]("active", ctx.assessmentView.botInterview);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.assessmentView.test);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.assessmentView.myInterviews);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.assessmentView.botInterview);
-    } }, directives: [_util_profile_card_profile_card_component__WEBPACK_IMPORTED_MODULE_1__.ProfileCardComponent, _angular_common__WEBPACK_IMPORTED_MODULE_6__.NgIf, _test_test_component__WEBPACK_IMPORTED_MODULE_2__.TestComponent, _interview_interview_component__WEBPACK_IMPORTED_MODULE_3__.InterviewComponent, _bot_interview_bot_interview_component__WEBPACK_IMPORTED_MODULE_4__.BotInterviewComponent], styles: ["a[_ngcontent-%COMP%] {\n  cursor: pointer\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc2Vzc21lbnQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0FBQ0YiLCJmaWxlIjoiYXNzZXNzbWVudC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYSB7XG4gIGN1cnNvcjogcG9pbnRlclxufVxuIl19 */"] });
 
+function AssessmentComponent_app_configure_assessment_19_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "app-configure-assessment");
+  }
+}
+
+function AssessmentComponent_candidate_test_20_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "candidate-test");
+  }
+}
+
+function AssessmentComponent_candidate_interview_21_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "candidate-interview");
+  }
+}
+
+function AssessmentComponent_app_bot_interview_22_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "app-bot-interview");
+  }
+}
+
+class AssessmentComponent {
+  constructor(apiService) {
+    this.apiService = apiService;
+    this.hasSubscriptions = false;
+  }
+
+  get AssessmentEnum() {
+    return _models_candidate_model__WEBPACK_IMPORTED_MODULE_1__.AssessmentEnum;
+  }
+
+  ngOnInit() {
+    var _this = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      // [TBD]read query parms or path here and update view accordingly
+      yield _this.fetchSubscriptions();
+
+      if (_this.hasSubscriptions) {
+        _this.assessmentView = {
+          configure: true
+        };
+      } else {
+        _this.assessmentView = {
+          test: true
+        };
+      }
+    })();
+  }
+
+  updateView(view) {
+    switch (view) {
+      case _models_candidate_model__WEBPACK_IMPORTED_MODULE_1__.AssessmentEnum.TEST:
+        this.assessmentView = {
+          test: true
+        };
+        break;
+
+      case _models_candidate_model__WEBPACK_IMPORTED_MODULE_1__.AssessmentEnum.PROFILE_ACTIVITY:
+        this.assessmentView = {
+          profileActivity: true
+        };
+        break;
+
+      case _models_candidate_model__WEBPACK_IMPORTED_MODULE_1__.AssessmentEnum.MY_INTERVIEWS:
+        this.assessmentView = {
+          myInterviews: true
+        };
+        break;
+
+      case _models_candidate_model__WEBPACK_IMPORTED_MODULE_1__.AssessmentEnum.BOT_INTERVIEW:
+        this.assessmentView = {
+          botInterview: true
+        };
+        break;
+
+      case _models_candidate_model__WEBPACK_IMPORTED_MODULE_1__.AssessmentEnum.CONFIGURE:
+        this.assessmentView = {
+          configure: true
+        };
+        break;
+    }
+  }
+
+  fetchSubscriptions() {
+    var _this2 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      //fetch subscriptions using candidate id
+      yield _this2.apiService.fetchSubscriptions("").then(data => {
+        console.log(data);
+        _this2.hasSubscriptions = false;
+
+        if (data['details'].length > 0) {
+          _this2.hasSubscriptions = true;
+        }
+      });
+    })();
+  }
+
+}
+
+AssessmentComponent.ɵfac = function AssessmentComponent_Factory(t) {
+  return new (t || AssessmentComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](src_app_api_service__WEBPACK_IMPORTED_MODULE_2__.ApiService));
+};
+
+AssessmentComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineComponent"]({
+  type: AssessmentComponent,
+  selectors: [["candidate-assessment"]],
+  decls: 23,
+  vars: 11,
+  consts: [[1, "section"], [1, "container"], [1, "row"], [1, "col-lg-3", "col-md-12", "col-xs-12"], [1, "left-sideabr"], ["role", "tablist", 1, "list-item", "nav"], [4, "ngIf"], [1, "nav-link", 3, "click"], [1, "col-lg-9", "col-md-12", "col-xs-12"], [1, "tab-content"]],
+  template: function AssessmentComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "app-profile-card");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "div", 4)(6, "ul", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, AssessmentComponent_li_7_Template, 3, 2, "li", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "li")(9, "a", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function AssessmentComponent_Template_a_click_9_listener() {
+        return ctx.updateView(ctx.AssessmentEnum.TEST);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](10, "Digital Test");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](11, "li")(12, "a", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function AssessmentComponent_Template_a_click_12_listener() {
+        return ctx.updateView(ctx.AssessmentEnum.MY_INTERVIEWS);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](13, "Panel Assessment");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](14, "li")(15, "a", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function AssessmentComponent_Template_a_click_15_listener() {
+        return ctx.updateView(ctx.AssessmentEnum.BOT_INTERVIEW);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16, "AI Assessment");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "div", 8)(18, "div", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](19, AssessmentComponent_app_configure_assessment_19_Template, 1, 0, "app-configure-assessment", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](20, AssessmentComponent_candidate_test_20_Template, 1, 0, "candidate-test", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](21, AssessmentComponent_candidate_interview_21_Template, 1, 0, "candidate-interview", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](22, AssessmentComponent_app_bot_interview_22_Template, 1, 0, "app-bot-interview", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()();
+    }
+
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.hasSubscriptions);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("active", ctx.assessmentView.test);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("active", ctx.assessmentView.myInterviews);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("active", ctx.assessmentView.botInterview);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.assessmentView.configure && ctx.hasSubscriptions);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.assessmentView.test);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.assessmentView.myInterviews);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.assessmentView.botInterview);
+    }
+  },
+  directives: [_util_profile_card_profile_card_component__WEBPACK_IMPORTED_MODULE_3__.ProfileCardComponent, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _configure_assessment_configure_assessment_component__WEBPACK_IMPORTED_MODULE_4__.ConfigureAssessmentComponent, _test_test_component__WEBPACK_IMPORTED_MODULE_5__.TestComponent, _interview_interview_component__WEBPACK_IMPORTED_MODULE_6__.InterviewComponent, _bot_interview_bot_interview_component__WEBPACK_IMPORTED_MODULE_7__.BotInterviewComponent],
+  styles: ["a[_ngcontent-%COMP%] {\n  cursor: pointer\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc2Vzc21lbnQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0FBQ0YiLCJmaWxlIjoiYXNzZXNzbWVudC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYSB7XG4gIGN1cnNvcjogcG9pbnRlclxufVxuIl19 */"]
+});
 
 /***/ }),
 
@@ -6889,16 +7505,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "BotInterviewComponent": () => (/* binding */ BotInterviewComponent)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ 28784);
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common/http */ 28784);
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
 /* harmony import */ var src_app_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/util/alert-dialog/alert-dialog.component */ 12278);
 /* harmony import */ var _video_recording__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./video-recording */ 93021);
 /* harmony import */ var _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../models/bot-interview.constants */ 71094);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 3184);
 /* harmony import */ var _services_test_test_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../services/test/test.service */ 78435);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ 90587);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 36362);
-/* harmony import */ var ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ngx-intl-tel-input */ 68831);
+/* harmony import */ var _api_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../api.service */ 51491);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/forms */ 90587);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ngx-intl-tel-input */ 68831);
+
 
 
 
@@ -6916,39 +7534,40 @@ const _c1 = ["video1"];
 
 function BotInterviewComponent_li_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "li", 60)(1, "a", 61);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](2, "Interview");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "li", 60)(1, "a", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Take Assessment");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
 }
 
 function BotInterviewComponent_li_8_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "li", 62)(1, "a", 63);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](2, "Interview");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "li", 62)(1, "a", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2, "Take Assessment");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
   }
 }
 
 function BotInterviewComponent_p_95_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "p", 64);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "i", 65);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "p", 64);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "i", 65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
 
   if (rf & 2) {
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"]("", ctx_r4.referenceIdSummary.errorMessage, " ");
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("", ctx_r4.referenceIdSummary.errorMessage, " ");
   }
 }
 
 class BotInterviewComponent {
-  constructor(matDialog, testService) {
+  constructor(matDialog, testService, apiService) {
     this.matDialog = matDialog;
     this.testService = testService;
+    this.apiService = apiService;
     this.elementShow = {
       "interviewSetup": true,
       "interviewSetupWwebcamTest": true,
@@ -6960,7 +7579,7 @@ class BotInterviewComponent {
     this.referenceIdSummary = {};
     this.reference_id_valid = false;
     this.referenceId = "";
-    this.http = new _angular_common_http__WEBPACK_IMPORTED_MODULE_6__.HttpClient(new _angular_common_http__WEBPACK_IMPORTED_MODULE_6__.HttpXhrBackend({
+    this.http = new _angular_common_http__WEBPACK_IMPORTED_MODULE_7__.HttpClient(new _angular_common_http__WEBPACK_IMPORTED_MODULE_7__.HttpXhrBackend({
       build: () => new XMLHttpRequest()
     }));
     this.sessionId = Math.random().toString(36).slice(2, 7).toString();
@@ -6982,9 +7601,13 @@ class BotInterviewComponent {
         if (!("errorMessage" in _this.referenceIdSummary)) {
           _this.elementShow.launchInterviewButton = true;
         } else {
+          _this.publishlogs(undefined, undefined, "validateBotReference", 'referenceId', _this.referenceId, _this.referenceIdSummary.errorMessage);
+
           _this.elementShow.launchInterviewButton = false;
         }
       } catch (error) {
+        _this.publishlogs(undefined, undefined, "validateBotReference", 'referenceId', _this.referenceId, error);
+
         _this.elementShow.launchInterviewButton = false;
         _this.referenceIdSummary = {
           "errorMessage": _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_3__.userMessages.GENERAL_ERROR
@@ -7037,7 +7660,7 @@ class BotInterviewComponent {
   }
 
   openDialog(message, type) {
-    const dialogConfig = new _angular_material_dialog__WEBPACK_IMPORTED_MODULE_7__.MatDialogConfig();
+    const dialogConfig = new _angular_material_dialog__WEBPACK_IMPORTED_MODULE_8__.MatDialogConfig();
     dialogConfig.data = {
       "message": message,
       "dialogLevel": type
@@ -7047,6 +7670,7 @@ class BotInterviewComponent {
 
   launchInterview() {
     let interviewURL = `/bot-interview/${btoa(JSON.stringify({
+      // let interviewURL = `/realtime-convo/${btoa(JSON.stringify({     //testing real-time
       referenceId: this.referenceId // corporate_id: this.referenceIdSummary.corporate_id
 
     }))};`;
@@ -7056,226 +7680,241 @@ class BotInterviewComponent {
     }
   }
 
+  publishlogs(level = 'ERROR', fecomponent = 'main-interview', fename = 'none', sessionIdentifierName = 'none', sessionIdentifier = 'none', log = '') {
+    let input = {
+      "level": level,
+      "fecomponent": fecomponent,
+      "fename": fename,
+      "sessionIdentifierName": sessionIdentifierName,
+      "sessionIdentifier": sessionIdentifier,
+      "log": log
+    };
+
+    try {
+      this.apiService.publishfelogs(input);
+    } catch (e) {}
+  }
+
 }
 
 BotInterviewComponent.ɵfac = function BotInterviewComponent_Factory(t) {
-  return new (t || BotInterviewComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_7__.MatDialog), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_services_test_test_service__WEBPACK_IMPORTED_MODULE_4__.TestService));
+  return new (t || BotInterviewComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_8__.MatDialog), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_services_test_test_service__WEBPACK_IMPORTED_MODULE_4__.TestService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_api_service__WEBPACK_IMPORTED_MODULE_5__.ApiService));
 };
 
-BotInterviewComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
+BotInterviewComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
   type: BotInterviewComponent,
   selectors: [["app-bot-interview"]],
   viewQuery: function BotInterviewComponent_Query(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵviewQuery"](_c0, 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵviewQuery"](_c1, 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵviewQuery"](_c0, 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵviewQuery"](_c1, 5);
     }
 
     if (rf & 2) {
       let _t;
 
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵloadQuery"]()) && (ctx.video = _t.first);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵloadQuery"]()) && (ctx.video1 = _t.first);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵloadQuery"]()) && (ctx.video = _t.first);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵloadQuery"]()) && (ctx.video1 = _t.first);
     }
   },
   decls: 133,
   vars: 14,
-  consts: [["id", "my-interviews", 1, "tab-pane"], [1, "card"], [1, "card-body"], [1, "nav", "nav-tabs", "nav-tabs-bottom", "mb-3"], [1, "nav-item", 3, "hidden"], ["data-toggle", "tab", "href", "#schedule", 1, "nav-link", "active"], ["class", "nav-item disabled", "data-tooltip", "Please provide your consent.", "data-tooltip-location", "right", 4, "ngIf"], ["class", "nav-item", 4, "ngIf"], [1, "tab-content"], ["id", "schedule", 1, "tab-pane", "active"], [1, "row"], [1, "col-sm-6"], ["id", "myTab", "role", "tablist", 1, "nav", "nav-tabs", "tabs-bot-instructions"], ["role", "presentation", 1, "nav-item"], ["id", "home-tab", "data-toggle", "tab", "data-target", "#step1", "type", "button", "role", "tab", "aria-controls", "home", "aria-selected", "true", 1, "nav-link", "active"], ["id", "profile-tab", "data-toggle", "tab", "data-target", "#step2", "type", "button", "role", "tab", "aria-controls", "profile", "aria-selected", "false", 1, "nav-link"], ["id", "contact-tab", "data-toggle", "tab", "data-target", "#step3", "type", "button", "role", "tab", "aria-controls", "contact", "aria-selected", "false", 1, "nav-link"], ["id", "myTabContent", 1, "tab-content", "card", "card-body"], ["id", "step1", "role", "tabpanel", 1, "tab-pane", "fade", "show", "active"], ["href", "mailto:contact-us@witmyworld.com", 1, "white-space-nowrap"], ["id", "step2", "role", "tabpanel", 1, "tab-pane", "fade"], ["id", "step3", "role", "tabpanel", 1, "tab-pane", "fade"], [1, "mb-2"], [1, "d-flex", "alert", "alert-info", "alert-sm", "align-items-center", "mb-1"], [1, "icon-mic2", "pr-3", "font-large-2"], [1, "text-bold"], [1, "mb-3", "text-right"], ["href", "#", "data-toggle", "modal", "data-target", "#howtoGrant"], [1, "icon-help", "mr-2", "font-medium-1"], [1, "btn", "btn-primary", "btn-sm", 3, "hidden", "click"], [1, "btn", "btn-secondary", "btn-sm", 3, "hidden", "click"], [1, "mt-3", 3, "hidden"], [3, "hidden"], ["controls", "controls", "preload", "none", "onclick", "this.play()", 1, "video-fluid", "testing"], ["video", ""], ["type", "video/mp4", 3, "src"], ["controls", "controls", "preload", "none", "onclick", "this.play()", 1, "video-fluid", "testing", 3, "muted"], ["video1", ""], ["type", "video/mp4", 2, "width", "100%"], [1, "varivied-setup-check"], ["type", "checkbox", "name", "consent", "id", "flexCheckDefault", 3, "ngModel", "change", "ngModelChange"], ["for", "flexCheckDefault", 1, "pl-2", "text-bold"], ["id", "upcoming", 1, "tab-pane"], ["class", "mat-error text-bold", 4, "ngIf"], [1, "d-flex", "alert", "alert-info", "alert-sm", "align-items-center", "mb-3"], [1, "d-flex", "mb-3"], ["type", "text", "name", "name", "placeholder", "Please Enter Reference ID", 1, "form-control", "field-sm", 3, "ngModel", "ngModelChange"], [1, "btn", "btn-border", "btn-sm", "ml-2", 3, "click"], [1, "btn", "btn-primary", "ml-2", 3, "hidden", "click"], ["id", "howtoGrant", 1, "modal"], [1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-body", "modal-full-height", "with-footer"], ["src", "../../../../assets/Images/request.png", 1, "img-fluid", "mb-2", 2, "max-width", "350px"], ["src", "../../../../assets/Images/change.png", 1, "img-fluid", "mb-2", 2, "max-width", "340px"], [1, "modal-footer"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-primary"], ["data-tooltip", "Please provide your consent.", "data-tooltip-location", "right", 1, "nav-item", "disabled"], ["href", "javascript:void(0);", 1, "nav-link"], [1, "nav-item"], ["data-toggle", "tab", "href", "#upcoming", 1, "nav-link"], [1, "mat-error", "text-bold"], [1, "icon-warning22", "mr-2", "font-small-3"]],
+  consts: [["id", "my-interviews", 1, "tab-pane"], [1, "card"], [1, "card-body"], [1, "nav", "nav-tabs", "nav-tabs-bottom", "mb-3"], [1, "nav-item", 3, "hidden"], ["data-toggle", "tab", "href", "#setup", 1, "nav-link", "active"], ["class", "nav-item disabled", "data-tooltip", "Please provide your consent.", "data-tooltip-location", "right", 4, "ngIf"], ["class", "nav-item", 4, "ngIf"], [1, "tab-content"], ["id", "setup", 1, "tab-pane", "active"], [1, "row"], [1, "col-sm-6"], ["id", "myTab", "role", "tablist", 1, "nav", "nav-tabs", "tabs-bot-instructions"], ["role", "presentation", 1, "nav-item"], ["id", "home-tab", "data-toggle", "tab", "data-target", "#step1", "type", "button", "role", "tab", "aria-controls", "home", "aria-selected", "true", 1, "nav-link", "active"], ["id", "profile-tab", "data-toggle", "tab", "data-target", "#step2", "type", "button", "role", "tab", "aria-controls", "profile", "aria-selected", "false", 1, "nav-link"], ["id", "contact-tab", "data-toggle", "tab", "data-target", "#step3", "type", "button", "role", "tab", "aria-controls", "contact", "aria-selected", "false", 1, "nav-link"], ["id", "myTabContent", 1, "tab-content", "card", "card-body"], ["id", "step1", "role", "tabpanel", 1, "tab-pane", "fade", "show", "active"], ["href", "mailto:contact-us@witmyworld.com", 1, "white-space-nowrap"], ["id", "step2", "role", "tabpanel", 1, "tab-pane", "fade"], ["id", "step3", "role", "tabpanel", 1, "tab-pane", "fade"], [1, "mb-2"], [1, "d-flex", "alert", "alert-info", "alert-sm", "align-items-center", "mb-1"], [1, "icon-mic2", "pr-3", "font-large-2"], [1, "text-bold"], [1, "mb-3", "text-right"], ["href", "#", "data-toggle", "modal", "data-target", "#howtoGrant"], [1, "icon-help", "mr-2", "font-medium-1"], [1, "btn", "btn-primary", "btn-sm", 3, "hidden", "click"], [1, "btn", "btn-secondary", "btn-sm", 3, "hidden", "click"], [1, "mt-3", 3, "hidden"], [3, "hidden"], ["controls", "controls", "preload", "none", "onclick", "this.play()", 1, "video-fluid", "testing"], ["video", ""], ["type", "video/mp4", 3, "src"], ["controls", "controls", "preload", "none", "onclick", "this.play()", 1, "video-fluid", "testing", 3, "muted"], ["video1", ""], ["type", "video/mp4", 2, "width", "100%"], [1, "varivied-setup-check"], ["type", "checkbox", "name", "consent", "id", "flexCheckDefault", 3, "ngModel", "change", "ngModelChange"], ["for", "flexCheckDefault", 1, "pl-2", "text-bold"], ["id", "upcoming", 1, "tab-pane"], ["class", "mat-error text-bold", 4, "ngIf"], [1, "d-flex", "alert", "alert-info", "alert-sm", "align-items-center", "mb-3"], [1, "d-flex", "mb-3"], ["type", "text", "name", "name", "placeholder", "Please Enter Reference ID", 1, "form-control", "field-sm", 3, "ngModel", "ngModelChange"], [1, "btn", "btn-border", "btn-sm", "ml-2", 3, "click"], [1, "btn", "btn-primary", "ml-2", 3, "hidden", "click"], ["id", "howtoGrant", 1, "modal"], [1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "modal-body", "modal-full-height", "with-footer"], ["src", "../../../../assets/Images/request.png", 1, "img-fluid", "mb-2", 2, "max-width", "350px"], ["src", "../../../../assets/Images/change.png", 1, "img-fluid", "mb-2", 2, "max-width", "340px"], [1, "modal-footer"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-primary"], ["data-tooltip", "Please provide your consent.", "data-tooltip-location", "right", 1, "nav-item", "disabled"], ["href", "javascript:void(0);", 1, "nav-link"], [1, "nav-item"], ["data-toggle", "tab", "href", "#upcoming", 1, "nav-link"], [1, "mat-error", "text-bold"], [1, "icon-warning22", "mr-2", "font-small-3"]],
   template: function BotInterviewComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "form", 0)(1, "div", 1)(2, "div", 2)(3, "ul", 3)(4, "li", 4)(5, "a", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, "Setup & Walkthrough");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](7, BotInterviewComponent_li_7_Template, 3, 0, "li", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](8, BotInterviewComponent_li_8_Template, 3, 0, "li", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "div", 8)(10, "div", 9)(11, "div", 10)(12, "div", 11)(13, "ul", 12)(14, "li", 13)(15, "button", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, "Step 1");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "li", 13)(18, "button", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](19, "Step 2");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](20, "li", 13)(21, "button", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](22, "Step 3");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](23, "div", 17)(24, "div", 18)(25, "ol")(26, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](27, "Test your microphone and video from the right side panel. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](28, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](29, " If you encounter any issues, contact us at ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](30, "a", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](31, "contact-us@witmyworld.com");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](32, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](33, " Remember not to start the interview without testing, as it will not have any value.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](34, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](35, "Once satisfied, proceed to Step 2.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](36, "div", 20)(37, "ol")(38, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](39, "Please check the consent box below to enable the interview tab. Your consent to record and share your video will be implied.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](40, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](41, "Navigate to the ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](42, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](43, "\"Interview\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](44, " tab now and enter the Reference ID provided. Click ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](45, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](46, "\"Validate\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](47, " and then \"Launch Interview\". ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](48, "div", 21)(49, "ol")(50, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](51, "Read the questions carefully and either speak or write your answers.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](52, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](53, "Click ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](54, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](55, "\"Submit & Next\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](56, " after answering each question.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](57, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](58, " Use the ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](59, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](60, "\"Skip\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](61, " button if you don't know the answer.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](62, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](63, "You can end the interview at any time by clicking ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](64, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](65, "\"End Interview\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](66, ". ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](67, "div", 11)(68, "div", 22)(69, "div", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](70, "i", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](71, "span", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](72, "check if your web camera and microphone is working and properly set up.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](73, "div", 26)(74, "a", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](75, "i", 28);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](76, "How to grant access");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](77, "button", 29);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function BotInterviewComponent_Template_button_click_77_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "form", 0)(1, "div", 1)(2, "div", 2)(3, "ul", 3)(4, "li", 4)(5, "a", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Setup & Walkthrough");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](7, BotInterviewComponent_li_7_Template, 3, 0, "li", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](8, BotInterviewComponent_li_8_Template, 3, 0, "li", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](9, "div", 8)(10, "div", 9)(11, "div", 10)(12, "div", 11)(13, "ul", 12)(14, "li", 13)(15, "button", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](16, "Step 1");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "li", 13)(18, "button", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](19, "Step 2");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](20, "li", 13)(21, "button", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](22, "Step 3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "div", 17)(24, "div", 18)(25, "ol")(26, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](27, "Test your microphone and video from the right side panel. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](29, " If you encounter any issues, contact us at ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](30, "a", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](31, "contact-us@witmyworld.com");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](32, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](33, " Remember not to start the interview without testing, as it will not have any value.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](34, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](35, "Once satisfied, proceed to Step 2.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "div", 20)(37, "ol")(38, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](39, "Please check the consent box below to enable the interview tab. Your consent to record and share your video will be implied.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](40, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](41, "Navigate to the ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](43, "\"Interview\"");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](44, " tab now and enter the Reference ID provided. Click ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](46, "\"Validate\"");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](47, " and then \"Launch Interview\". ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](48, "div", 21)(49, "ol")(50, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](51, "Read the questions carefully and either speak or write your answers.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](52, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](53, "Click ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](54, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](55, "\"Submit & Next\"");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](56, " after answering each question.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](57, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](58, " Use the ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](59, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](60, "\"Skip\"");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](61, " button if you don't know the answer.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](62, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](63, "You can end the interview at any time by clicking ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](64, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](65, "\"End Interview\"");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](66, ". ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](67, "div", 11)(68, "div", 22)(69, "div", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](70, "i", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](71, "span", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](72, "check if your web camera and microphone is working and properly set up.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](73, "div", 26)(74, "a", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](75, "i", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](76, "How to grant access");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](77, "button", 29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function BotInterviewComponent_Template_button_click_77_listener() {
         return ctx.startRecordingSetup();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](78, "Start my Microphone and Cam Test");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](79, "button", 30);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function BotInterviewComponent_Template_button_click_79_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](78, "Start my Microphone and Cam Test");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](79, "button", 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function BotInterviewComponent_Template_button_click_79_listener() {
         return ctx.completeRecordingSetup();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](80, "Stop recording");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](81, "div", 31)(82, "div", 32)(83, "video", 33, 34);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](85, "source", 35);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](86, "div", 32)(87, "video", 36, 37);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](89, "source", 38);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](90, "div", 39)(91, "input", 40);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("change", function BotInterviewComponent_Template_input_change_91_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](80, "Stop recording");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](81, "div", 31)(82, "div", 32)(83, "video", 33, 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](85, "source", 35);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](86, "div", 32)(87, "video", 36, 37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](89, "source", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](90, "div", 39)(91, "input", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("change", function BotInterviewComponent_Template_input_change_91_listener() {
         return ctx.elementShow.interviewTab = ctx.webCamSetupConsent;
       })("ngModelChange", function BotInterviewComponent_Template_input_ngModelChange_91_listener($event) {
         return ctx.webCamSetupConsent = $event;
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](92, "label", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](93, " I confirm my webcam and microphone are tested fine. I consent to share this video with the corporates. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](94, "div", 42);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](95, BotInterviewComponent_p_95_Template, 3, 1, "p", 43);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](96, "div", 44)(97, "span", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](98, "Make sure you are giving this interview on either Edge/Chrome browsers.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](99, "div", 45)(100, "input", 46);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("ngModelChange", function BotInterviewComponent_Template_input_ngModelChange_100_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](92, "label", 41);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](93, " I confirm my webcam and microphone are tested fine. I consent to share this video with the corporates. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](94, "div", 42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](95, BotInterviewComponent_p_95_Template, 3, 1, "p", 43);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](96, "div", 44)(97, "span", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](98, "Make sure you are giving this interview on Chrome browser.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](99, "div", 45)(100, "input", 46);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngModelChange", function BotInterviewComponent_Template_input_ngModelChange_100_listener($event) {
         return ctx.referenceId = $event;
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](101, "button", 47);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function BotInterviewComponent_Template_button_click_101_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](101, "button", 47);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function BotInterviewComponent_Template_button_click_101_listener() {
         return ctx.checkValidateReferenceId();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](102, "Validate ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](103, "a", 48);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("click", function BotInterviewComponent_Template_a_click_103_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](102, "Validate ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](103, "a", 48);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function BotInterviewComponent_Template_a_click_103_listener() {
         return ctx.launchInterview();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](104, "Launch Interview");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](105, "div", 49)(106, "div", 50)(107, "div", 51)(108, "div", 52)(109, "h4", 53);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](110, "How to grant microphone and camera access");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](111, "button", 54);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](112, "\u00D7");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](113, "div", 55)(114, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](115, "Access to devices is prohibited by default for the sake of your privacy. You must clearly give permission to use of a camera and/or microphone.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](116, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](117, " When you click on \"START MY MICROPHONE AND CAM TEST\" you may see a pop-up window at the top of the browser, similar to this:");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](118, "img", 56);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](119, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](120, "By clicking on the \"Allow\" button, the sound from your microphone or video from the webcam becomes available to the site only at the moment his use.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](121, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](122, " If you click \"Block\", the site will not be able to access your devices, but you will not be able to continue using its corresponding functions.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](123, "h5");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](124, "Change selection");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](125, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](126, "In order to return access to devices or, conversely, deny it, you can open the appropriate site settings in your browser.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](127, "img", 57);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](128, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](129, "Different browsers have these settings in different places, but most often there is a button somewhere near the address bar as in the image above.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](130, "div", 58)(131, "button", 59);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](132, "Close");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](104, "Launch Interview");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](105, "div", 49)(106, "div", 50)(107, "div", 51)(108, "div", 52)(109, "h4", 53);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](110, "How to grant microphone and camera access");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](111, "button", 54);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](112, "\u00D7");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](113, "div", 55)(114, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](115, "Access to devices is prohibited by default for the sake of your privacy. You must clearly give permission to use of a camera and/or microphone.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](116, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](117, " When you click on \"START MY MICROPHONE AND CAM TEST\" you may see a pop-up window at the top of the browser, similar to this:");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](118, "img", 56);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](119, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](120, "By clicking on the \"Allow\" button, the sound from your microphone or video from the webcam becomes available to the site only at the moment his use.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](121, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](122, " If you click \"Block\", the site will not be able to access your devices, but you will not be able to continue using its corresponding functions.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](123, "h5");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](124, "Change selection");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](125, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](126, "In order to return access to devices or, conversely, deny it, you can open the appropriate site settings in your browser.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](127, "img", 57);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](128, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](129, "Different browsers have these settings in different places, but most often there is a button somewhere near the address bar as in the image above.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](130, "div", 58)(131, "button", 59);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](132, "Close");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()();
     }
 
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("hidden", !ctx.elementShow.interviewSetup);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", !ctx.elementShow.interviewTab);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.elementShow.interviewTab);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("hidden", ctx.recordingOn);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("hidden", !ctx.recordingOn);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("hidden", !ctx.elementShow.interviewSetupWwebcamTest);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("hidden", ctx.recordingOn);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpropertyInterpolate"]("src", ctx.blob_video, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("hidden", !ctx.recordingOn);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("muted", "muted");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngModel", ctx.webCamSetupConsent);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.referenceIdSummary.errorMessage);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngModel", ctx.referenceId);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("hidden", !ctx.elementShow.launchInterviewButton);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", !ctx.elementShow.interviewSetup);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !ctx.elementShow.interviewTab);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.elementShow.interviewTab);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](69);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", ctx.recordingOn);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", !ctx.recordingOn);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", !ctx.elementShow.interviewSetupWwebcamTest);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", ctx.recordingOn);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("src", ctx.blob_video, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsanitizeUrl"]);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", !ctx.recordingOn);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("muted", "muted");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngModel", ctx.webCamSetupConsent);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.referenceIdSummary.errorMessage);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngModel", ctx.referenceId);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("hidden", !ctx.elementShow.launchInterviewButton);
     }
   },
-  directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_8__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NgForm, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.CheckboxControlValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.NgModel, ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_10__.NativeElementInjectorDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_8__.DefaultValueAccessor],
-  styles: [".blink[_ngcontent-%COMP%] {\n    animation: blinker 1s step-start infinite;\n  }\n  \n  @keyframes blinker {\n    50% {\n      opacity: 0;\n    }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvdC1pbnRlcnZpZXcuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHlDQUF5QztFQUMzQzs7RUFFQTtJQUNFO01BQ0UsVUFBVTtJQUNaO0VBQ0YiLCJmaWxlIjoiYm90LWludGVydmlldy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJsaW5rIHtcbiAgICBhbmltYXRpb246IGJsaW5rZXIgMXMgc3RlcC1zdGFydCBpbmZpbml0ZTtcbiAgfVxuICBcbiAgQGtleWZyYW1lcyBibGlua2VyIHtcbiAgICA1MCUge1xuICAgICAgb3BhY2l0eTogMDtcbiAgICB9XG4gIH0iXX0= */"]
+  directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_9__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgForm, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.CheckboxControlValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgModel, ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_11__.NativeElementInjectorDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.DefaultValueAccessor],
+  styles: [".blink[_ngcontent-%COMP%] {\n    animation: blinker 1s step-start infinite;\n  }\n  \n  @keyframes blinker {\n    50% {\n      opacity: 0;\n    }\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvdC1pbnRlcnZpZXcuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHlDQUF5QztFQUMzQzs7RUFFQTtJQUNFO01BQ0UsVUFBVTtJQUNaO0VBQ0YiLCJmaWxlIjoiYm90LWludGVydmlldy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJsaW5rIHtcbiAgICBhbmltYXRpb246IGJsaW5rZXIgMXMgc3RlcC1zdGFydCBpbmZpbml0ZTtcbiAgfVxuICBcbiAgQGtleWZyYW1lcyBibGlua2VyIHtcbiAgICA1MCUge1xuICAgICAgb3BhY2l0eTogMDtcbiAgICB9XG4gIH1cbiJdfQ== */"]
 });
 
 /***/ }),
@@ -7292,26 +7931,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "MainInterviewComponent": () => (/* binding */ MainInterviewComponent)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ 28784);
-/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common/http */ 28784);
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
 /* harmony import */ var src_app_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/util/alert-dialog/alert-dialog.component */ 12278);
 /* harmony import */ var _video_recording__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../video-recording */ 93021);
 /* harmony import */ var _text2speech__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../text2speech */ 70211);
 /* harmony import */ var _models_constants__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../models/constants */ 47709);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs */ 54363);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs */ 54363);
 /* harmony import */ var _services_header_header_update_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../../services/header/header-update.service */ 14946);
 /* harmony import */ var _services_footer_footer_update_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../../services/footer/footer-update.service */ 67073);
 /* harmony import */ var _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../../models/bot-interview.constants */ 71094);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/core */ 3184);
 /* harmony import */ var _api_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../api.service */ 51491);
-/* harmony import */ var ng_http_loader__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ng-http-loader */ 23020);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 52816);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/common */ 36362);
-/* harmony import */ var ngx_countdown__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ngx-countdown */ 96439);
-/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/form-field */ 44770);
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/input */ 43365);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/forms */ 90587);
-/* harmony import */ var ngx_autosize__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ngx-autosize */ 93535);
+/* harmony import */ var ng_http_loader__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ng-http-loader */ 23020);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var src_services_realtimeconvo__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! src/services/realtimeconvo */ 96388);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var ngx_countdown__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ngx-countdown */ 96439);
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/form-field */ 44770);
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/input */ 43365);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/forms */ 90587);
 /* harmony import */ var ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ngx-intl-tel-input */ 68831);
 
 
@@ -7351,7 +7990,7 @@ const _c4 = function (a1) {
 };
 
 class MainInterviewComponent {
-  constructor(headerUpdateService, footerUpdateService, matDialog, apiService, spinnerVisibilityService, router, activatedRoute) {
+  constructor(headerUpdateService, footerUpdateService, matDialog, apiService, spinnerVisibilityService, router, activatedRoute, realTimeConvoService) {
     this.headerUpdateService = headerUpdateService;
     this.footerUpdateService = footerUpdateService;
     this.matDialog = matDialog;
@@ -7359,11 +7998,13 @@ class MainInterviewComponent {
     this.spinnerVisibilityService = spinnerVisibilityService;
     this.router = router;
     this.activatedRoute = activatedRoute;
+    this.realTimeConvoService = realTimeConvoService;
     this.interviewConfig = {
-      "interviewVideoRecording": false,
+      //Dev mode
+      "interviewVideoRecording": true,
       "speakAnswerOption": true,
       "maxDurationInterview": 30,
-      "maxDurationAudioAnswer": 2,
+      "maxDurationAudioAnswer": 3,
       "interviewNearEndAlert": 5,
       "answerNearEndAlert": 15,
       "maxDurationTextAnswer": 2,
@@ -7374,11 +8015,17 @@ class MainInterviewComponent {
     this.interviewStates = {
       "INTERVIEW-PREP": ["interviewPrep"],
       "ASK-QUESTION": ["mainInterview"],
+      "REAL-TIME-CONVO": ["mainInterview", "questionSkip", "recordingInProgress"],
       "INPUT-OPTIONS": ["questionSkip", "mainInterview", "showInputOptions"],
       "RECORD-AUDIO": ["recordAnswer", "recordingInProgress", "submitAnswer", "mainInterview"],
-      "WRITE-CODE": ["writeCode", "questionSkip", "submitAnswer", "mainInterview"],
+      "WRITE-CODE": ["writeCode", "submitAnswer", "mainInterview"],
       "INTERVIEW-COMPLETED": ["completeInterview"],
       "INTERVIEW-ERROR": ["errorInterview"]
+    };
+    this.sessionIdentifierName = {
+      "referenceId": "referenceId",
+      "interviewId": "interviewId",
+      "questionId": "questionId"
     };
     this.elementShow = {
       "interviewPrep": false,
@@ -7392,29 +8039,34 @@ class MainInterviewComponent {
       "completeInterview": false,
       "errorInterview": false
     };
+    this.realTimeInProgress = false;
     this.interviewLastMinutes = false; //do something when interview time completion is near, like blink timer etc.
 
     this.answerLastSeconds = false; //do something when answer time completion is near, like blink timer etc.
 
     this.interviewTimerConfig = {
       leftTime: 10,
-      notify: 0,
+      notify: 1,
       demand: true
     };
     this.answerTimerConfig = {
       leftTime: 10,
-      notify: 0,
+      notify: 1,
       demand: true
     };
     this.answerWriteTextTimerConfig = {
       leftTime: 10,
-      notify: 0,
+      notify: 1,
       demand: true
     };
+    this.isFirstVideoChunk = true;
     this.disableEvents = {
-      "RIGHT_CLICK": true
+      //Dev mode
+      "RIGHT_CLICK": true,
+      "CTRL_SHIFT_C": true
     };
     this.recordingPutURL = "";
+    this.previousSubmitQuestion = "";
     this.recordingOn = false; //turning this OFF will stop sending recording chunks to S3 !
 
     this.recordingAnswer = false;
@@ -7427,39 +8079,54 @@ class MainInterviewComponent {
     this.referenceIdSummary = {};
     this.reference_id_valid = false;
     this.referenceId = "";
-    this.http = new _angular_common_http__WEBPACK_IMPORTED_MODULE_9__.HttpClient(new _angular_common_http__WEBPACK_IMPORTED_MODULE_9__.HttpXhrBackend({
+    this.http = new _angular_common_http__WEBPACK_IMPORTED_MODULE_10__.HttpClient(new _angular_common_http__WEBPACK_IMPORTED_MODULE_10__.HttpXhrBackend({
       build: () => new XMLHttpRequest()
     }));
     this.sessionId = Math.random().toString(36).slice(2, 7).toString();
     this.questionText = "";
     this.responseText = "";
     this.bot_interview_journey = {};
+    this.answerTimerlock = 0; //subscribe to real-time-convo state
+
+    this.eventSubscription = this.realTimeConvoService.myEvent.subscribe(data => {
+      this.responseText = this.realTimeConvoService.fullTranscript;
+      this.submitAnswer();
+    });
   }
 
   ngOnInit() {
-    if (window.opener === null) {
-      window.open('/test', '_blank', 'fullscreen=yes');
-      this.router.navigate(['/']).catch(err => console.error(err)); // TODO change where to redirect to in case of accessed test directly
-    }
-
-    (0,rxjs__WEBPACK_IMPORTED_MODULE_10__.firstValueFrom)(this.activatedRoute.paramMap).then(params => {
+    (0,rxjs__WEBPACK_IMPORTED_MODULE_11__.firstValueFrom)(this.activatedRoute.paramMap).then(params => {
       const data = JSON.parse(atob(params.get("data")));
       this.referenceId = data.referenceId;
-    });
+    }); // if (window.opener === null) {
+    //   // window.open('/test', '_blank', 'fullscreen=yes');
+    //   window.open('/test', '_self', 'fullscreen=yes');
+    //   this.router.navigate(['/']).catch(
+    //     err => {
+    //       console.error(err)
+    //       this.publishlogs(undefined,undefined,"newWindow",this.sessionIdentifierName.referenceId,this.referenceId,err)
+    //     }
+    //   );  // TODO change where to redirect to in case of accessed test directly
+    // }
+
     this.UiStates(this.interviewStates['INTERVIEW-PREP']);
     this.headerUpdateService.sendUpdate(_services_header_header_update_service__WEBPACK_IMPORTED_MODULE_5__.HeaderUpdateEvent.START_TEST);
     this.footerUpdateService.sendUpdate(_services_footer_footer_update_service__WEBPACK_IMPORTED_MODULE_6__.FooterUpdateEvent.START_TEST);
+    let rect = document.getElementById('user-video').getBoundingClientRect(); // console.log(rect.left, rect.right, rect.top, rect.bottom)
   }
 
   startInterview() {
     var _this = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      //here we can fetch reference config whether recording is needed or not.
       try {
         if (_this.interviewConfig.interviewVideoRecording) {
           let recordingSuccess = yield _this.startRecordingInterview();
 
           if (!recordingSuccess) {
+            _this.publishlogs(undefined, undefined, "startInterviewrecord", _this.sessionIdentifierName.referenceId, _this.referenceId, "start recording failed");
+
             return false;
           }
         }
@@ -7470,9 +8137,14 @@ class MainInterviewComponent {
 
         return true;
       } catch (error) {
-        _this.UiStates(_this.interviewStates['INTERVIEW-PREP']);
+        console.log(error);
+        _this.interviewOn = false;
+
+        _this.finishInterview(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.BACKEND_ERROR);
 
         _this.openDialog(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.userMessages.GENERAL_ERROR, "ERROR");
+
+        _this.publishlogs(undefined, undefined, "startInterview", _this.sessionIdentifierName.referenceId, _this.referenceId, error);
 
         return false;
       }
@@ -7483,7 +8155,20 @@ class MainInterviewComponent {
     var _this2 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      console.log("finish interview");
+      _this2.blockUiStateChange = false;
+      _this2.blockSpeech = false;
+
+      _this2.realTimeConvoService.endConvo(1);
+
+      _this2.realTimeInProgress = false;
+
       try {
+        // if (this.bot_interview_journey['question_details']["interactive"] == 1) {
+        //   console.log("trying to end convo")
+        //   this.realTimeConvoService.endConvo(1)
+        //   this.realTimeInProgress = false
+        // }
         _this2.countDownAnswer.stop();
 
         _this2.countDownAnswerWriteText.stop();
@@ -7498,9 +8183,19 @@ class MainInterviewComponent {
           _this2.UiStates(_this2.interviewStates['INTERVIEW-ERROR']);
 
           _this2.text2speech(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.userMessages.INTERVIEW_COMPLETE_ERROR);
+
+          _this2.publishlogs(undefined, undefined, "finishInterview", _this2.sessionIdentifierName.referenceId, _this2.referenceId, completionReason);
         }
 
         _this2.stopRecordingInterview();
+
+        _this2.interviewOn = false;
+        _this2.blockUiStateChange = true; //while we finish interview something else async might be fired & override the UI.
+
+        _this2.blockSpeech = true;
+        setTimeout(() => {
+          _this2.finishInterview(completionReason);
+        }, 10000);
 
         if (_this2.interviewId != 0) {
           let input = {
@@ -7519,10 +8214,6 @@ class MainInterviewComponent {
           }
         }
 
-        _this2.interviewOn = false;
-        _this2.blockUiStateChange = true; //while we finish interview something else async might be fired & override the UI.
-
-        _this2.blockSpeech = true;
         return true;
       } catch (error) {
         _this2.UiStates(_this2.interviewStates['INTERVIEW-ERROR']);
@@ -7540,6 +8231,9 @@ class MainInterviewComponent {
         _this2.blockUiStateChange = true; //while this error event is fired something else might change the UI and override.
 
         _this2.blockSpeech = true;
+
+        _this2.publishlogs(undefined, undefined, "finishInterview", _this2.sessionIdentifierName.referenceId, _this2.referenceId, error.toString());
+
         return false;
       }
     })();
@@ -7550,6 +8244,8 @@ class MainInterviewComponent {
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
+        //TBD this is locking the interview start. Need to think
+        // this.openDialog(userMessages.WAIT, "SUCCESS")
         _this3.UiStates(_this3.interviewStates['ASK-QUESTION']);
 
         _this3.interviewOn = true;
@@ -7571,7 +8267,8 @@ class MainInterviewComponent {
 
         let questionDetails = yield _this3.apiService.bot_interview_function_url(input);
 
-        _this3.spinnerVisibilityService.hide();
+        _this3.spinnerVisibilityService.hide(); // this.matDialog.closeAll()
+
 
         _this3.bot_interview_journey = questionDetails;
         _this3.interviewId = _this3.bot_interview_journey["question_details"]["interviewId"]; // this.interviewConfig.interviewVideoRecording = this.bot_interview_journey["question_details"]["video_required"] == 0 ? false : true
@@ -7581,13 +8278,22 @@ class MainInterviewComponent {
         _this3.interviewConfig.maxDurationCodingAnswer = _this3.bot_interview_journey["question_details"]["answerDuration"];
         _this3.interviewConfig.maxDurationTextAnswer = _this3.bot_interview_journey["question_details"]["answerDuration"];
         _this3.questionText = questionDetails['question_details']["question"];
-        yield _this3.text2speech(_this3.questionText); //await is waiting indefinitely on this. need to check
-        // await this.delay(6000) //wait for speech to text a lil bit
 
         if (_this3.bot_interview_journey["question_details"]["question_type"] == "coding") {
+          _this3.blockSpeech = false;
+          yield _this3.text2speech("Please complete the coding assignment. Good luck !"); //await is waiting indefinitely on this. need to check
+
           _this3.writeCode();
         } else {
-          _this3.UiStates(_this3.interviewStates['INPUT-OPTIONS']);
+          if (questionDetails['question_details']["interactive"] == 0) {
+            _this3.blockSpeech = false;
+            yield _this3.text2speech(_this3.questionText); //await is waiting indefinitely on this. need to check          
+
+            _this3.UiStates(_this3.interviewStates['INPUT-OPTIONS']);
+          } else {
+            //if real time fails then fall back to normal
+            _this3.startConversation("Question that you have to ask is:");
+          }
         }
 
         _this3.pushChunks = true;
@@ -7600,6 +8306,8 @@ class MainInterviewComponent {
 
         _this3.finishInterview(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.BACKEND_ERROR);
 
+        _this3.publishlogs(undefined, undefined, "askQuestion", _this3.sessionIdentifierName.referenceId, _this3.referenceId, error.toString());
+
         return false;
       } finally {
         _this3.spinnerVisibilityService.hide();
@@ -7608,7 +8316,13 @@ class MainInterviewComponent {
   }
 
   skipQuestion() {
-    this.responseText = "__QUESTION_SKIPPED__";
+    if (this.realTimeInProgress) {
+      this.realTimeConvoService.endConvo(1);
+      this.responseText = this.realTimeConvoService.fullTranscript;
+    } else {
+      this.responseText = "__QUESTION_SKIPPED__";
+    }
+
     this.submitAnswer();
   }
 
@@ -7617,7 +8331,13 @@ class MainInterviewComponent {
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
-        //if you dont pause these then they will again trigger answer submission
+        if (_this4.previousSubmitQuestion == _this4.bot_interview_journey["question_details"]["id"]) {
+          return;
+        } else {
+          _this4.previousSubmitQuestion = _this4.bot_interview_journey["question_details"]["id"];
+        } //if you dont pause these then they will again trigger answer submission
+
+
         _this4.countDownAnswerWriteText.stop();
 
         _this4.countDownAnswer.stop();
@@ -7655,12 +8375,23 @@ class MainInterviewComponent {
         if (questionDetails["stage"] == "INTERVIEW_COMPLETED") {
           yield _this4.finishInterview(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.QUESTIONS_EXHAUSTED);
         } else {
-          yield _this4.text2speech(_this4.questionText); // await this.delay(6000) //wait for speech to text a lil bit
-
+          // await this.text2speech(this.questionText)
+          // await this.delay(6000) //wait for speech to text a lil bit
           if (_this4.bot_interview_journey["question_details"]["question_type"] == "coding") {
+            yield _this4.text2speech("Please complete the coding assignment. Good luck !"); //await is waiting indefinitely on this. need to check
+
             _this4.writeCode();
           } else {
-            _this4.UiStates(_this4.interviewStates['INPUT-OPTIONS']);
+            if (questionDetails['question_details']["interactive"] == 0) {
+              _this4.blockSpeech = false;
+              yield _this4.text2speech(_this4.questionText); //await is waiting indefinitely on this. need to check
+
+              _this4.UiStates(_this4.interviewStates['INPUT-OPTIONS']);
+            } else {
+              let convotext = `Don't greet the candidate, directly ask this question :`;
+
+              _this4.startConversation(convotext);
+            }
           }
         }
       } catch (e) {
@@ -7669,6 +8400,8 @@ class MainInterviewComponent {
         _this4.openDialog(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.userMessages.SUBMIT_ANSWER_ERROR, "ERROR");
 
         _this4.finishInterview(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.BACKEND_ERROR);
+
+        _this4.publishlogs(undefined, undefined, "submitAnswer", _this4.sessionIdentifierName.questionId, _this4.bot_interview_journey["question_details"]["id"], e);
       } finally {
         _this4.spinnerVisibilityService.hide();
       }
@@ -7699,6 +8432,8 @@ class MainInterviewComponent {
       } else {
         _this5.UiStates(_this5.interviewStates['INTERVIEW-PREP']);
       }
+
+      _this5.publishlogs(undefined, undefined, "onRecordingError", _this5.sessionIdentifierName.referenceId, _this5.referenceId, errorMessage);
     })();
   }
 
@@ -7707,7 +8442,7 @@ class MainInterviewComponent {
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
-        _this6.videoRecording = new _video_recording__WEBPACK_IMPORTED_MODULE_2__.VideoRecording([_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.USER_AUDIO, _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.USER_CAM, _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.SCREEN_SHARE, _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.SYSTEM_AUDIO]);
+        _this6.videoRecording = new _video_recording__WEBPACK_IMPORTED_MODULE_2__.VideoRecording([_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.USER_AUDIO, _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.USER_CAM, _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.SCREEN_SHARE, _models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.mediaStreamOptions.SYSTEM_AUDIO], _this6.interviewConfig.videoRecordingQuality);
 
         _this6.videoRecording.onError = errorMessage => {
           console.log(errorMessage);
@@ -7734,6 +8469,8 @@ class MainInterviewComponent {
         return true;
       } catch (error) {
         _this6.onRecordingError(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.GENERAL_RECORDING_ERROR);
+
+        _this6.publishlogs(undefined, undefined, "startRecordInterview", _this6.sessionIdentifierName.referenceId, _this6.referenceId, error);
 
         return false;
       }
@@ -7806,6 +8543,8 @@ class MainInterviewComponent {
 
         _this8.writeCode();
 
+        _this8.publishlogs(undefined, undefined, "startRecordAnswer", _this8.sessionIdentifierName.interviewId, _this8.interviewId.toString(), error);
+
         return false;
       }
     })();
@@ -7838,6 +8577,9 @@ class MainInterviewComponent {
         _this9.spinnerVisibilityService.hide();
 
         _this9.recordingAnswer = false;
+
+        _this9.publishlogs(undefined, undefined, "finishRecordAnswer", _this9.sessionIdentifierName.interviewId, _this9.interviewId.toString(), error);
+
         return s3Uri;
       }
     })();
@@ -7873,17 +8615,36 @@ class MainInterviewComponent {
   }
 
   answerTimer(event) {
-    if (event['left'] <= this.interviewConfig.answerNearEndAlert * 1000) {
-      this.answerLastSeconds = true;
-    }
+    var _this10 = this;
 
-    if (event['left'] == 1000 && this.answerTimerPrev != event['left']) {
-      //fires multiple times for same time, so we need to ignore
-      this.answerTimerPrev = event['left'];
-      this.submitAnswer();
-    }
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      if (_this10.answerTimerlock == 1) {
+        return;
+      }
 
-    this.answerTimerPrev = event['left'];
+      if (event['left'] <= _this10.interviewConfig.answerNearEndAlert * 1000) {
+        _this10.answerLastSeconds = true;
+      } // if (event['left'] == 1000 && this.answerTimerPrev != event['left']) {  //fires multiple times for same time, so we need to ignore
+      //   console.log("submitting", event["left"],this.answerTimerPrev)
+      //   this.answerTimerPrev = event['left']
+      //   this.submitAnswer()
+      // }
+      // this.answerTimerPrev = event['left']
+
+
+      if (event['left'] == 1000) {
+        _this10.answerTimerlock = 1;
+
+        if (_this10.realTimeInProgress) {
+          _this10.realTimeConvoService.endConvo(1);
+
+          _this10.responseText = _this10.realTimeConvoService.fullTranscript;
+        }
+
+        yield _this10.submitAnswer();
+        _this10.answerTimerlock = 0;
+      }
+    })();
   }
 
   setInterviewCountdownTimer(time) {
@@ -7899,6 +8660,7 @@ class MainInterviewComponent {
     this.answerLastSeconds = false;
     const config = this.countDownAnswer.config;
     config.leftTime = time;
+    config.notify = 1;
     this.countDownAnswer.config = config;
     this.countDownAnswer.restart();
     this.countDownAnswer.begin();
@@ -7914,10 +8676,10 @@ class MainInterviewComponent {
   }
 
   text2speech(text) {
-    var _this10 = this;
+    var _this11 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-      if (!_this10.blockSpeech) {
+      if (!_this11.blockSpeech) {
         try {
           const speech = new _text2speech__WEBPACK_IMPORTED_MODULE_3__.text2speech(); // will throw an exception if not browser supported
 
@@ -7930,28 +8692,32 @@ class MainInterviewComponent {
   }
 
   pushRecordingChunks(chunkType) {
-    var _this11 = this;
+    var _this12 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         // only if interview has started !
-        if (!_this11.pushChunks) return true;
+        if (!_this12.pushChunks) return true;
 
         if (chunkType == "INTERVIEW") {
-          _this11.recordingPutURL = yield _this11.getRecordingPutUrl(chunkType, _this11.interviewId);
+          _this12.recordingPutURL = yield _this12.getRecordingPutUrl(chunkType, _this12.interviewId);
 
-          _this11.videoRecording.flush(_this11.recordingPutURL);
+          _this12.videoRecording.flush(_this12.recordingPutURL);
         }
 
         if (chunkType == "ANSWER") {
-          _this11.recordingPutURL = yield _this11.getRecordingPutUrl(chunkType, _this11.interviewId);
+          _this12.recordingPutURL = yield _this12.getRecordingPutUrl(chunkType, _this12.interviewId);
 
-          _this11.videoRecorderAnswer.flush(_this11.recordingPutURL);
+          _this12.videoRecorderAnswer.flush(_this12.recordingPutURL);
         }
 
         return true;
       } catch (error) {
-        _this11.onRecordingError(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.PUSH_CHUNKS_ERROR);
+        console.log("publish push chunk");
+
+        _this12.onRecordingError(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.PUSH_CHUNKS_ERROR);
+
+        _this12.publishlogs(undefined, undefined, "pushChunks", _this12.sessionIdentifierName.referenceId, _this12.referenceId, error);
 
         return false;
       }
@@ -7959,16 +8725,16 @@ class MainInterviewComponent {
   }
 
   getRecordingPutUrl(chunk_type, interviewId) {
-    var _this12 = this;
+    var _this13 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         let putURL = "";
         const URL = `${_models_constants__WEBPACK_IMPORTED_MODULE_4__.END_POINT}/v1/bot_interview/chunk`;
         const httpHeaders = yield (0,_models_constants__WEBPACK_IMPORTED_MODULE_4__.HTTP_HEADERS)();
-        putURL = yield (0,rxjs__WEBPACK_IMPORTED_MODULE_10__.firstValueFrom)(_this12.http.put(URL, {
+        putURL = yield (0,rxjs__WEBPACK_IMPORTED_MODULE_11__.firstValueFrom)(_this13.http.put(URL, {
           testId: interviewId,
-          sessionId: _this12.sessionId,
+          sessionId: _this13.sessionId,
           id: new Date().getTime(),
           chunk_type: chunk_type
         }, {
@@ -7977,6 +8743,9 @@ class MainInterviewComponent {
         return putURL;
       } catch (error) {
         console.log(error);
+
+        _this13.publishlogs(undefined, undefined, "getRecordingPutUrl", _this13.sessionIdentifierName.referenceId, _this13.referenceId, error);
+
         return "";
       }
     })();
@@ -7987,19 +8756,22 @@ class MainInterviewComponent {
   }
 
   openDialog(message, type) {
-    const dialogConfig = new _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__.MatDialogConfig();
+    const dialogConfig = new _angular_material_dialog__WEBPACK_IMPORTED_MODULE_12__.MatDialogConfig();
     dialogConfig.data = {
       "message": message,
       "dialogLevel": type
-    };
+    }; // dialogConfig.autoFocus = true;
+    // dialogConfig.panelClass = 'custom-dialog-container';
+    // dialogConfig.backdropClass = 'custom-backdrop';
+
     let dialogRef = this.matDialog.open(src_app_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_1__.AlertDialogComponent, dialogConfig);
   }
 
   endInterviewByCandidate() {
-    var _this13 = this;
+    var _this14 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-      yield _this13.finishInterview(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.END_INTERVIEW_BY_CANDIDATE);
+      yield _this14.finishInterview(_models_bot_interview_constants__WEBPACK_IMPORTED_MODULE_7__.interviewErrorCodes.END_INTERVIEW_BY_CANDIDATE);
     })();
   }
 
@@ -8011,305 +8783,480 @@ class MainInterviewComponent {
     if (this.disableEvents.RIGHT_CLICK) event.preventDefault();
   }
 
+  keydownEvent(event) {
+    if (this.disableEvents.CTRL_SHIFT_C) {
+      if (event.ctrlKey && event.shiftKey && (event.key == "c" || event.key == "C")) {
+        event.preventDefault();
+      }
+    }
+  }
+
   speech2text(requestType = "STOP") {
-    var _this14 = this;
+    var _this15 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       try {
         if (requestType == "START") {
-          _this14.speech2textTranscription = "";
+          _this15.speech2textTranscription = "";
 
           if ('webkitSpeechRecognition' in window) {
-            _this14.speechRecognition = new webkitSpeechRecognition();
-            _this14.speechRecognition.continuous = true;
-            _this14.speechRecognition.interimresults = false;
-            _this14.speechRecognition.lang = 'en-IN';
+            _this15.speechRecognition = new webkitSpeechRecognition();
+            _this15.speechRecognition.continuous = true;
+            _this15.speechRecognition.interimresults = false;
+            _this15.speechRecognition.lang = 'en-IN';
 
-            _this14.speechRecognition.start();
+            _this15.speechRecognition.start();
 
-            _this14.speechRecognition.onresult = e => {
+            _this15.speechRecognition.onresult = e => {
               for (var i = e.resultIndex; i < e.results.length; ++i) {
                 if (e.results[i].isFinal) {
-                  _this14.speech2textTranscription += e.results[i][0].transcript;
+                  _this15.speech2textTranscription += e.results[i][0].transcript;
+                  console.log(_this15.speech2textTranscription);
                 }
               }
+            };
+
+            _this15.speechRecognition.onspeechend = e => {
+              console.log("speech stopped");
             };
           } else {
             alert('Your browser does not support voice recognition!');
           }
         } else {
-          _this14.speechRecognition.stop();
+          _this15.speechRecognition.stop();
         }
       } catch (e) {
         console.log("Live transcription error => ", e); //everything should continue as normal even if this fails !
+
+        _this15.publishlogs(undefined, undefined, "speech2text", _this15.sessionIdentifierName.referenceId, _this15.referenceId, e);
       }
     })();
+  }
+
+  startConversation(prompt) {
+    var _this16 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      try {
+        yield _this16.apiService.realtimeapi("").then( /*#__PURE__*/function () {
+          var _ref = (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (data) {
+            try {
+              //TBD - Need to think on answer timer and realtime timer firing at same time. for now added .05 delay
+              yield _this16.realTimeConvoService.startConvo(prompt + _this16.questionText, "INTERVIEW", _this16.interviewConfig.maxDurationAudioAnswer + .05, data);
+              _this16.blockSpeech = true;
+
+              _this16.UiStates(_this16.interviewStates['REAL-TIME-CONVO']);
+
+              _this16.realTimeInProgress = true;
+
+              _this16.setAnswerCountdownTimer(_this16.interviewConfig.maxDurationAudioAnswer * 60);
+            } catch (error) {
+              _this16.realTimeInProgress = false;
+              _this16.blockSpeech = false;
+              yield _this16.text2speech(_this16.questionText); //await is waiting indefinitely on this. need to check
+
+              _this16.UiStates(_this16.interviewStates['INPUT-OPTIONS']);
+
+              console.log("real time failed, switching back to normal");
+
+              _this16.publishlogs(undefined, undefined, "startConversation", _this16.sessionIdentifierName.interviewId, _this16.interviewId.toString(), error.toString());
+            }
+          });
+
+          return function (_x) {
+            return _ref.apply(this, arguments);
+          };
+        }()).finally(() => {
+          _this16.spinnerVisibilityService.hide();
+        });
+      } catch (error) {
+        console.log("error flow");
+        _this16.realTimeInProgress = false;
+        _this16.blockSpeech = false;
+        yield _this16.text2speech(_this16.questionText); //await is waiting indefinitely on this. need to check
+
+        _this16.UiStates(_this16.interviewStates['INPUT-OPTIONS']);
+
+        console.log("real time failed, switching back to normal");
+
+        _this16.publishlogs(undefined, undefined, "startConversation", _this16.sessionIdentifierName.interviewId, _this16.interviewId.toString(), "generate ephemeral key");
+      }
+    })();
+  }
+
+  publishlogs(level = 'ERROR', fecomponent = 'main-interview', fename = 'none', sessionIdentifierName = 'none', sessionIdentifier = 'none', log = '') {
+    let input = {
+      "level": level,
+      "fecomponent": fecomponent,
+      "fename": fename,
+      "sessionIdentifierName": sessionIdentifierName,
+      "sessionIdentifier": sessionIdentifier,
+      "log": log
+    };
+
+    try {
+      this.apiService.publishfelogs(input);
+    } catch (e) {}
   }
 
 }
 
 MainInterviewComponent.ɵfac = function MainInterviewComponent_Factory(t) {
-  return new (t || MainInterviewComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdirectiveInject"](_services_header_header_update_service__WEBPACK_IMPORTED_MODULE_5__.HeaderUpdateService), _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdirectiveInject"](_services_footer_footer_update_service__WEBPACK_IMPORTED_MODULE_6__.FooterUpdateService), _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__.MatDialog), _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdirectiveInject"](_api_service__WEBPACK_IMPORTED_MODULE_8__.ApiService), _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_13__.SpinnerVisibilityService), _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_14__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_14__.ActivatedRoute));
+  return new (t || MainInterviewComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](_services_header_header_update_service__WEBPACK_IMPORTED_MODULE_5__.HeaderUpdateService), _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](_services_footer_footer_update_service__WEBPACK_IMPORTED_MODULE_6__.FooterUpdateService), _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_12__.MatDialog), _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](_api_service__WEBPACK_IMPORTED_MODULE_8__.ApiService), _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_14__.SpinnerVisibilityService), _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_15__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_15__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdirectiveInject"](src_services_realtimeconvo__WEBPACK_IMPORTED_MODULE_9__.RealTimeConvoService));
 };
 
-MainInterviewComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineComponent"]({
+MainInterviewComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineComponent"]({
   type: MainInterviewComponent,
   selectors: [["app-main-interview"]],
   viewQuery: function MainInterviewComponent_Query(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵviewQuery"](_c0, 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵviewQuery"](_c1, 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵviewQuery"](_c2, 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵviewQuery"](_c3, 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵviewQuery"](_c0, 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵviewQuery"](_c1, 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵviewQuery"](_c2, 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵviewQuery"](_c3, 5);
     }
 
     if (rf & 2) {
       let _t;
 
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵloadQuery"]()) && (ctx.countDownInterview = _t.first);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵloadQuery"]()) && (ctx.countDownAnswer = _t.first);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵloadQuery"]()) && (ctx.countDownAnswerWriteText = _t.first);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵloadQuery"]()) && (ctx.interviewVideo = _t.first);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵloadQuery"]()) && (ctx.countDownInterview = _t.first);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵloadQuery"]()) && (ctx.countDownAnswer = _t.first);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵloadQuery"]()) && (ctx.countDownAnswerWriteText = _t.first);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵloadQuery"]()) && (ctx.interviewVideo = _t.first);
     }
   },
   hostBindings: function MainInterviewComponent_HostBindings(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("contextmenu", function MainInterviewComponent_contextmenu_HostBindingHandler($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("contextmenu", function MainInterviewComponent_contextmenu_HostBindingHandler($event) {
         return ctx.onRightClick($event);
-      });
+      })("keydown", function MainInterviewComponent_keydown_HostBindingHandler($event) {
+        return ctx.keydownEvent($event);
+      }, false, _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵresolveWindow"]);
     }
   },
-  decls: 144,
+  decls: 151,
   vars: 29,
-  consts: [[1, "bot-window"], [1, "interview-step-1", 3, "hidden"], ["role", "alert", 1, "alert", "alert-info"], [1, "mb-4"], [1, "icon-info22", "mr-2"], [1, "row", "mt-4"], [1, "col-md-6"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], [1, "text-right", 3, "hidden"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-light", 3, "click"], [1, "interview-step-2", 3, "hidden"], [1, "row", "mb-3"], [1, "col-sm-6"], ["src", "/assets/Images/witmyworld-logo.png", 1, "logo-vendor-test"], [1, "row"], [1, "col-sm-8"], [1, "question-widigt", "text-semibold"], ["src", "../../../../assets/Images/chatbot.png", "alt", "Avatar", 1, "bot-image-profile"], [1, "font-small-3", "text-muted"], [1, "answer-widigt"], [1, "mb-1", 3, "hidden"], [1, "row", "align-items-center"], [1, "col-sm-4", "offset-sm-1", 3, "hidden"], [1, "btn", "btn-primary", 3, "click"], [1, "icon-play4", "mr-2"], [1, "text-notificiation"], [1, "col-sm-2", 3, "hidden"], [1, "px-4"], [1, "col-sm-4"], ["aria-hidden", "true", 1, "icon-circle-code", "mr-2"], [1, "btn-speech", "mb-3"], [1, "pulse-ring"], ["aria-hidden", "true", 1, "icon-mic2"], [1, "timer-recording"], [3, "ngClass"], [3, "config", "event"], ["countDownAnswer", ""], [1, "write-code", "mb-4"], [3, "hidden"], [1, "close-icon", "icon-close2"], ["appearance", "outline", 1, "input-field", 2, "width", "100%"], ["autosize", "", "matInput", "", "name", "questionText", "required", "", "rows", "8", "cols", "20", "placeholder", "You can also use any IDE of your choice to code and then paste the code here !", 3, "ngModel", "ngModelChange"], ["countDownAnswerWriteText", ""], [1, "btn", "btn-border", "mr-2", 3, "click"], ["aria-hidden", "true", 1, "icon-forward3", "ml-1"], [1, "col-sm-6", "text-right"], ["aria-hidden", "true", 1, "icon-arrow-right8", "ml-1"], [1, "user-video"], ["controls", "controls", "preload", "none", 1, "video-fluid", 3, "muted"], ["interviewVideo", ""], ["type", "video/mp4"], [1, "interview-step-3", 3, "hidden"], ["role", "alert", 1, "alert", "alert-success"], [1, "alert-heading", "mb-2"], ["data-dismiss", "modal", 1, "btn", "mx-2", "btn-primary", 3, "click"], [1, "interview-step-4", 3, "hidden"], ["role", "alert", 1, "alert", "alert-danger"], [1, "mt-auto", 3, "hidden"], [1, "bot-footer"], [1, "col-md-4"], [1, "d-flex", "align-items-center", "justify-content-start"], [1, "font-small-3", "pr-2"], ["src", "/assets/Images/witmyworld-logo.png", 1, "logo-powered-by"], [1, "col-md-4", "text-center"], [1, "timer-bot"], [1, "icon"], [1, "icon-alarm"], ["countDownInterview", ""], [1, "col-md-4", "text-right"], ["type", "button", 1, "btn", "btn-border", 3, "click"]],
+  consts: [[1, "bot-window"], [1, "interview-step-1", 3, "hidden"], ["role", "alert", 1, "alert", "alert-info"], [1, "mb-4"], [1, "icon-info22", "mr-2"], [1, "blinking-text"], [1, "row", "mt-4"], [1, "col-md-6"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], [1, "text-right", 3, "hidden"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-light", 3, "click"], [1, "interview-step-2", 3, "hidden"], [1, "row", "mb-3"], [1, "col-sm-6"], ["src", "/assets/Images/witmyworld-logo.png", 1, "logo-vendor-test"], [1, "row"], [1, "col-sm-8"], [1, "question-widigt", "text-semibold"], ["src", "../../../../assets/Images/chatbot.png", "alt", "Avatar", 1, "bot-image-profile"], [1, "font-small-3", "text-muted"], [1, "answer-widigt"], [1, "mb-1", 3, "hidden"], [1, "row", "align-items-center"], [1, "col-sm-4", "offset-sm-1", 3, "hidden"], [1, "btn", "btn-primary", 3, "click"], [1, "icon-play4", "mr-2"], [1, "text-notificiation"], [1, "col-sm-2", 3, "hidden"], [1, "px-4"], [1, "col-sm-4"], ["aria-hidden", "true", 1, "icon-circle-code", "mr-2"], [1, "btn-speech", "mb-3"], [1, "pulse-ring"], ["aria-hidden", "true", 1, "icon-mic2"], [1, "timer-recording"], [3, "ngClass"], [3, "config", "event"], ["countDownAnswer", ""], [1, "write-code", "mb-4"], [3, "hidden"], [1, "close-icon", "icon-close2"], ["appearance", "outline", 1, "input-field", 2, "width", "100%"], ["matInput", "", "name", "questionText", "required", "", "rows", "10", "cols", "20", "placeholder", "Please write your code here !", 3, "ngModel", "ngModelChange"], ["countDownAnswerWriteText", ""], [1, "btn", "btn-border", "mr-2", 3, "click"], ["aria-hidden", "true", 1, "icon-forward3", "ml-1"], [1, "col-sm-6", "text-right"], ["aria-hidden", "true", 1, "icon-arrow-right8", "ml-1"], ["id", "user-video", 1, "user-video"], ["controls", "controls", "preload", "none", 1, "video-fluid", 3, "muted"], ["interviewVideo", ""], ["type", "video/mp4"], [1, "interview-step-3", 3, "hidden"], ["role", "alert", 1, "alert", "alert-success"], [1, "alert-heading", "mb-2"], ["data-dismiss", "modal", 1, "btn", "mx-2", "btn-primary", 3, "click"], [1, "interview-step-4", 3, "hidden"], ["role", "alert", 1, "alert", "alert-danger"], [1, "mt-auto", 3, "hidden"], [1, "bot-footer"], [1, "col-md-4"], [1, "d-flex", "align-items-center", "justify-content-start"], [1, "font-small-3", "pr-2"], ["src", "/assets/Images/witmyworld-logo.png", 1, "logo-powered-by"], [1, "col-md-4", "text-center"], [1, "timer-bot"], [1, "icon"], [1, "icon-alarm"], ["countDownInterview", ""], [1, "col-md-4", "text-right"], ["type", "button", 1, "btn", "btn-border", 3, "click"]],
   template: function MainInterviewComponent_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "h5", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](4, "i", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](5, "Important Instructions");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](6, "ol")(7, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](8, "Click the ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](9, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](10, "\"Start Interview\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](11, " button to start your interview. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](12, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](13, "On the \"Interview\" screen, read the questions carefully. You can either write or speak your answers.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](14, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](15, "Once you finish speaking/writing you answer, click the ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](16, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](17, "\"Submit & Next\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](18, " button.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](19, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](20, " You can always skip the question by clicking ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](21, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](22, "\"Skip\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](23, " button if you don't know the answer.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](24, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](25, "The interview will continue for a preset duration however you can always \"END\" the interview by clicking ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](26, "strong");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](27, "\"End Interview\"");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](28, " button. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](29, "div", 5)(30, "div", 6)(31, "button", 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_31_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "h5", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](4, "i", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](5, "Important Instructions");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](6, "ol")(7, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](8, "Click the ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](9, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](10, "Start Interview");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](11, " button to start your interview. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](12, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](13, "Please ensure you have a ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](14, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](15, "strong internet ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](16, "connection to ensure optimal experience.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](17, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](18, " You can always skip the question by clicking ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](19, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](20, "Skip topic");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](21, " button if you don't know the answer.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](22, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](23, "The interview will continue for a preset duration however you can always END the interview by clicking ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](24, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](25, "End Interview");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](26, " button. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](27, "li");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](28, "It can take upto ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](29, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](30, " 3 minutes ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](31, "for interview to get started.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](32, "li")(33, "div", 5)(34, "strong");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](35, "This system smartly detects usage of any fraudulent means during the interview including and not limited to sounds, eye movements, body launguage etc.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](36, "div", 6)(37, "div", 7)(38, "button", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_38_listener() {
         return ctx.startInterview();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](32, "Start Interview");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](33, "div", 6)(34, "div", 8)(35, "button", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_35_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](39, "Start Interview");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](40, "div", 7)(41, "div", 9)(42, "button", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_42_listener() {
         return ctx.clearAllInterviewCache();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](36, "Close");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](37, "div", 10)(38, "div", 11)(39, "div", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](40, "img", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](41, "div", 14)(42, "div", 15)(43, "div", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](44, "img", 17);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](45, "p", 18);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](46, "Question:");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](47, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](48);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](49, "div", 19)(50, "div", 20)(51, "div", 21)(52, "div", 22)(53, "button", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_53_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](43, "Close");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](44, "div", 11)(45, "div", 12)(46, "div", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](47, "img", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](48, "div", 15)(49, "div", 16)(50, "div", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](51, "img", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](52, "p", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](53, "Topic of discussion:");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](54, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](55);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](56, "div", 20)(57, "div", 21)(58, "div", 22)(59, "div", 23)(60, "button", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_60_listener() {
         return ctx.startRecordingAnswer();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](54, "i", 24);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](55, "Record My Answer");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](56, "p", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](57, " Audio inputs are restricted to ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](58, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](59);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](60, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](61, "div", 26)(62, "span", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](63, "OR");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](64, "div", 28)(65, "button", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_65_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](61, "i", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](62, "Record My Answer");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](63, "p", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](64, " Audio inputs are restricted to ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](65, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](66);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](67, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](68, "div", 27)(69, "span", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](70, "OR");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](71, "div", 29)(72, "button", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_72_listener() {
         return ctx.writeCode();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](66, "i", 29);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](67, " Write Code ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](68, "p", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](69, " Click if you want to give the answer by writing code. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](70, "div", 20)(71, "div", 30);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](72, "div", 31)(73, "i", 32);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](74, "div");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](75, "Recording in progress ...");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](76, "div", 33)(77, "div", 34)(78, "countdown", 35, 36);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("event", function MainInterviewComponent_Template_countdown_event_78_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](73, "i", 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](74, " Write Code ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](75, "p", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](76, " Click if you want to give the answer by writing code. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](77, "div", 21)(78, "div", 31);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](79, "div", 32)(80, "i", 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](81, "div");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](82, "Recording in progress ...");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](83, "div", 34)(84, "div", 35)(85, "countdown", 36, 37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("event", function MainInterviewComponent_Template_countdown_event_85_listener($event) {
         return ctx.answerTimer($event);
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](80, " $!h!:$!m!:$!s! ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](81, "div", 37)(82, "div", 38);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](83, "i", 39);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](84, "mat-form-field", 40)(85, "textarea", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("ngModelChange", function MainInterviewComponent_Template_textarea_ngModelChange_85_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](87, " $!h!:$!m!:$!s! ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](88, "div", 38)(89, "div", 39);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](90, "i", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](91, "mat-form-field", 41)(92, "textarea", 42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("ngModelChange", function MainInterviewComponent_Template_textarea_ngModelChange_92_listener($event) {
         return ctx.responseText = $event;
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](86, "div", 33)(87, "div", 34)(88, "countdown", 35, 42);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("event", function MainInterviewComponent_Template_countdown_event_88_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](93, "div", 34)(94, "div", 35)(95, "countdown", 36, 43);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("event", function MainInterviewComponent_Template_countdown_event_95_listener($event) {
         return ctx.answerTimer($event);
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](90, " $!h!:$!m!:$!s! ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](91, "div", 14)(92, "div", 12)(93, "div", 38)(94, "button", 43);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_94_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](97, " $!h!:$!m!:$!s! ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](98, "div", 15)(99, "div", 13)(100, "div", 39)(101, "button", 44);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_101_listener() {
         return ctx.skipQuestion();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](95, " Skip ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](96, "i", 44);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](97, "div", 45)(98, "div", 38)(99, "button", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_99_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](102, " Skip topic ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](103, "i", 45);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](104, "div", 46)(105, "div", 39)(106, "button", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_106_listener() {
         return ctx.submitAnswer();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](100, " Submit & Next ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](101, "i", 46);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](102, "div", 28)(103, "div", 47)(104, "video", 48, 49);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](106, "source", 50);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](107, "div", 51)(108, "div", 52)(109, "h5", 53);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](110, "Interview completed successfully!");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](111, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](112, "Thank you! You have successfully complted the interview. Your interview is submitted to the corporate. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](113, "hr");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](114, "button", 54);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_114_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](107, " Submit & Next ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](108, "i", 47);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](109, "div", 29)(110, "div", 48)(111, "video", 49, 50);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](113, "source", 51);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](114, "div", 52)(115, "div", 53)(116, "h5", 54);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](117, "Interview completed successfully!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](118, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](119, "Thank you! You have successfully complted the interview. Your interview is submitted to the corporate. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](120, "hr");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](121, "button", 55);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_121_listener() {
         return ctx.clearAllInterviewCache();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](115, "Thank you!");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](116, "div", 55)(117, "div", 56)(118, "h5", 53);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](119, "Interview ended abruptly !");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](120, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](121, "Something went wrong ! Please contact corporate who initiated your interview or reach out to WitMyWorld support ! ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](122, "button", 54);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_122_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](122, "Thank you!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](123, "div", 56)(124, "div", 57)(125, "h5", 54);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](126, "Interview ended abruptly !");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](127, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](128, "Something went wrong ! Please contact corporate who initiated your interview or reach out to WitMyWorld support ! ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](129, "button", 55);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_129_listener() {
         return ctx.clearAllInterviewCache();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](123, "Thank you!");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](124, "div", 57)(125, "div", 58)(126, "div", 21)(127, "div", 59)(128, "div", 60)(129, "label", 61);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](130, "Powered By: ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](131, "span");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](132, "img", 62);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](133, "div", 63)(134, "div", 64)(135, "div", 34)(136, "p", 65);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelement"](137, "i", 66);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](138, "countdown", 35, 67);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("event", function MainInterviewComponent_Template_countdown_event_138_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](130, "Thank you!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](131, "div", 58)(132, "div", 59)(133, "div", 22)(134, "div", 60)(135, "div", 61)(136, "label", 62);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](137, "Powered By: ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](138, "span");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](139, "img", 63);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](140, "div", 64)(141, "div", 65)(142, "div", 35)(143, "p", 66);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelement"](144, "i", 67);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](145, "countdown", 36, 68);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("event", function MainInterviewComponent_Template_countdown_event_145_listener($event) {
         return ctx.interviewTimer($event);
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](140, " $!h!:$!m!:$!s!timer ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementStart"](141, "div", 68)(142, "button", 69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_142_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](147, " $!h!:$!m!:$!s!timer ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementStart"](148, "div", 69)(149, "button", 70);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵlistener"]("click", function MainInterviewComponent_Template_button_click_149_listener() {
         return ctx.endInterviewByCandidate();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtext"](143, "End Interview");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵelementEnd"]()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtext"](150, "End Interview");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵelementEnd"]()()()()()();
     }
 
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.interviewPrep);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](33);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", ctx.elementShow.mainInterview);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.mainInterview);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtextInterpolate"](ctx.questionText);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.showInputOptions);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.interviewConfig.speakAnswerOption);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵtextInterpolate1"](" ", ctx.interviewConfig.maxDurationAudioAnswer, " minute ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.interviewConfig.speakAnswerOption);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.recordingInProgress);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵpureFunction1"](23, _c4, ctx.answerLastSeconds));
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("config", ctx.answerTimerConfig);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.writeCode);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngModel", ctx.responseText);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](2);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵpureFunction1"](25, _c4, ctx.answerLastSeconds));
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("config", ctx.answerWriteTextTimerConfig);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.questionSkip);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.submitAnswer);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("muted", "muted");
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.completeInterview);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.errorInterview);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("hidden", !ctx.elementShow.mainInterview);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵpureFunction1"](27, _c4, ctx.interviewLastMinutes));
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵadvance"](3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵproperty"]("config", ctx.interviewTimerConfig);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.interviewPrep);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", ctx.elementShow.mainInterview);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.mainInterview);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtextInterpolate"](ctx.questionText);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.showInputOptions);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.interviewConfig.speakAnswerOption);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵtextInterpolate1"](" ", ctx.interviewConfig.maxDurationAudioAnswer, " minute ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.interviewConfig.speakAnswerOption);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.recordingInProgress);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵpureFunction1"](23, _c4, ctx.answerLastSeconds));
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("config", ctx.answerTimerConfig);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.writeCode);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("ngModel", ctx.responseText);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵpureFunction1"](25, _c4, ctx.answerLastSeconds));
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("config", ctx.answerWriteTextTimerConfig);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.questionSkip);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.submitAnswer);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("muted", "muted");
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.completeInterview);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.errorInterview);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("hidden", !ctx.elementShow.mainInterview);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵpureFunction1"](27, _c4, ctx.interviewLastMinutes));
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵproperty"]("config", ctx.interviewTimerConfig);
     }
   },
-  directives: [_angular_common__WEBPACK_IMPORTED_MODULE_15__.NgClass, ngx_countdown__WEBPACK_IMPORTED_MODULE_16__.CountdownComponent, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_17__.MatFormField, _angular_material_input__WEBPACK_IMPORTED_MODULE_18__.MatInput, _angular_forms__WEBPACK_IMPORTED_MODULE_19__.DefaultValueAccessor, ngx_autosize__WEBPACK_IMPORTED_MODULE_20__.AutosizeDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_19__.RequiredValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_19__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_19__.NgModel, ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_21__.NativeElementInjectorDirective],
-  styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLWludGVydmlldy5jb21wb25lbnQuY3NzIn0= */"]
+  directives: [_angular_common__WEBPACK_IMPORTED_MODULE_16__.NgClass, ngx_countdown__WEBPACK_IMPORTED_MODULE_17__.CountdownComponent, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_18__.MatFormField, _angular_material_input__WEBPACK_IMPORTED_MODULE_19__.MatInput, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.RequiredValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.NgModel, ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_21__.NativeElementInjectorDirective],
+  styles: ["@keyframes blink {\n    0% {\n      opacity: 0;\n    }\n    50% {\n      opacity: 1;\n    }\n    100% {\n      opacity: 0;\n    }\n  }\n\n  .blinking-text[_ngcontent-%COMP%] {\n    color: red;\n    animation: blink 1s infinite alternate; \n  }\n\n    .custom-dialog-container {\n    border-radius: 15px;\n    background-color: #f0f8ff; \n    padding: 20px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  }\n\n  \n\n    .custom-dialog-container .mat-dialog-title {\n    color: #3f51b5; \n    font-size: 24px;\n    margin-bottom: 15px;\n  }\n\n    .custom-backdrop {\n    background-color: rgba(0, 0, 0, 0.7); \n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4taW50ZXJ2aWV3LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSTtNQUNFLFVBQVU7SUFDWjtJQUNBO01BQ0UsVUFBVTtJQUNaO0lBQ0E7TUFDRSxVQUFVO0lBQ1o7RUFDRjs7RUFFQTtJQUNFLFVBQVU7SUFDVixzQ0FBc0MsRUFBRSw0Q0FBNEM7RUFDdEY7O0VBRUE7SUFDRSxtQkFBbUI7SUFDbkIseUJBQXlCLEVBQUUsMEJBQTBCO0lBQ3JELGFBQWE7SUFDYix3Q0FBd0M7RUFDMUM7O0VBRUEsb0NBQW9DOztFQUNwQztJQUNFLGNBQWMsRUFBRSwyQkFBMkI7SUFDM0MsZUFBZTtJQUNmLG1CQUFtQjtFQUNyQjs7RUFHQTtJQUNFLG9DQUFvQyxFQUFFLGlDQUFpQztFQUN6RSIsImZpbGUiOiJtYWluLWludGVydmlldy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGtleWZyYW1lcyBibGluayB7XG4gICAgMCUge1xuICAgICAgb3BhY2l0eTogMDtcbiAgICB9XG4gICAgNTAlIHtcbiAgICAgIG9wYWNpdHk6IDE7XG4gICAgfVxuICAgIDEwMCUge1xuICAgICAgb3BhY2l0eTogMDtcbiAgICB9XG4gIH1cblxuICAuYmxpbmtpbmctdGV4dCB7XG4gICAgY29sb3I6IHJlZDtcbiAgICBhbmltYXRpb246IGJsaW5rIDFzIGluZmluaXRlIGFsdGVybmF0ZTsgLyogQWRqdXN0IGR1cmF0aW9uIGFuZCBpdGVyYXRpb24gYXMgbmVlZGVkICovXG4gIH1cblxuICA6Om5nLWRlZXAgLmN1c3RvbS1kaWFsb2ctY29udGFpbmVyIHtcbiAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmMGY4ZmY7IC8qIExpZ2h0IGJsdWUgYmFja2dyb3VuZCAqL1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgYm94LXNoYWRvdzogMCA0cHggOHB4IHJnYmEoMCwgMCwgMCwgMC4yKTtcbiAgfVxuXG4gIC8qIFRhcmdldCBpbm5lciBlbGVtZW50cyBpZiBuZWVkZWQgKi9cbiAgOjpuZy1kZWVwIC5jdXN0b20tZGlhbG9nLWNvbnRhaW5lciAubWF0LWRpYWxvZy10aXRsZSB7XG4gICAgY29sb3I6ICMzZjUxYjU7IC8qIE1hdGVyaWFsIHByaW1hcnkgY29sb3IgKi9cbiAgICBmb250LXNpemU6IDI0cHg7XG4gICAgbWFyZ2luLWJvdHRvbTogMTVweDtcbiAgfSBcblxuXG4gIDo6bmctZGVlcCAuY3VzdG9tLWJhY2tkcm9wIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuNyk7IC8qIERhcmtlciwgbW9yZSBvcGFxdWUgYmFja2Ryb3AgKi9cbiAgfVxuICAiXX0= */"]
+});
+
+/***/ }),
+
+/***/ 11861:
+/*!***********************************************************************************************!*\
+  !*** ./src/app/candidate/assessment/bot-interview/realtime-convo/realtime-convo.component.ts ***!
+  \***********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "RealtimeConvoComponent": () => (/* binding */ RealtimeConvoComponent)
+/* harmony export */ });
+/* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var src_services_realtimeconvo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/services/realtimeconvo */ 96388);
+
+
+
+class RealtimeConvoComponent {
+  constructor(realTimeConvoService) {
+    this.realTimeConvoService = realTimeConvoService;
+    this.prompt = `You are a Physics teacher. You have to answer student questions in a formal setting on physics.
+  Do not ever deviate from subject Physics.
+  You are fast talking, engaging, and emotionally aware personality. 
+  You form a genuine connection with the user, offering a genuine and human like teaching experience. 
+  You can ask probing and clarifying questions to get the answers you are looking for.
+  Your speech is fluid, personal, and expressive, avoiding robotic or overly formal tones.`;
+    this.fullTranscript = "";
+  }
+
+  ngOnInit() {
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {})();
+  }
+
+  startConvo() {
+    var _this = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      yield _this.realTimeConvoService.startConvo(_this.prompt, _this.realTimeConvoService.useCases.INTERVIEW, 2, "");
+    })();
+  }
+
+  stopConvo() {
+    var _this2 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      yield _this2.realTimeConvoService.endConvo();
+    })();
+  }
+
+}
+
+RealtimeConvoComponent.ɵfac = function RealtimeConvoComponent_Factory(t) {
+  return new (t || RealtimeConvoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](src_services_realtimeconvo__WEBPACK_IMPORTED_MODULE_1__.RealTimeConvoService));
+};
+
+RealtimeConvoComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
+  type: RealtimeConvoComponent,
+  selectors: [["app-realtime-convo"]],
+  decls: 6,
+  vars: 0,
+  consts: [[1, "btn", "btn-primary", "mb-2", 3, "click"]],
+  template: function RealtimeConvoComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, "realtime-convo works!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "button", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function RealtimeConvoComponent_Template_button_click_2_listener() {
+        return ctx.startConvo();
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "Start session\n");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "button", 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function RealtimeConvoComponent_Template_button_click_4_listener() {
+        return ctx.stopConvo();
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "Close session\n");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    }
+  },
+  styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWFsdGltZS1jb252by5jb21wb25lbnQuY3NzIn0= */"]
 });
 
 /***/ }),
@@ -8399,8 +9346,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ 28784);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 54363);
-
 
  // can extend this for window and tab shares also !
 
@@ -8413,9 +9358,11 @@ const recordingModes = {
 const recordingErrorCodes = {
   "SCREEN_SHARE_STOPPED": "SCREEN_SHARE_STOPPED",
   "SCREEN_NOT_SHARED": "SCREEN_NOT_SHARED",
+  "TAB_NOT_SHARED": "TAB_NOT_SHARED",
   "CAM_PERMISSION_NOT_PROVIDED": "CAM_PERMISSION_NOT_PROVIDED",
   "CAM_PERMISSION_REVOKED": "CAM_PERMISSION_REVOKED",
-  "SYSTEM_AUDIO_NOT_SHARED": "SYSTEM_AUDIO_NOT_SHARED"
+  "SYSTEM_AUDIO_NOT_SHARED": "SYSTEM_AUDIO_NOT_SHARED",
+  "VIDEO_CAPTURE_ERROR": "VIDEO_CAPTURE_ERROR"
 };
 const videoQuality = {
   "LOW": {
@@ -8438,14 +9385,18 @@ const videoQuality = {
   }
 };
 class VideoRecording {
-  constructor(recordingModeList, video_quality = videoQuality.MEDIUM) {
+  constructor(recordingModeList, video_quality = "MEDIUM") {
     this.chunks = [];
     this.recordingModes = [];
+    this.isFirstBlob = true;
+    this.chunkIdentifier = [];
+    this.noOfBlobErrorsAllowed = 5;
+    this.noOfBlobErrrosActual = 0;
     this.http = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__.HttpClient(new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__.HttpXhrBackend({
       build: () => new XMLHttpRequest()
     }));
     this.recordingModes = recordingModeList;
-    this.videoQuality = video_quality;
+    this.videoQuality = videoQuality[video_quality];
   }
 
   stopRecording() {
@@ -8475,7 +9426,10 @@ class VideoRecording {
     var _this = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this.noOfBlobErrrosActual = 0;
+      _this.isFirstBlob = true;
       let stream;
+      let overlayStream;
 
       let camStreamNeeded = _this.recordingModes.includes(recordingModes.USER_AUDIO) || _this.recordingModes.includes(recordingModes.USER_CAM);
 
@@ -8485,6 +9439,11 @@ class VideoRecording {
       if (!(yield _this.createDisplayStream())) return false; // if both display & cam then combine
 
       if (camStreamNeeded && displayStreamNeeded) {
+        // overlayStream = await this.getOverlayedVideoStreams(this.displayStream,this.camStream)
+        // stream = new MediaStream([
+        //     ...overlayStream.getVideoTracks(),
+        //     ...this.mergeAudioStreams(this.displayStream, this.camStream)
+        // ])             
         stream = new MediaStream([..._this.displayStream.getVideoTracks(), ..._this.mergeAudioStreams(_this.displayStream, _this.camStream)]);
       } else if (camStreamNeeded) {
         stream = _this.camStream;
@@ -8542,15 +9501,40 @@ class VideoRecording {
     var _this2 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      let randomNumber = Math.random();
+
+      _this2.chunkIdentifier.push(randomNumber);
+
       let chunk = _this2.chunks; //if we dont do this then we will loose some audio durin puturl duration
 
       _this2.chunks = [];
       let blob = new Blob(chunk, {
         type: 'video/webm;codecs=vp8'
-      });
+      }); //this is to induce put error manually
+      // if (!this.isFirstBlob) { //only create issue with subsequent chuks
+      //     putURL = "cbc"   
+      // }
 
       if (putURL != "") {
-        yield (0,rxjs__WEBPACK_IMPORTED_MODULE_2__.firstValueFrom)(_this2.http.put(putURL, blob));
+        // let result = await firstValueFrom(this.http.put(putURL, blob))
+        yield _this2.http.put(putURL, blob).subscribe(response => {
+          if (_this2.chunkIdentifier[0] == randomNumber) {
+            //this will first async hit of this function
+            _this2.isFirstBlob = false; //first successfull flush of a blob
+          }
+        }, error => {
+          _this2.noOfBlobErrrosActual += 1;
+
+          if (_this2.isFirstBlob || _this2.noOfBlobErrrosActual > _this2.noOfBlobErrorsAllowed) {
+            setTimeout(() => {
+              if (!_this2.onError) return;
+
+              _this2.onError(recordingErrorCodes.VIDEO_CAPTURE_ERROR);
+
+              return;
+            }, 1000);
+          }
+        });
       }
 
       return blob;
@@ -8594,29 +9578,54 @@ class VideoRecording {
     var _this4 = this;
 
     return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      var _a;
+
       try {
+        //TBD: need to get this dynamically or else someone can play with this
+        const uuid = "aspoghaspognafsbn12_789";
+        navigator.mediaDevices.setCaptureHandleConfig({
+          handle: uuid,
+          permittedOrigins: ['*']
+        });
+
         let displayStreamNeeded = _this4.recordingModes.includes(recordingModes.SCREEN_SHARE);
+
+        let options = {
+          selfBrowserSurface: 'include',
+          displaySurface: 'monitor',
+          video: _this4.videoQuality,
+          audio: _this4.recordingModes.includes(recordingModes.SYSTEM_AUDIO) ? {
+            echoCancellation: false,
+            noiseSuppression: false
+          } : false
+        };
 
         if (displayStreamNeeded) {
           console.log("acquiring display stream");
-          _this4.displayStream = yield navigator.mediaDevices.getDisplayMedia({
-            video: _this4.videoQuality,
-            audio: _this4.recordingModes.includes(recordingModes.SYSTEM_AUDIO) ? {
-              echoCancellation: false,
-              noiseSuppression: false
-            } : false
-          });
+          _this4.displayStream = yield navigator.mediaDevices.getDisplayMedia(options);
 
           let displaySurface = _this4.displayStream.getVideoTracks()[0].getSettings()["displaySurface"];
 
-          if (displaySurface !== 'monitor') {
+          let [videoTrack] = _this4.displayStream.getVideoTracks();
+
+          let isSameTab = ((_a = videoTrack.getCaptureHandle()) === null || _a === void 0 ? void 0 : _a.handle) == uuid;
+
+          if (displaySurface !== 'monitor' && displaySurface == 'browser' && !isSameTab || _this4.getOperatingSystem() == "Windows" && displaySurface != 'monitor') {
             yield _this4.delay(100);
 
             _this4.stopRecording();
 
             if (!_this4.onError) return false;
 
-            _this4.onError(recordingErrorCodes.SCREEN_NOT_SHARED);
+            if (displaySurface == 'browser') {
+              if (_this4.getOperatingSystem() == "Windows") {
+                _this4.onError(recordingErrorCodes.SCREEN_NOT_SHARED);
+              } else {
+                _this4.onError(recordingErrorCodes.TAB_NOT_SHARED);
+              }
+            } else {
+              _this4.onError(recordingErrorCodes.SCREEN_NOT_SHARED);
+            }
 
             console.log("monitor not shared");
             return false;
@@ -8708,7 +9717,1162 @@ class VideoRecording {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
+  getOperatingSystem() {
+    const userAgent = window.navigator.userAgent;
+    let os = 'Unknown';
+
+    if (userAgent.indexOf('Win') !== -1) {
+      os = 'Windows';
+    } else if (userAgent.indexOf('Mac') !== -1) {
+      os = 'macOS';
+    } else if (userAgent.indexOf('Linux') !== -1) {
+      os = 'Linux';
+    } else if (userAgent.indexOf('Android') !== -1) {
+      os = 'Android';
+    } else if (userAgent.indexOf('like Mac') !== -1) {
+      // For iOS devices
+      os = 'iOS';
+    }
+
+    console.log(os);
+    return os;
+  } //this is working fine but sometimes frames are freezing and missed. till its fixed, not using it
+
+
+  getOverlayedVideoStreams(stream1, stream2) {
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      // prepare both players
+      const vid1 = document.createElement("video");
+      const vid2 = document.createElement("video");
+      vid1.muted = vid2.muted = true;
+      vid1.srcObject = stream1;
+      vid2.srcObject = stream2;
+      yield Promise.all([vid1.play(), vid2.play()]); // create the renderer
+
+      const canvas = document.createElement("canvas");
+      let w = canvas.width = vid1.videoWidth;
+      let h = canvas.height = vid1.videoHeight;
+      const ctx = canvas.getContext("2d"); // MediaStreams can change size while streaming, so we need to handle it
+
+      vid1.onresize = evt => {
+        w = canvas.width = vid1.videoWidth;
+        h = canvas.height = vid1.videoHeight;
+      }; // start the animation loop
+
+
+      anim();
+      return canvas.captureStream(); //below function will place video2 at bottom right overlay on video1
+
+      function anim() {
+        // draw bg video
+        ctx.drawImage(vid1, 0, 0); // caculate size and position of small corner-vid (you may change it as you like)
+
+        let heightOffset = h * 1 / 5;
+        let widthOffset = 0;
+        const cam_w = vid2.videoWidth;
+        const cam_h = vid2.videoHeight;
+        const cam_ratio = cam_w / cam_h;
+        const out_h = h / 2;
+        const out_w = out_h * cam_ratio; //   ctx.drawImage( vid2, w - out_w, h - out_h, out_w, out_h );
+
+        ctx.drawImage(vid2, w - out_w - widthOffset, heightOffset, out_w, out_h); // do the same thing again at next screen paint
+
+        requestAnimationFrame(anim);
+      }
+    })();
+  }
+
 }
+
+/***/ }),
+
+/***/ 61250:
+/*!****************************************************************************!*\
+  !*** ./src/app/candidate/assessment/configure-assessment/configuration.ts ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "programmingLanguages": () => (/* binding */ programmingLanguages)
+/* harmony export */ });
+const programmingLanguages = {
+    'Assembly': 1,
+    'React Native': 1,
+    'Preact': 1,
+    'React.js': 1,
+    'React_coding': 1,
+    'Angular': 1,
+    'AngularJS': 1,
+    'C': 1,
+    'C++': 1,
+    'C#': 1,
+    'COBOL': 1,
+    'Dart': 1,
+    'Elixir': 1,
+    'Erlang': 1,
+    'F#': 1,
+    'Fortran': 1,
+    'Golang': 1,
+    'Groovy': 2,
+    'Haskell': 1,
+    'HTML5': 2,
+    'CSS': 2,
+    'Core Java': 1,
+    'JavaScript': 1,
+    'Julia': 1,
+    'Kotlin': 1,
+    'Lisp': 1,
+    'Lua': 1,
+    'MATLAB': 2,
+    'Objective-C': 1,
+    'Pascal': 1,
+    'Perl': 1,
+    'PHP': 1,
+    'Prolog': 1,
+    'Python': 1,
+    'R': 1,
+    'Ruby': 1,
+    'Rust': 1,
+    'Scala': 1,
+    'Shell Script': 2,
+    'SQL': 2,
+    'Swift': 1,
+    'TypeScript': 1,
+    'VBA': 1,
+    'Visual Basic': 2,
+    'Terraform': 2
+};
+
+
+/***/ }),
+
+/***/ 49182:
+/*!*********************************************************************************************!*\
+  !*** ./src/app/candidate/assessment/configure-assessment/configure-assessment.component.ts ***!
+  \*********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ConfigureAssessmentComponent": () => (/* binding */ ConfigureAssessmentComponent)
+/* harmony export */ });
+/* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var _models_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../models/constants */ 47709);
+/* harmony import */ var _angular_cdk_keycodes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/cdk/keycodes */ 75939);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 44874);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs/operators */ 50635);
+/* harmony import */ var _util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../util/alert-dialog/alert-dialog.component */ 12278);
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
+/* harmony import */ var _configuration__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./configuration */ 61250);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _services_candidate_my_profile_personal_details_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../services/candidate/my-profile/personal-details.service */ 52497);
+/* harmony import */ var src_app_api_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/api.service */ 51491);
+/* harmony import */ var ng_http_loader__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ng-http-loader */ 23020);
+/* harmony import */ var _services_candidate_my_profile_skills_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../services/candidate/my-profile/skills.service */ 90434);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/forms */ 90587);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/form-field */ 44770);
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/chips */ 81196);
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/icon */ 65590);
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/autocomplete */ 43188);
+/* harmony import */ var ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ngx-intl-tel-input */ 68831);
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/core */ 88133);
+/* harmony import */ var _assessment_report_assessment_report_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assessment-report/assessment-report.component */ 32582);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const _c0 = ["skillsInput"];
+
+function ConfigureAssessmentComponent_tr_30_span_6_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "span", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const row_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r16.status);
+  }
+}
+
+function ConfigureAssessmentComponent_tr_30_span_7_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "span", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const row_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r16.status);
+  }
+}
+
+function ConfigureAssessmentComponent_tr_30_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
+
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "tr")(1, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](6, ConfigureAssessmentComponent_tr_30_span_6_Template, 2, 1, "span", 47);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, ConfigureAssessmentComponent_tr_30_span_7_Template, 2, 1, "span", 48);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](12, "td", 49)(13, "a", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function ConfigureAssessmentComponent_tr_30_Template_a_click_13_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r23);
+      const i_r17 = restoredCtx.index;
+      const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+      return ctx_r22.viewReference(i_r17);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](14, "i", 51);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "td", 49)(16, "a", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function ConfigureAssessmentComponent_tr_30_Template_a_click_16_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r23);
+      const i_r17 = restoredCtx.index;
+      const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+      return ctx_r24.viewReference(i_r17);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "i", 52);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+  }
+
+  if (rf & 2) {
+    const row_r16 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r16.id);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r16.reference);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", row_r16.status == "Active");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", row_r16.status == "Expired");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r16.date);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r16.description);
+  }
+}
+
+function ConfigureAssessmentComponent_tr_49_span_4_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "span", 53);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const row_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r25.status);
+  }
+}
+
+function ConfigureAssessmentComponent_tr_49_span_5_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "span", 54);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const row_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r25.status);
+  }
+}
+
+function ConfigureAssessmentComponent_tr_49_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "tr")(1, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](4, ConfigureAssessmentComponent_tr_49_span_4_Template, 2, 1, "span", 47);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](5, ConfigureAssessmentComponent_tr_49_span_5_Template, 2, 1, "span", 48);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+  }
+
+  if (rf & 2) {
+    const row_r25 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r25.id);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", row_r25.status == "Active");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", row_r25.status == "Expired");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r25.subscription_date);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r25.subscription_expiry);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](row_r25.description);
+  }
+}
+
+function ConfigureAssessmentComponent_mat_chip_83_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r33 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
+
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "mat-chip", 55);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("removed", function ConfigureAssessmentComponent_mat_chip_83_Template_mat_chip_removed_0_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r33);
+      const skill_r31 = restoredCtx.$implicit;
+      const ctx_r32 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+      return ctx_r32.removeSkill(skill_r31);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "button", 56)(3, "mat-icon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4, "cancel");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+  }
+
+  if (rf & 2) {
+    const skill_r31 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"]("", skill_r31.skill_name, " ");
+  }
+}
+
+function ConfigureAssessmentComponent_em_86_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "em", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1, "Max 5 skills can be selected");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+}
+
+function ConfigureAssessmentComponent_mat_option_89_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "mat-option", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const skills_r34 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("value", skills_r34.id);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](skills_r34.skill_name);
+  }
+}
+
+function ConfigureAssessmentComponent_option_103_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "option", 59);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const subscription_r35 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngValue", subscription_r35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"](" ", subscription_r35.description, " ");
+  }
+}
+
+function ConfigureAssessmentComponent_mat_chip_140_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r38 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
+
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "mat-chip", 55);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("removed", function ConfigureAssessmentComponent_mat_chip_140_Template_mat_chip_removed_0_listener() {
+      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r38);
+      const skill_r36 = restoredCtx.$implicit;
+      const ctx_r37 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+      return ctx_r37.removeSkill(skill_r36);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "button", 56)(3, "mat-icon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4, "cancel");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+  }
+
+  if (rf & 2) {
+    const skill_r36 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate1"]("", skill_r36.skill_name, " ");
+  }
+}
+
+function ConfigureAssessmentComponent_em_143_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "em", 57);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1, "Max 5 skills can be selected");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+}
+
+function ConfigureAssessmentComponent_mat_option_146_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "mat-option", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    const skills_r39 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("value", skills_r39.id);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](skills_r39.skill_name);
+  }
+}
+
+function ConfigureAssessmentComponent_div_153_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 60)(1, "div", 15)(2, "div", 16)(3, "div", 17)(4, "h4", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](5, "Assessment Report");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "button", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](7, "\u00D7");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "div", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](9, "app-assessment-report", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()();
+  }
+
+  if (rf & 2) {
+    const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("referenceId", ctx_r15.reference_Id);
+  }
+}
+
+const referenceConfig = {
+  "totalDuration": 35,
+  "durationPerQuestionTheory": 3,
+  "durationPerQuestionCode": 10,
+  "durationPerSkill": 9 //in minutes
+
+};
+class ConfigureAssessmentComponent {
+  constructor(personalDetailService, apiService, spinnerVisibilityService, skillsService, formBuilder, matDialog) {
+    this.personalDetailService = personalDetailService;
+    this.apiService = apiService;
+    this.spinnerVisibilityService = spinnerVisibilityService;
+    this.skillsService = skillsService;
+    this.formBuilder = formBuilder;
+    this.matDialog = matDialog;
+    this.experience_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+    this.separatorKeysCodes = [_angular_cdk_keycodes__WEBPACK_IMPORTED_MODULE_9__.ENTER, _angular_cdk_keycodes__WEBPACK_IMPORTED_MODULE_9__.COMMA];
+    this.fetch_all_skills = [];
+    this.skillForm = this.formBuilder.group({
+      skills: [],
+      skillCtrl: ''
+    });
+    this.reference_Id = "";
+    this.totalSubscriptions = [];
+    this.subscription_data = [];
+    this._allSkills = [];
+    this.filteredSkills = this.skillForm.get(_models_constants__WEBPACK_IMPORTED_MODULE_1__.SKILLS_CTRL).valueChanges.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_10__.startWith)(null), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_11__.map)(skill => skill ? this._filterSkills(skill) : this.allSkills.slice()));
+  }
+
+  ngOnInit() {
+    var _this = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this.spinnerVisibilityService.show();
+
+      yield _this.fetchSubscriptions();
+      yield _this.fetchCandidateDetails();
+
+      _this.spinnerVisibilityService.hide();
+
+      return _this.init();
+    })();
+  }
+
+  fetchSubscriptions() {
+    var _this2 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      //fetch subscriptions using candidate id
+      yield _this2.apiService.fetchSubscriptions("").then(data => {
+        data['details'].forEach(element => {
+          _this2.subscription_data.push({
+            id: element['subscription'],
+            reference: element['reference_id'],
+            description: element['s_description'],
+            type: element['type'],
+            status: element['is_valid'] == 1 ? "Active" : "Expired",
+            date: element['creation_timestamp'],
+            subscription_date: element['subscription_date'],
+            subscription_expiry: element['subscription_expiry']
+          });
+        });
+        _this2.totalSubscriptions = _this2.subscription_data.filter((item, index, self) => index === self.findIndex(t => t.id === item.id));
+        _this2.subscription_data = _this2.subscription_data.filter(item => {
+          // Check if the description is not an empty string, not null, and not undefined
+          return item.reference !== '' && item.reference !== undefined;
+        });
+
+        for (let i = _this2.subscription_data.length - 1; i >= 0; i--) {
+          if (_this2.subscription_data[i].reference == '' || _this2.subscription_data[i].reference == undefined) {
+            _this2.subscription_data.splice(i, 1); // Remove 1 element at the current index 'i'
+
+          }
+        }
+      });
+    })();
+  }
+
+  viewReference(i) {
+    this.populateSkills().catch(err => console.error(err));
+    this.selectedSubscription = i;
+
+    if (this.subscription_data[i].reference == null || this.subscription_data[i].reference == "") {
+      return;
+    }
+
+    this.reference_Id = this.subscription_data[i].reference;
+    let referenceId = this.subscription_data[i].reference; //call api using referenceId
+
+    let input = {
+      reference_id: referenceId
+    };
+    this.spinnerVisibilityService.show();
+    this.apiService.fetch_reference_details(input).then(data => {
+      let skills = JSON.parse(data[0].skills_and_count).skill_details;
+      this.reference_skills = skills;
+      this.referenceDetails = data[0];
+      this.populateSkills().catch(err => console.error(err));
+    }).finally(() => {
+      this.spinnerVisibilityService.hide();
+    });
+  }
+
+  createReference() {
+    let liveCodeSkill = this.matchLiveCodeSkills(this.userSkills); //check that all skills in userSkills should be from dropdown and not custom typed.
+    //initiate reference as well
+
+    let skills_array = [];
+
+    if (!Number.isFinite(this.candidateDetails.experience)) {
+      this.openDialog("Please enter valid experience", "ERROR");
+      return;
+    } //we can use this logic when total duration is fixed
+    // let durationPerSkill = liveCodeSkill == '' ? referenceConfig.totalDuration / this.userSkills.length :
+    //                         (referenceConfig.totalDuration - referenceConfig.durationPerQuestionCode)/(this.userSkills.length)
+
+
+    let questionPerSKill = 1;
+
+    if (referenceConfig.durationPerSkill > referenceConfig.durationPerQuestionTheory) {
+      questionPerSKill = Math.round(referenceConfig.durationPerSkill / referenceConfig.durationPerQuestionTheory);
+    }
+
+    let skill_found = true;
+
+    if (this.userSkills.length <= 0) {
+      skill_found = false;
+    }
+
+    this.userSkills.forEach(element => {
+      if (this.fetch_all_skills.find(skill => skill['skill_name'] === element.skill_name) === undefined) {
+        skill_found = false;
+      }
+
+      let noOfQuestions = questionPerSKill;
+
+      if (liveCodeSkill == element['skill_name']) {
+        skills_array.push({
+          'count': 1,
+          'name': element['skill_name'],
+          'skillid': element['id'],
+          'complexity': "M",
+          'custom_bank': true,
+          'live_code': true,
+          'cutoff': 0,
+          'depth': 0,
+          'experience': this.candidateDetails.experience,
+          'weightage': 20,
+          'duration': referenceConfig.durationPerQuestionCode
+        });
+        noOfQuestions = noOfQuestions - 1;
+      }
+
+      if (noOfQuestions > 0) {
+        skills_array.push({
+          'count': noOfQuestions,
+          'name': element['skill_name'],
+          'skillid': element['id'],
+          'complexity': "M",
+          'custom_bank': false,
+          'live_code': false,
+          'cutoff': 0,
+          'depth': 0,
+          'experience': this.candidateDetails.experience,
+          'weightage': 20,
+          'duration': referenceConfig.durationPerQuestionTheory
+        });
+      }
+    });
+
+    if (!skill_found) {
+      this.openDialog("Select skills from downdown !", "ERROR");
+      return;
+    }
+
+    if (this.selectedSubscriptionObject == undefined) {
+      this.openDialog("Select subscription !", "ERROR");
+      return;
+    } // [TBD] populate max_interviews etc as per subscription
+
+
+    let input = {
+      skills: skills_array,
+      max_tests: 1,
+      max_interviews: 1,
+      bot_interview: 1,
+      test_duration: {
+        hours: 0,
+        minutes: referenceConfig.totalDuration
+      },
+      job_id: "job id",
+      reference_name: "description",
+      // subscription: {"subscription_id":this.subscription_data[this.selectedSubscription]['id']},
+      subscription: {
+        "subscription_id": this.selectedSubscriptionObject['id']
+      },
+      activateFlag: 1,
+      testImagesFlag: 1,
+      testVideoFlag: 0,
+      interviewVideoFlag: 0,
+      botInterviewVideoFlag: 1,
+      autoScheduleFlag: 0,
+      total_cutoff: 0
+    };
+    this.spinnerVisibilityService.show();
+    this.apiService.create_reference(input).then(data => {
+      if (data['return_message'] == "Reference Successfully Created") {
+        // this.openDialog(data['return_message'] + " & Reference ID is => " + data['reference_id'], "SUCCESS")
+        this.initiateReference(data['reference_id'], [{
+          Name: this.candidateDetails.name,
+          Email: this.candidateDetails.email,
+          Phone: this.candidateDetails.phone,
+          Experience: this.candidateDetails.experience
+        }]);
+        this.subscription_data = [];
+        this.fetchSubscriptions();
+      } else {
+        // this.openDialog(data['return_message'], "ERROR")
+        this.openDialog("Something went wrong! please send an email to contact-us@witmyworld.com", "ERROR");
+      }
+    }).finally(() => {
+      this.spinnerVisibilityService.hide();
+    });
+  }
+
+  fetchCandidateDetails() {
+    var _this3 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      yield _this3.personalDetailService.fetchPersonalDetails(0).then(data => {
+        _this3.candidateDetails = {
+          name: data['fullName'],
+          phone: data['mobileNumber'].toString(),
+          email: data['emailAddress'],
+          experience: data['experience']
+        };
+      });
+    })();
+  }
+
+  initiateReference(reference_id, referenceData) {
+    var _this4 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this4.spinnerVisibilityService.show();
+
+      yield _this4.apiService.initiateReference({
+        referenceId: reference_id,
+        candidateDetails: referenceData
+      }).then(return_message => {
+        if (return_message == 'queued') {
+          _this4.matDialog.open(_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_2__.AlertDialogComponent, {
+            data: // { message: `Request submitted for ${referenceData.length}` + ' candidates. Please check initiated references in few minutes for status', dialogLevel: "SUCCESS" }
+            {
+              message: `Assessment successfully configured`,
+              dialogLevel: "SUCCESS"
+            }
+          });
+        } else if (return_message == 'subscription_expired') {
+          _this4.matDialog.open(_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_2__.AlertDialogComponent, {
+            data: {
+              message: 'Subscription for this reference has expired',
+              dialogLevel: "ERROR"
+            }
+          });
+        } else {
+          _this4.matDialog.open(_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_2__.AlertDialogComponent, {
+            data: {
+              message: 'Something went wrong! please send an email to contact-us@witmyworld.com',
+              dialogLevel: "ERROR"
+            }
+          });
+        }
+      }).catch(() => {
+        _this4.matDialog.open(_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_2__.AlertDialogComponent, {
+          data: {
+            message: 'Something went wrong! please send an email to contact-us@witmyworld.com',
+            dialogLevel: "ERROR"
+          }
+        });
+      }).finally(() => {
+        _this4.spinnerVisibilityService.hide();
+      });
+    })();
+  }
+
+  get allSkills() {
+    // return this._allSkills.filter(skill => !this.mandatorySkills.find(_skill => {
+    //   return _skill.id === skill.id;
+    // }));
+    return this._allSkills;
+  }
+
+  set allSkills(value) {
+    this._allSkills = value;
+  }
+
+  get userSkills() {
+    return this.skillForm.get(_models_constants__WEBPACK_IMPORTED_MODULE_1__.SKILLS).value || [];
+  }
+
+  set addUserSkills(skill) {
+    var _a;
+
+    const isSkillAlreadyAvailable = this.userSkills.map(_skill => _skill.id).filter(id => id === skill.id).length !== 0;
+
+    if (!isSkillAlreadyAvailable) {
+      if (((_a = this.userSkills) === null || _a === void 0 ? void 0 : _a.length) < 5) {
+        this.userSkills.push(skill);
+      }
+    }
+  }
+
+  ngOnChanges() {
+    return this.init();
+  }
+
+  addSkill(event) {
+    var _a;
+
+    const value = (_a = event === null || event === void 0 ? void 0 : event.value) === null || _a === void 0 ? void 0 : _a.trim();
+
+    if (value) {// this.userSkills.push(value);
+    }
+
+    event.chipInput.clear();
+    this.skillForm.get(_models_constants__WEBPACK_IMPORTED_MODULE_1__.SKILLS_CTRL).setValue(null);
+  }
+
+  removeSkill(skill) {
+    this.skillForm.get(_models_constants__WEBPACK_IMPORTED_MODULE_1__.SKILLS).setValue(this.userSkills.filter(_skill => _skill.skill_name !== skill.skill_name));
+  }
+
+  selectedSkills(event) {
+    let candidate_skill = {
+      id: 0,
+      skill_name: event.option.viewValue
+    };
+    let candidate_allskills = this.allSkills;
+    candidate_allskills.push(candidate_skill);
+    this.addUserSkills = candidate_allskills.filter(_skill => _skill.skill_name === event.option.viewValue)[0];
+    this.skillInput.nativeElement.value = '';
+    this.skillForm.get(_models_constants__WEBPACK_IMPORTED_MODULE_1__.SKILLS_CTRL).setValue(null);
+  }
+
+  init() {
+    var _this5 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this5.fetch_all_skills = [{
+        id: 0,
+        skill_name: "",
+        user_specific: 0
+      }];
+      Promise.all([_this5.skillsService.getAllSkills().then(data => {
+        _this5.fetch_all_skills = data;
+
+        _this5.fetch_all_skills.forEach(element => {
+          if (element.user_specific == 0) {
+            _this5._allSkills.push({
+              id: element.id,
+              skill_name: element.skill_name
+            });
+          }
+        });
+      })]);
+    })();
+  }
+
+  populateSkills() {
+    var _this6 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      var _a; // without this dummy entry skill addtion fails
+      // let skills: Array<Skills> = [{ id: 55660, skill_name: "3D Modeling Software" }]
+
+
+      let skills = [];
+      (_a = _this6.reference_skills) === null || _a === void 0 ? void 0 : _a.forEach(element => {
+        skills.push({
+          id: element['skill_id'],
+          skill_name: element['name']
+        });
+      });
+
+      _this6.skillForm.get(_models_constants__WEBPACK_IMPORTED_MODULE_1__.SKILLS).setValue(skills);
+    })();
+  }
+
+  _filterSkills(skill) {
+    let skills_array = this.allSkills.filter(_skill => _skill.skill_name.toLowerCase().includes(skill === null || skill === void 0 ? void 0 : skill.toString().toLowerCase()));
+    let candidate_skill = {
+      id: 0,
+      skill_name: skill
+    };
+    skills_array.push(candidate_skill);
+    return skills_array;
+  }
+
+  openDialog(message, type) {
+    const dialogConfig = new _angular_material_dialog__WEBPACK_IMPORTED_MODULE_12__.MatDialogConfig(); // dialogConfig.data = message;
+
+    dialogConfig.data = {
+      "message": message,
+      "dialogLevel": type
+    };
+    let dialogRef = this.matDialog.open(_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_2__.AlertDialogComponent, dialogConfig);
+  } // this will add a coding question if its a coding skill
+
+
+  matchLiveCodeSkills(skills) {
+    // returns one live code skill from list of matched skills from global list for coding skills
+    let matchList = {
+      'item': 100
+    };
+    skills.forEach(element => {
+      if (element['skill_name'] in _configuration__WEBPACK_IMPORTED_MODULE_3__.programmingLanguages) {
+        matchList[element['skill_name']] = _configuration__WEBPACK_IMPORTED_MODULE_3__.programmingLanguages[element['skill_name']];
+      }
+    });
+    let sortableArray = Object.entries(matchList);
+    let sortedArray = sortableArray.sort((a, b) => a[1] - b[1]);
+
+    if (sortedArray.length > 1) {
+      return sortedArray[0][0];
+    } else {
+      return '';
+    }
+  }
+
+}
+
+ConfigureAssessmentComponent.ɵfac = function ConfigureAssessmentComponent_Factory(t) {
+  return new (t || ConfigureAssessmentComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_services_candidate_my_profile_personal_details_service__WEBPACK_IMPORTED_MODULE_4__.PersonalDetailsService), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](src_app_api_service__WEBPACK_IMPORTED_MODULE_5__.ApiService), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_13__.SpinnerVisibilityService), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_services_candidate_my_profile_skills_service__WEBPACK_IMPORTED_MODULE_6__.SkillsService), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_14__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_12__.MatDialog));
+};
+
+ConfigureAssessmentComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineComponent"]({
+  type: ConfigureAssessmentComponent,
+  selectors: [["app-configure-assessment"]],
+  viewQuery: function ConfigureAssessmentComponent_Query(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵviewQuery"](_c0, 5);
+    }
+
+    if (rf & 2) {
+      let _t;
+
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵloadQuery"]()) && (ctx.skillInput = _t.first);
+    }
+  },
+  features: [_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵNgOnChangesFeature"]],
+  decls: 154,
+  vars: 41,
+  consts: [["id", "my-interviews", 1, "tab-pane"], [1, "card"], [1, "card-body"], [1, "nav", "nav-tabs", "nav-tabs-bottom", "mb-3"], [1, "nav-item"], ["data-toggle", "tab", "href", "#subscriptions", 1, "nav-link", "active"], ["data-toggle", "tab", "href", "#references", 1, "nav-link"], [1, "tab-content"], ["id", "references", 1, "tab-pane"], [1, "table", "table-bordered", "table-striped", "table-hover"], [4, "ngFor", "ngForOf"], [1, "form-group"], ["href", "javascript:void(0);", "data-toggle", "modal", "data-target", "#createReferenceTech", 1, "btn", "btn-primary", "ml-2", 3, "hidden", "click"], ["id", "subscriptions", 1, "tab-pane", "active"], ["id", "createReferenceTech", 1, "modal"], [1, "modal-dialog", "modal-xl"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", 1, "close"], [1, "mb-4"], [1, "row"], [1, "col-sm-4"], ["for", "exampleInputPassword1"], ["type", "text", "placeholder", "Full Name", 1, "form-control", "field-md", 3, "readonly", "value"], ["type", "text", "placeholder", "Phone Number", 1, "form-control", "field-md", 3, "readonly", "value"], ["type", "text", "placeholder", "Email Address", 1, "form-control", "field-md", 3, "readonly", "value"], [1, "mb-4", 3, "formGroup"], [1, "width-full", "multi-select", 2, "height", "auto"], ["aria-labelledby", "skills"], ["chipList", ""], [3, "removed", 4, "ngFor", "ngForOf"], ["formControlName", "skillCtrl", 3, "matAutocomplete", "matChipInputFor", "matChipInputSeparatorKeyCodes", "matChipInputTokenEnd"], ["skillsInput", ""], ["class", "alert-warning", 4, "ngIf"], [3, "optionSelected"], ["auto", "matAutocomplete"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "text", "placeholder", "Experience", 1, "form-control", "field-md", 3, "readonly", "value"], [1, "label-control"], [1, "form-control", "sm", 3, "ngModel", "ngModelChange"], ["disabled", "", "hidden", "", "selected", "", "value", "null"], [3, "ngValue", 4, "ngFor", "ngForOf"], [1, "form-group", "float-right"], [1, "btn", "btn-primary", "ml-2", 3, "hidden", "click"], ["id", "viewReferenceTech", 1, "modal"], ["class", "modal", "id", "assessmentReport", 4, "ngIf"], ["class", "badge badge-primary", 4, "ngIf"], ["class", "badge badge-warning", 4, "ngIf"], [1, "text-center"], ["href", "javascript:void(0);", 1, "text-semibold", 3, "click"], ["data-target", "#viewReferenceTech", "data-toggle", "modal", 1, "icon-eye", "mr-1", "font-medium-3"], ["data-target", "#assessmentReport", "data-toggle", "modal", 1, "icon-eye", "mr-1", "font-medium-3"], [1, "badge", "badge-primary"], [1, "badge", "badge-warning"], [3, "removed"], ["matChipRemove", ""], [1, "alert-warning"], [3, "value"], [3, "ngValue"], ["id", "assessmentReport", 1, "modal"], [1, "modal-body", "modal-full-height", "with-footer"], [3, "referenceId"]],
+  template: function ConfigureAssessmentComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "form", 0)(1, "div", 1)(2, "div", 2)(3, "ul", 3)(4, "li", 4)(5, "a", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6, "Subscriptions");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](7, "li", 4)(8, "a", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9, "References");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 7)(11, "div", 8)(12, "table", 9)(13, "thead")(14, "tr")(15, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16, "Subscription ID");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](18, "Reference ID");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](20, "Status");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](21, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](22, "Date Created");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](23, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](24, "Subscription");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](25, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](26, "View");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](27, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](28, "Report");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](29, "tbody");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](30, ConfigureAssessmentComponent_tr_30_Template, 18, 6, "tr", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](31, "div", 11)(32, "a", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function ConfigureAssessmentComponent_Template_a_click_32_listener() {
+        return ctx.viewReference(0);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](33, "New");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](34, "div", 13)(35, "table", 9)(36, "thead")(37, "tr")(38, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](39, "Subscription ID");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](40, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](41, "Status");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](42, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](43, "Date Created");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](44, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](45, "Date Expire");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](46, "th");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](47, "Subscription");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](48, "tbody");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](49, ConfigureAssessmentComponent_tr_49_Template, 12, 6, "tr", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](50, "div", 14)(51, "div", 15)(52, "div", 16)(53, "div", 17)(54, "h4", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](55, "Configure Assessment");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](56, "button", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](57, "\u00D7");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](58, "div", 20)(59, "div", 21)(60, "div", 22)(61, "div", 11)(62, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](63, "Full Name");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](64, "input", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](65, "div", 22)(66, "div", 11)(67, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](68, "Phone Number");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](69, "input", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](70, "div", 22)(71, "div", 11)(72, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](73, "Email Address");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](74, "input", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](75, "div", 22)(76, "form", 27)(77, "div", 11)(78, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](79, "Skills");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](80, "mat-form-field", 28)(81, "mat-chip-list", 29, 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](83, ConfigureAssessmentComponent_mat_chip_83_Template, 5, 1, "mat-chip", 31);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](84, "input", 32, 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("matChipInputTokenEnd", function ConfigureAssessmentComponent_Template_input_matChipInputTokenEnd_84_listener($event) {
+        return ctx.addSkill($event);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](86, ConfigureAssessmentComponent_em_86_Template, 2, 0, "em", 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](87, "mat-autocomplete", 35, 36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("optionSelected", function ConfigureAssessmentComponent_Template_mat_autocomplete_optionSelected_87_listener($event) {
+        return ctx.selectedSkills($event);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](89, ConfigureAssessmentComponent_mat_option_89_Template, 2, 2, "mat-option", 37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](90, "async");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](91, "div", 22)(92, "div", 11)(93, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](94, "Experience");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](95, "input", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](96, "div", 22)(97, "div", 11)(98, "label", 39);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](99, "Supscription");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](100, "select", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("ngModelChange", function ConfigureAssessmentComponent_Template_select_ngModelChange_100_listener($event) {
+        return ctx.selectedSubscriptionObject = $event;
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](101, "option", 41);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](102, "Select a Supscription ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](103, ConfigureAssessmentComponent_option_103_Template, 2, 2, "option", 42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](104, "div", 43)(105, "a", 44);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function ConfigureAssessmentComponent_Template_a_click_105_listener() {
+        return ctx.createReference();
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](106, "Create");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](107, "div", 45)(108, "div", 15)(109, "div", 16)(110, "div", 17)(111, "h4", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](112, "Configure Assessment");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](113, "button", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](114, "\u00D7");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](115, "div", 20)(116, "div", 21)(117, "div", 22)(118, "div", 11)(119, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](120, "Full Name");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](121, "input", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](122, "div", 22)(123, "div", 11)(124, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](125, "Phone Number");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](126, "input", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](127, "div", 22)(128, "div", 11)(129, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](130, "Email Address");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](131, "input", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](132, "div", 22)(133, "form", 27)(134, "div", 11)(135, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](136, "Skills");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](137, "mat-form-field", 28)(138, "mat-chip-list", 29, 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](140, ConfigureAssessmentComponent_mat_chip_140_Template, 5, 1, "mat-chip", 31);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](141, "input", 32, 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("matChipInputTokenEnd", function ConfigureAssessmentComponent_Template_input_matChipInputTokenEnd_141_listener($event) {
+        return ctx.addSkill($event);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](143, ConfigureAssessmentComponent_em_143_Template, 2, 0, "em", 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](144, "mat-autocomplete", 35, 36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("optionSelected", function ConfigureAssessmentComponent_Template_mat_autocomplete_optionSelected_144_listener($event) {
+        return ctx.selectedSkills($event);
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](146, ConfigureAssessmentComponent_mat_option_146_Template, 2, 2, "mat-option", 37);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](147, "async");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](148, "div", 22)(149, "div", 11)(150, "label", 23);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](151, "Experience");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](152, "input", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](153, ConfigureAssessmentComponent_div_153_Template, 10, 1, "div", 46);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+    }
+
+    if (rf & 2) {
+      const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵreference"](82);
+
+      const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵreference"](88);
+
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx.subscription_data);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("hidden", false);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx.totalSubscriptions);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.name);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.phone);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.email);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("formGroup", ctx.skillForm);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx.userSkills);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("matAutocomplete", _r6)("matChipInputFor", _r2)("matChipInputSeparatorKeyCodes", ctx.separatorKeysCodes);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (ctx.userSkills == null ? null : ctx.userSkills.length) === 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](90, 37, ctx.filteredSkills));
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.experience);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngModel", ctx.selectedSubscriptionObject);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx.totalSubscriptions);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("hidden", false);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.name);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.phone);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.email);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("formGroup", ctx.skillForm);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx.userSkills);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("matAutocomplete", _r6)("matChipInputFor", _r2)("matChipInputSeparatorKeyCodes", ctx.separatorKeysCodes);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (ctx.userSkills == null ? null : ctx.userSkills.length) === 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](147, 39, ctx.filteredSkills));
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpropertyInterpolate"]("value", ctx.candidateDetails.experience);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("readonly", true);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.reference_Id != "");
+    }
+  },
+  directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_14__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_14__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.NgForm, _angular_common__WEBPACK_IMPORTED_MODULE_15__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_15__.NgIf, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.FormGroupDirective, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_16__.MatFormField, _angular_material_chips__WEBPACK_IMPORTED_MODULE_17__.MatChipList, _angular_material_chips__WEBPACK_IMPORTED_MODULE_17__.MatChip, _angular_material_chips__WEBPACK_IMPORTED_MODULE_17__.MatChipRemove, _angular_material_icon__WEBPACK_IMPORTED_MODULE_18__.MatIcon, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.DefaultValueAccessor, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_19__.MatAutocompleteTrigger, _angular_material_chips__WEBPACK_IMPORTED_MODULE_17__.MatChipInput, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.FormControlName, ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_20__.NativeElementInjectorDirective, _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_19__.MatAutocomplete, _angular_material_core__WEBPACK_IMPORTED_MODULE_21__.MatOption, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.SelectControlValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.NgModel, _angular_forms__WEBPACK_IMPORTED_MODULE_14__.NgSelectOption, _angular_forms__WEBPACK_IMPORTED_MODULE_14__["ɵNgSelectMultipleOption"], _assessment_report_assessment_report_component__WEBPACK_IMPORTED_MODULE_7__.AssessmentReportComponent],
+  pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_15__.AsyncPipe],
+  styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjb25maWd1cmUtYXNzZXNzbWVudC5jb21wb25lbnQuY3NzIn0= */"]
+});
 
 /***/ }),
 
@@ -9896,15 +12060,15 @@ __webpack_require__.r(__webpack_exports__);
 function CandidateComponent_router_outlet_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "router-outlet");
 } }
-function CandidateComponent_a_22_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "a", 39);
+function CandidateComponent_a_33_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "a", 45);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Sign In Now");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("routerLink", "/login");
 } }
-function CandidateComponent_a_105_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "a", 40);
+function CandidateComponent_a_116_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "a", 46);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Become an Interviewer");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -9929,145 +12093,154 @@ class CandidateComponent {
     }
 }
 CandidateComponent.ɵfac = function CandidateComponent_Factory(t) { return new (t || CandidateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.DomSanitizer), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.DomSanitizer)); };
-CandidateComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CandidateComponent, selectors: [["app-candidate"]], decls: 125, vars: 4, consts: [[4, "ngIf"], ["id", "blog", 1, "section", "bg-gray"], [1, "container"], [1, "row"], [1, "col-md-7", "col-lg-6", "col-sm-12"], [1, "text-wrapper"], [1, "candidate-without-login-head"], [1, "list-bullet"], ["class", "btn btn-primary", 3, "routerLink", 4, "ngIf"], ["data-toggle", "modal", "data-target", "#walkthrough-video", "href", "#", 1, "btn", "btn-border", "ml-2", 3, "click"], [1, "icon-play3", "font-medium-3", "mr-2"], [1, "col-md-5", "col-lg-6", "col-sm-12", "d-flex", "align-items-center", "justify-content-center"], ["src", "./assets/Images/witmyworld-candidate-experience.svg", "alt", "", 1, "img-fluid"], ["id", "blog", 1, "section"], [1, "section-header"], [1, "section-title"], [1, "col-lg-6", "col-md-6", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-wrapper", "card"], [1, "blog-item-img", "p-3"], ["src", "assets/Images/witmyworld-test.svg", "alt", "", 1, "img-auto"], [1, "blog-item-text", "card-body"], ["data-toggle", "modal", "data-target", "#walkthrough-video", "href", "#", 1, "learn-more", 3, "click"], ["src", "assets/Images/witmyworld-interviwer.svg", "alt", "", 1, "img-auto"], [1, "section", "bg-gray"], [1, "col-lg-4", "col-md-4", "col-sm-4", "col-xs-12", "d-flex", "align-items-stretch"], [1, "work-process", "card", "card-body"], [1, "process-icon"], [1, "icon-user-lock"], [1, "icon-brain"], ["class", "text-bold", 3, "routerLink", 4, "ngIf"], [1, "icon-user-check"], ["id", "walkthrough-video", 1, "modal"], [1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", 1, "close", 3, "click"], [1, "modal-body", "p-1"], ["height", "500", "title", "Witmyworld", "width", "100%", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], [1, "btn", "btn-primary", 3, "routerLink"], [1, "text-bold", 3, "routerLink"]], template: function CandidateComponent_Template(rf, ctx) { if (rf & 1) {
+CandidateComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CandidateComponent, selectors: [["app-candidate"]], decls: 136, vars: 4, consts: [[4, "ngIf"], [1, "container", 2, "padding-top", "100px"], [1, "banner"], [1, "banner-content"], [1, "row"], [1, "col-md-10", "offset-md-1"], [1, "px-5"], ["routerLink", "/pricing", 1, "btn", "btn-primary", "btn-lg"], ["id", "blog", 1, "section", "bg-gray"], [1, "container"], [1, "col-md-7", "col-lg-6", "col-sm-12"], [1, "text-wrapper"], [1, "candidate-without-login-head"], [1, "list-bullet"], ["class", "btn btn-primary", 3, "routerLink", 4, "ngIf"], ["data-toggle", "modal", "data-target", "#walkthrough-video", "href", "#", 1, "btn", "btn-border", "ml-2", 3, "click"], [1, "icon-play3", "font-medium-3", "mr-2"], [1, "col-md-5", "col-lg-6", "col-sm-12", "d-flex", "align-items-center", "justify-content-center"], ["src", "./assets/Images/witmyworld-candidate-experience.svg", "alt", "", 1, "img-fluid"], ["id", "blog", 1, "section"], [1, "section-header"], [1, "section-title"], [1, "col-lg-6", "col-md-6", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-wrapper", "card"], [1, "blog-item-img", "p-3"], ["src", "assets/Images/witmyworld-test.svg", "alt", "", 1, "img-auto"], [1, "blog-item-text", "card-body"], ["data-toggle", "modal", "data-target", "#walkthrough-video", "href", "#", 1, "learn-more", 3, "click"], ["src", "assets/Images/witmyworld-interviwer.svg", "alt", "", 1, "img-auto"], [1, "section", "bg-gray"], [1, "col-lg-4", "col-md-4", "col-sm-4", "col-xs-12", "d-flex", "align-items-stretch"], [1, "work-process", "card", "card-body"], [1, "process-icon"], [1, "icon-user-lock"], [1, "icon-brain"], ["class", "text-bold", 3, "routerLink", 4, "ngIf"], [1, "icon-user-check"], ["id", "walkthrough-video", 1, "modal"], [1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", 1, "close", 3, "click"], [1, "modal-body", "p-1"], ["height", "500", "title", "Witmyworld", "width", "100%", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], [1, "btn", "btn-primary", 3, "routerLink"], [1, "text-bold", 3, "routerLink"]], template: function CandidateComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, CandidateComponent_router_outlet_0_Template, 1, 0, "router-outlet", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "section", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "div", 5)(6, "div", 6)(7, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Seamless Candidate Experiences. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "section", 1)(2, "div", 2)(3, "div", 3)(4, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "AI powered Mock Interviews that Mirror Reality");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "ul", 7)(10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Talented candidates always appreciate good screening process.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, "The first step in using the platform is to create a profile. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15, "With very minimal inputs your profile is done and next, you can complete the assessment process. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "You can do that in the leisure of your time. We shall highlight your profile based on your score, cut down on the round of interviews you need to go through and make your life easy.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "Our process is simple with a streamlined design and lets the candidate focus on what matters most: show them what you got -your skills. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](21, "Our questions are with practical scenarios that mimic what you can expect for a particular role and the positions you are applying for. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](22, CandidateComponent_a_22_Template, 2, 1, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_a_click_23_listener() { return ctx.openVideoCandidate(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](24, "i", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, " Video Walkthrough");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 4)(7, "div", 5)(8, "p", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "Our real-time mock interviews provide a realistic experience with comprehensive feedback on every response. Join now and transform your interview anxiety into confidence! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Explore Services");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](27, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "section", 8)(13, "div", 9)(14, "div", 4)(15, "div", 10)(16, "div", 11)(17, "div", 12)(18, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "Seamless Candidate Experiences. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "ul", 13)(21, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, "Talented candidates always appreciate good screening process.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "The first step in using the platform is to create a profile. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](26, "With very minimal inputs your profile is done and next, you can complete the assessment process. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](28, "You can do that in the leisure of your time. We shall highlight your profile based on your score, cut down on the round of interviews you need to go through and make your life easy.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, "Our process is simple with a streamlined design and lets the candidate focus on what matters most: show them what you got -your skills. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, "Our questions are with practical scenarios that mimic what you can expect for a particular role and the positions you are applying for. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](33, CandidateComponent_a_33_Template, 2, 1, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_a_click_34_listener() { return ctx.openVideoCandidate(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](35, "i", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](36, " Video Walkthrough");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "section", 13)(29, "div", 2)(30, "div", 14)(31, "h2", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, "Assessment process");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](38, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "section", 19)(40, "div", 9)(41, "div", 20)(42, "h2", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, "Assessment process");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](33, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](34, "We provide an enjoyable and reliable screening experience without being biased. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](45, "We provide an enjoyable and reliable screening experience without being biased. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "div", 3)(36, "div", 16)(37, "div", 17)(38, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](39, "img", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "div", 4)(47, "div", 22)(48, "div", 23)(49, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](50, "img", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "div", 20)(41, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](42, "MCQ test");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "div", 26)(52, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](53, "MCQ test");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](43, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, "Once you have selected the designated role while submitting your profile that describes the best of you. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](55, "Once you have selected the designated role while submitting your profile that describes the best of you. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "ul")(46, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](47, "You will need to complete the assessment which is very short and crisp and will not take more than 10-15 minutes of your time. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "ul")(57, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](58, "You will need to complete the assessment which is very short and crisp and will not take more than 10-15 minutes of your time. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, "This test will have questions based on practical scenarios and real-life scenarios based on your past project experience and skills. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](59, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](60, "This test will have questions based on practical scenarios and real-life scenarios based on your past project experience and skills. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](51, " Before the test, we shall ask your permission to take your photo and monitor the exam through a webcam. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](61, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](62, " Before the test, we shall ask your permission to take your photo and monitor the exam through a webcam. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](52, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](53, " You will have more than one chance to increase your visibility and score by taking the test again (though the number of attempts will be limited) Higher your score, the higher visibility, and traction your profile gets. Best of luck!!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](63, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](64, " You will have more than one chance to increase your visibility and score by taking the test again (though the number of attempts will be limited) Higher your score, the higher visibility, and traction your profile gets. Best of luck!!");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "div")(55, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_a_click_55_listener() { return ctx.openVideoCandidate(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](56, "i", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, " Video Walkthrough ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](65, "div")(66, "a", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_a_click_66_listener() { return ctx.openVideoCandidate(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](67, "i", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](68, " Video Walkthrough ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "div", 16)(59, "div", 17)(60, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](61, "img", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](69, "div", 22)(70, "div", 23)(71, "div", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](72, "img", 28);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "div", 20)(63, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](64, "Mock Interview");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](73, "div", 26)(74, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](75, "Mock Interview");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](65, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](66, "Once you have completed the MCQ test you can also schedule your mock interview. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](77, "Once you have completed the MCQ test you can also schedule your mock interview. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](67, "ul")(68, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](69, "Based on your availability you can share the slots with the interviewer and you will be contacted at the scheduled time.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](78, "ul")(79, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](80, "Based on your availability you can share the slots with the interviewer and you will be contacted at the scheduled time.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](71, "The interview will have a very standard procedure and will be purely based on your project experience and skills. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](81, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](82, "The interview will have a very standard procedure and will be purely based on your project experience and skills. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](72, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](73, " Candidates can review their performance after the interview and also can book a consultation session with the interviewer afterward. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](84, " Candidates can review their performance after the interview and also can book a consultation session with the interviewer afterward. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](75, " Interview service for the candidates is free of cost and is to help candidates improve their confidence and work on their shortcomings.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](85, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86, " Interview service for the candidates is free of cost and is to help candidates improve their confidence and work on their shortcomings.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "div")(77, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_a_click_77_listener() { return ctx.openVideoCandidate(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](78, "i", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](79, " Video Walkthrough ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](87, "div")(88, "a", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_a_click_88_listener() { return ctx.openVideoCandidate(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](89, "i", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](90, " Video Walkthrough ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](80, "section", 23)(81, "div", 2)(82, "div", 14)(83, "h2", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](84, "Why Us?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](91, "section", 29)(92, "div", 9)(93, "div", 20)(94, "h2", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](95, "Why Us?");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](85, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86, "Our goal is to make the assessment process easy and streamlined with less hassle and stress. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](96, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](97, "Our goal is to make the assessment process easy and streamlined with less hassle and stress. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](87, "div", 3)(88, "div", 24)(89, "div", 25)(90, "span", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](91, "i", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](98, "div", 4)(99, "div", 30)(100, "div", 31)(101, "span", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](102, "i", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](92, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](93, "Full Privacy");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](103, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](104, "Full Privacy");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](94, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](95, " We keep your data secure and will use it only after your permission. We only share it for matching Job profiles with recruitment and talent acquisition companies. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](105, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](106, " We keep your data secure and will use it only after your permission. We only share it for matching Job profiles with recruitment and talent acquisition companies. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](96, "div", 24)(97, "div", 25)(98, "span", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](99, "i", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](100, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](101, "Learn and Grow");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](103, "Our assessment process is very simple and straightforward. You get the opportunities to learn to improve as we give you feedback on the exam and your interview performance. Also, you can earn more by joining our ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](104, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](105, CandidateComponent_a_105_Template, 2, 1, "a", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](106, ". ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](107, "div", 24)(108, "div", 25)(109, "span", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](110, "i", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](107, "div", 30)(108, "div", 31)(109, "span", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](110, "i", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](111, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](112, "Talk to mentors");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](112, "Learn and Grow");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](113, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](114, "We only onboard verified interviewers/partners who are highly skilled in the domain/technology. Candidates can benefit from the discussion to identify potential learning opportunities ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](115, "div", 31)(116, "div", 32)(117, "div", 33)(118, "div", 34)(119, "h4", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](120, "Video Walkthrough");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](114, "Our assessment process is very simple and straightforward. You get the opportunities to learn to improve as we give you feedback on the exam and your interview performance. Also, you can earn more by joining our ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](115, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](116, CandidateComponent_a_116_Template, 2, 1, "a", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](117, ". ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](118, "div", 30)(119, "div", 31)(120, "span", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](121, "i", 36);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](121, "button", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_button_click_121_listener() { return ctx.closeModal(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](122, "\u00D7");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](122, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](123, "Talk to mentors");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](124, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](125, "We only onboard verified interviewers/partners who are highly skilled in the domain/technology. Candidates can benefit from the discussion to identify potential learning opportunities ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](126, "div", 37)(127, "div", 38)(128, "div", 39)(129, "div", 40)(130, "h4", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](131, "Video Walkthrough");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](132, "button", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CandidateComponent_Template_button_click_132_listener() { return ctx.closeModal(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](133, "\u00D7");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](123, "div", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](124, "iframe", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](134, "div", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](135, "iframe", 44);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.isLoggedIn);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](33);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isLoggedIn);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](83);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isLoggedIn);
@@ -10453,9 +12626,9 @@ __webpack_require__.r(__webpack_exports__);
 
 const _c0 = ["profileCard"];
 
-function ProfileComponent_p_19_Template(rf, ctx) {
+function ProfileComponent_p_21_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -10467,12 +12640,12 @@ function ProfileComponent_p_19_Template(rf, ctx) {
   }
 }
 
-function ProfileComponent_candidate_personal_details_20_Template(rf, ctx) {
+function ProfileComponent_candidate_personal_details_22_Template(rf, ctx) {
   if (rf & 1) {
     const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "candidate-personal-details", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("emitUpdate", function ProfileComponent_candidate_personal_details_20_Template_candidate_personal_details_emitUpdate_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "candidate-personal-details", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("emitUpdate", function ProfileComponent_candidate_personal_details_22_Template_candidate_personal_details_emitUpdate_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r6);
       const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
       return ctx_r5.handeProfileUpdateEvent();
@@ -10481,16 +12654,16 @@ function ProfileComponent_candidate_personal_details_20_Template(rf, ctx) {
   }
 }
 
-function ProfileComponent_candidate_skills_21_Template(rf, ctx) {
+function ProfileComponent_candidate_skills_23_Template(rf, ctx) {
   if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "candidate-skills", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("emitUpdate", function ProfileComponent_candidate_skills_21_Template_candidate_skills_emitUpdate_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "candidate-skills", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("emitUpdate", function ProfileComponent_candidate_skills_23_Template_candidate_skills_emitUpdate_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r8);
       const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
       return ctx_r7.handeProfileUpdateEvent();
-    })("taglineUpdate", function ProfileComponent_candidate_skills_21_Template_candidate_skills_taglineUpdate_0_listener($event) {
+    })("taglineUpdate", function ProfileComponent_candidate_skills_23_Template_candidate_skills_taglineUpdate_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r8);
       const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
       return ctx_r9.handleTaglineChangeEvent($event);
@@ -10499,12 +12672,12 @@ function ProfileComponent_candidate_skills_21_Template(rf, ctx) {
   }
 }
 
-function ProfileComponent_candidate_resume_22_Template(rf, ctx) {
+function ProfileComponent_candidate_resume_24_Template(rf, ctx) {
   if (rf & 1) {
     const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "candidate-resume", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("emitUpdate", function ProfileComponent_candidate_resume_22_Template_candidate_resume_emitUpdate_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "candidate-resume", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("emitUpdate", function ProfileComponent_candidate_resume_24_Template_candidate_resume_emitUpdate_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r11);
       const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
       return ctx_r10.handeProfileUpdateEvent();
@@ -10618,9 +12791,9 @@ ProfileComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵloadQuery"]()) && (ctx.profileCard = _t.first);
     }
   },
-  decls: 23,
+  decls: 25,
   vars: 10,
-  consts: [[1, "section"], [1, "container"], [1, "row"], [1, "col-lg-3", "col-md-12", "col-xs-12"], ["profileCard", ""], [1, "left-sideabr"], ["role", "tablist", 1, "list-item", "nav"], [1, "nav-link", 3, "click"], [1, "col-lg-9", "col-md-12", "col-xs-12"], [1, "tab-content"], ["class", "alert alert-warning ml-2 mb-2", 4, "ngIf"], [3, "emitUpdate", 4, "ngIf"], [3, "emitUpdate", "taglineUpdate", 4, "ngIf"], [1, "alert", "alert-warning", "ml-2", "mb-2"], [3, "emitUpdate"], [3, "emitUpdate", "taglineUpdate"]],
+  consts: [[1, "section"], [1, "container"], [1, "row"], [1, "col-lg-3", "col-md-12", "col-xs-12"], ["profileCard", ""], [1, "left-sideabr"], ["role", "tablist", 1, "list-item", "nav"], [1, "nav-link", 3, "click"], [1, "badge", "badge-warning"], [1, "col-lg-9", "col-md-12", "col-xs-12"], [1, "tab-content"], ["class", "alert alert-warning ml-2 mb-2", 4, "ngIf"], [3, "emitUpdate", 4, "ngIf"], [3, "emitUpdate", "taglineUpdate", 4, "ngIf"], [1, "alert", "alert-warning", "ml-2", "mb-2"], [3, "emitUpdate"], [3, "emitUpdate", "taglineUpdate"]],
   template: function ProfileComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
@@ -10641,13 +12814,15 @@ ProfileComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function ProfileComponent_Template_a_click_15_listener() {
         return ctx.updateView(2);
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16, "My Resume");
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "div", 8)(18, "div", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](19, ProfileComponent_p_19_Template, 2, 1, "p", 10);
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](20, ProfileComponent_candidate_personal_details_20_Template, 1, 0, "candidate-personal-details", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](21, ProfileComponent_candidate_skills_21_Template, 1, 0, "candidate-skills", 12);
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](22, ProfileComponent_candidate_resume_22_Template, 1, 0, "candidate-resume", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16, "My Resume ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "span", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](18, " optional ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "div", 9)(20, "div", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](21, ProfileComponent_p_21_Template, 2, 1, "p", 11);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](22, ProfileComponent_candidate_personal_details_22_Template, 1, 0, "candidate-personal-details", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](23, ProfileComponent_candidate_skills_23_Template, 1, 0, "candidate-skills", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](24, ProfileComponent_candidate_resume_24_Template, 1, 0, "candidate-resume", 12);
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()()();
     }
 
@@ -10658,7 +12833,7 @@ ProfileComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("active", ctx.myProfileView.skills);
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("active", ctx.myProfileView.resume);
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](6);
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.isProfileIncomplete);
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.myProfileView.personalDetails);
@@ -12460,7 +14635,7 @@ function FooterComponent_footer_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](40, "Privacy");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "li")(42, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, "Refund Privacy");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, "Refund Policy");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "li")(45, "a", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, "Terms & Conditions");
@@ -12907,231 +15082,514 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "PricingComponent": () => (/* binding */ PricingComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var src_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/models/auth.constants */ 60135);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../environments/environment */ 92340);
+/* harmony import */ var _util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../util/alert-dialog/alert-dialog.component */ 12278);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common/http */ 28784);
+/* harmony import */ var src_app_api_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/api.service */ 51491);
+/* harmony import */ var ng_http_loader__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ng-http-loader */ 23020);
+/* harmony import */ var _services_candidate_my_profile_personal_details_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/candidate/my-profile/personal-details.service */ 52497);
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/dialog */ 95758);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ 36362);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ 52816);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/forms */ 90587);
+/* harmony import */ var ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ngx-intl-tel-input */ 68831);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const _c0 = function (a0) {
+  return {
+    "not-included": a0
+  };
+};
+
+function PricingComponent_div_102_div_11_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 64)(1, "ul")(2, "li", 65)(3, "span", 66);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+  }
+
+  if (rf & 2) {
+    const feature_r6 = ctx.$implicit;
+    const j_r7 = ctx.index;
+    const offer_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction1"](3, _c0, !offer_r1.features[j_r7]));
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](feature_r6.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", feature_r6.description, " ");
+  }
+}
+
+function PricingComponent_div_102_a_13_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "a", 67);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function PricingComponent_div_102_a_13_Template_a_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r11);
+      const i_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]().index;
+      const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+      return ctx_r9.selectOffer(i_r2);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Subscribe Now");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+}
+
+function PricingComponent_div_102_a_14_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "a", 68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](1, "Subscribe");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+
+  if (rf & 2) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("routerLink", "/login");
+  }
+}
+
+function PricingComponent_div_102_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 53)(1, "div", 54)(2, "div", 55)(3, "h4", 56);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "div", 57)(6, "p", 58);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div", 59)(9, "h2");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](11, PricingComponent_div_102_div_11_Template, 6, 5, "div", 60);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "div", 61);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](13, PricingComponent_div_102_a_13_Template, 2, 0, "a", 62);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](14, PricingComponent_div_102_a_14_Template, 2, 1, "a", 63);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+  }
+
+  if (rf & 2) {
+    const offer_r1 = ctx.$implicit;
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](offer_r1.displayName);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("\u20B9 ", offer_r1.initialPrice, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("\u20B9 ", offer_r1.discountPrice, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx_r0.featureList);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx_r0.isLoggedIn);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !ctx_r0.isLoggedIn);
+  }
+}
 
 class PricingComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-}
-PricingComponent.ɵfac = function PricingComponent_Factory(t) { return new (t || PricingComponent)(); };
-PricingComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PricingComponent, selectors: [["app-pricing"]], decls: 215, vars: 1, consts: [[1, "about", "section", "bg-gray"], [1, "container"], [1, "row"], [1, "col-sm-7", "col-lg-6", "col-md-7", "col-xs-12"], [1, "about-content", "pt-6"], [1, "text-primary"], [1, "col-sm-5", "col-lg-5", "col-md-5", "col-xs-12", "text-center"], ["src", "assets/Images/ai-powered-inerview.jpg", "alt", "", 1, "img-fluid", "mt-4"], ["id", "blog", 1, "section"], [1, "section-header"], [1, "section-title"], [1, "row", "justify-content-center"], [1, "col-lg-3", "col-md-6", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-wrapper", "card"], [1, "blog-item-img", "p-3"], ["alt", "", "src", "/assets/Images/witmyworld-interviwer.svg", 1, "img-auto"], [1, "blog-item-text", "card-body"], ["alt", "", "src", "/assets/Images/witmyworld-corporate.svg", 1, "img-auto"], ["alt", "", "src", "/assets/Images/tailored.svg", 1, "img-auto"], ["alt", "", "src", "/assets/Images/flexible.svg", 1, "img-auto"], [1, "service-detials-step-2"], [1, "row", "mb--40", "g-5", "mb_md--20", "mb_sm--20"], [1, "col-lg-3", "col-md-6", "col-sm-12", "col-12"], [1, "single-service-step", "text-center"], [1, "step"], [1, "title"], [1, "disc"], [1, "pricing-table"], [1, "row", "justify-content-md-center", "pricing-monthly"], [1, "col-md-4", "col-lg-4", "d-flex", "align-items-stretch"], [1, "item", "pb-0"], [1, "heading"], [1, "mb-0"], [1, "item-body"], [1, "pricing-discount"], [1, "price"], [1, "features"], [1, "text-bold"], [1, "not-included"], [1, "col-sm-12", "col-md-12", "col-lg-6", "offset-lg-3"], [1, "text-center", "py-5"], [1, "mb-4"], [1, "btn", "btn-primary", 3, "routerLink"], [1, "pt-2"]], template: function PricingComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Ace Your Next Interview with ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "span", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "AI-Powered Interviews ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " on WitMyWorld");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " Are you ready to shine in your next interview? WitMyWorld offers advanced AI-powered mock interviews designed to help students and candidates like you excel. Our innovative platform simulates real interview scenarios, providing personalized feedback and actionable insights to boost your confidence and performance.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "section", 8)(16, "div", 1)(17, "div", 9)(18, "h2", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Why Choose Our AI-Powered Interviews?");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 11)(21, "div", 12)(22, "div", 13)(23, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "img", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 16)(26, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Realistic Interview Experience ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Experience a true-to-life interview setting with our AI-driven platform. Practice answering questions that mirror those asked by top employers and get a feel for the real interview atmosphere.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 12)(31, "div", 13)(32, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "img", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 16)(35, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Personalized Feedback ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Receive detailed feedback on your performance. Our AI analyzes your responses to identify strengths and areas for improvement, helping you refine your answers and presentation skills.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 12)(40, "div", 13)(41, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "img", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 16)(44, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Tailored Insights ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Get customized insights based on your industry and role. Our AI adapts the interview questions to match the specific requirements of your desired job, giving you a competitive edge.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 12)(49, "div", 13)(50, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "img", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 16)(53, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " Flexible and Convenient ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " Access our AI-powered mock interviews anytime, anywhere. Whether you\u2019re at home or on the go, you can practice at your convenience and pace. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 0)(58, "div", 1)(59, "div", 20)(60, "div", 9)(61, "h2", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "How it works");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 21)(64, "div", 22)(65, "div", 23)(66, "p", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "01");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "h6", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " Sign Up and Choose Your Plan ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "p", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, " Select the plan that suits your needs and budget. We offer flexible options to accommodate different preparation levels. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 22)(73, "div", 23)(74, "p", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "02");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "h6", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, " Customize Your Mock Interview ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "p", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, " Input details about your desired job, industry, and any specific areas you want to focus on. Our AI will tailor the interview to your needs. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 22)(81, "div", 23)(82, "p", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "03");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "h6", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, " Start Your Mock Interview ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "p", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, " Engage in a realistic interview session with our AI. Answer questions, and receive real-time feedback. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "div", 22)(89, "div", 23)(90, "p", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "04");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "h6", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, " Review and Improve ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "p", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, " Analyze your performance with our detailed feedback and insights. Practice multiple times to see continuous improvement. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "section", 8)(97, "div", 1)(98, "div", 9)(99, "h2", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "Pricing Plans");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "section", 27)(102, "div", 28)(103, "div", 29)(104, "div", 30)(105, "div", 31)(106, "h4", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Standard");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "div", 33)(109, "p", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](110, "\u20B9 599");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "div", 35)(112, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, "\u20B9 399");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "div", 36)(115, "ul")(116, "li")(117, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](118, "40-Minute Mock Interview Session:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](119, " Experience a realistic interview tailored to your desired job and industry. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "li")(121, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](122, "Feedback Report: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, " Receive a detailed report highlighting your strengths and areas for improvement.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "li", 38)(125, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Video Recording: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "Access a recording of your entire interview to review your performance and analyze your mistakes. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "li", 38)(129, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "Dos and Don\u2019ts Report:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](131, " Get specific tips and advice on what to do and avoid in your interviews.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "li", 38)(133, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, "30-Minute Feedback Session with an Industry Expert: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, " Receive personalized guidance and actionable advice from a seasoned professional in your field.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "div", 29)(137, "div", 30)(138, "div", 31)(139, "h4", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](140, "Premium");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 33)(142, "p", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](143, "\u20B9 799");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 35)(145, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](146, "\u20B9 599");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "div", 36)(148, "ul")(149, "li")(150, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, "40-Minute Mock Interview Session:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, " Experience a realistic interview tailored to your desired job and industry. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](153, "li")(154, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](155, "Feedback Report: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, " Receive a detailed report highlighting your strengths and areas for improvement.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](157, "li")(158, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](159, "Video Recording: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "Access a recording of your entire interview to review your performance and analyze your mistakes. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](161, "li")(162, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](163, "Dos and Don\u2019ts Report:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](164, " Get specific tips and advice on what to do and avoid in your interviews.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "li", 38)(166, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "30-Minute Feedback Session with an Industry Expert: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, " Receive personalized guidance and actionable advice from a seasoned professional in your field.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 29)(170, "div", 30)(171, "div", 31)(172, "h4", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](173, "Gold");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](174, "div", 33)(175, "p", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, "\u20B9 999");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](177, "div", 35)(178, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, "\u20B9 799");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "div", 36)(181, "ul")(182, "li")(183, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "40-Minute Mock Interview Session:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](185, " Experience a realistic interview tailored to your desired job and industry. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "li")(187, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "Feedback Report: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](189, " Receive a detailed report highlighting your strengths and areas for improvement.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](190, "li")(191, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](192, "Video Recording: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](193, "Access a recording of your entire interview to review your performance and analyze your mistakes. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "li")(195, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](196, "Dos and Don\u2019ts Report:");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](197, " Get specific tips and advice on what to do and avoid in your interviews.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](198, "li")(199, "span", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](200, "30-Minute Feedback Session with an Industry Expert: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](201, " Receive personalized guidance and actionable advice from a seasoned professional in your field.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](202, "div", 0)(203, "div", 1)(204, "div", 2)(205, "div", 39)(206, "div", 40)(207, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](208, " Get Started Today! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](209, "p", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](210, "Choose the plan that fits your needs and start preparing for your dream job with WitMyWorld\u2019s AI-powered mock interviews. Sign up now and take the first step towards interview success!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](211, "a", 42);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, "Sign in Now");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](213, "p", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](214, "and experience the future of interview preparation!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](211);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", "/login");
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcmljaW5nLmNvbXBvbmVudC5jc3MifQ== */"] });
+  constructor(http, apiService, spinnerVisibilityService, personalDetailService, matDialog) {
+    this.http = http;
+    this.apiService = apiService;
+    this.spinnerVisibilityService = spinnerVisibilityService;
+    this.personalDetailService = personalDetailService;
+    this.matDialog = matDialog;
+    this.unassigned = " ";
+    this.featureList = [{
+      "name": "30-Minute Mock Interview Session:",
+      "description": "Experience a realistic interview tailored to your desired job and industry."
+    }, {
+      "name": "Feedback Report:",
+      "description": "Receive a detailed report highlighting your strengths and areas for improvement."
+    }, {
+      "name": "Video Recording:",
+      "description": "Access a recording of your entire interview to review your performance and analyze your mistakes."
+    }, {
+      "name": "Dos and Don’ts Report:",
+      "description": "Get specific tips and advice on what to do and avoid in your interviews."
+    }, {
+      "name": "30-Minute Feedback Session with an Industry Expert:",
+      "description": "Receive personalized guidance and actionable advice from a seasoned professional in your field."
+    }];
+    this.offers = [{
+      "name": "b2c-aiinterview-standard",
+      "displayName": "Standard",
+      "initialPrice": 599,
+      "discountPrice": 299,
+      "features": [1, 1, 0, 0, 0]
+    }, {
+      "name": "b2c-aiinterview-premium",
+      "displayName": "Premium",
+      "initialPrice": 799,
+      "discountPrice": 499,
+      "features": [1, 1, 1, 0, 0]
+    }, {
+      "name": "b2c-aiinterview-gold",
+      "displayName": "Gold",
+      "initialPrice": 1199,
+      "discountPrice": 899,
+      "features": [1, 1, 1, 1, 1]
+    }];
+  }
 
+  ngOnInit() {
+    var _this = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      (0,src_models_auth_constants__WEBPACK_IMPORTED_MODULE_1__.AUTH_GET_SESSION)().then(data => data.isValid()).then(data => {
+        _this.isLoggedIn = data;
+
+        _this.fetchCandidateDetails();
+      }).catch(err => console.error(err));
+    })();
+  }
+
+  payWithRazor() {
+    var _this2 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      let order_id = "";
+
+      try {
+        order_id = yield _this2.createOrder(_this2.selectedOffer);
+      } catch (error) {
+        _this2.matDialog.open(_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_3__.AlertDialogComponent, {
+          data: {
+            message: `Order creation failed, pls try again`,
+            dialogLevel: "ERROR"
+          }
+        });
+
+        return false;
+      }
+
+      const options = {
+        key: _environments_environment__WEBPACK_IMPORTED_MODULE_2__.environment.Razorpay.accountKey,
+        amount: _this2.offers[_this2.selectedOffer].discountPrice * 100,
+        currency: 'INR',
+        name: _this2.offers[_this2.selectedOffer].name,
+        description: _this2.offers[_this2.selectedOffer].displayName,
+        image: '../../assets/Images/witmyworld-logo.png',
+        order_id: order_id,
+        modal: {
+          // We should prevent closing of the form when esc key is pressed.
+          escape: false
+        },
+        prefill: {
+          name: _this2.candidateDetails.name,
+          email: _this2.candidateDetails.email,
+          contact: _this2.candidateDetails.phone
+        },
+        notes: {
+          address: _this2.candidateDetails.address // Optional: add custom notes
+
+        },
+        // callback_url: "https://witmyworld.com/candidate/assessment",
+        // redirect: true,
+        theme: {
+          color: '#0c238a'
+        }
+      }; // options.handler = ((response) => {
+      //   options.response = response;
+      //   // console.log(response);
+      //   // console.log(options);
+      //   // this.handlePaymentSuccess(response)
+      //   // call your backend api to verify payment signature & capture transaction
+      // });
+
+      options.modal.ondismiss = () => {
+        // handle the case when user closes the form while transaction is in progress
+        // this.apiService.razorpaycancel({ "orderId": order_id })
+        _this2.handlePaymentFailure({
+          "orderId": order_id
+        });
+      };
+
+      const rzp = new Razorpay(options);
+
+      try {
+        rzp.open();
+      } catch (error) {
+        yield _this2.handlePaymentFailure({
+          "orderId": order_id
+        });
+
+        _this2.matDialog.open(_util_alert_dialog_alert_dialog_component__WEBPACK_IMPORTED_MODULE_3__.AlertDialogComponent, {
+          data: {
+            message: `Payment failed`,
+            dialogLevel: "ERROR"
+          }
+        });
+      }
+
+      return true;
+    })();
+  }
+
+  handlePaymentSuccess(paymentDetails) {
+    this.spinnerVisibilityService.show();
+    this.apiService.razorpaycallback(paymentDetails).then(data => {// console.log(data)
+    }).finally(() => {
+      this.spinnerVisibilityService.hide();
+    });
+  }
+
+  handlePaymentFailure(paymentDetails) {
+    this.spinnerVisibilityService.show();
+    this.apiService.razorpaycancel(paymentDetails).then(data => {// console.log(data)
+    }).finally(() => {
+      this.spinnerVisibilityService.hide();
+    });
+  }
+
+  fetchCandidateDetails() {
+    var _this3 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      yield _this3.personalDetailService.fetchPersonalDetails(0).then(data => {
+        _this3.candidateDetails = {
+          name: data['fullName'],
+          phone: data['mobileNumber'].toString(),
+          email: data['emailAddress'],
+          experience: data['experience'],
+          address: ""
+        }; // console.log(this.candidateDetails)
+      });
+    })();
+  }
+
+  createOrder(index) {
+    var _this4 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this4.selectedOffer = index;
+      let orderId = "";
+
+      _this4.spinnerVisibilityService.show();
+
+      yield _this4.apiService.razorpaycreateorder(_this4.offers[index]).then(data => {
+        // console.log(data['orderId'])
+        orderId = data['orderId'];
+      }).finally(() => {
+        _this4.spinnerVisibilityService.hide();
+      });
+      return orderId;
+    })();
+  }
+
+  selectOffer(index) {
+    var _this5 = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this5.selectedOffer = index;
+    })();
+  }
+
+}
+
+PricingComponent.ɵfac = function PricingComponent_Factory(t) {
+  return new (t || PricingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_7__.HttpClient), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](src_app_api_service__WEBPACK_IMPORTED_MODULE_4__.ApiService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_8__.SpinnerVisibilityService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_services_candidate_my_profile_personal_details_service__WEBPACK_IMPORTED_MODULE_5__.PersonalDetailsService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_9__.MatDialog));
+};
+
+PricingComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
+  type: PricingComponent,
+  selectors: [["app-pricing"]],
+  decls: 148,
+  vars: 7,
+  consts: [[1, "about", "section", "bg-gray"], [1, "container"], [1, "row"], [1, "col-sm-7", "col-lg-6", "col-md-7", "col-xs-12"], [1, "about-content", "pt-6", "text-left"], [1, "text-primary"], [1, "col-sm-5", "col-lg-5", "col-md-5", "col-xs-12", "text-center"], ["src", "assets/Images/ai-powered-inerview.jpg", "alt", "", 1, "img-fluid", "mt-4"], ["id", "blog", 1, "section"], [1, "section-header"], [1, "section-title"], [1, "row", "justify-content-center"], [1, "col-lg-3", "col-md-6", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-wrapper", "card"], [1, "blog-item-img", "p-3"], ["alt", "", "src", "/assets/Images/witmyworld-interviwer.svg", 1, "img-auto"], [1, "blog-item-text", "card-body"], ["alt", "", "src", "/assets/Images/witmyworld-corporate.svg", 1, "img-auto"], ["alt", "", "src", "/assets/Images/tailored.svg", 1, "img-auto"], ["alt", "", "src", "/assets/Images/flexible.svg", 1, "img-auto"], [1, "service-detials-step-2"], [1, "row", "mb--40", "g-5", "mb_md--20", "mb_sm--20"], [1, "col-lg-3", "col-md-6", "col-sm-12", "col-12"], [1, "single-service-step", "text-center"], [1, "step"], [1, "title"], [1, "disc"], [1, "pricing-table"], [1, "row", "justify-content-md-center", "pricing-monthly"], ["class", "col-md-4 col-lg-4 d-flex align-items-stretch", 4, "ngFor", "ngForOf"], [1, "col-sm-12", "col-md-12", "col-lg-6", "offset-lg-3"], [1, "text-center", "py-5"], [1, "mb-4"], [1, "btn", "btn-primary", 3, "routerLink"], ["id", "subscribe", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["id", "exampleModalLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body"], [1, "d-flex", "justify-content-between", "bg-gray", "border-radius-sm", "p-3", "mb-4"], [1, "pr-4", "mb-0"], [1, "text-blue", "mb-0"], [1, "form-group"], ["for", "exampleInputPassword1"], ["placeholder", "Phone Number", 1, "form-control", 3, "ngModel", "ngModelChange"], ["placeholder", "Email Address", 1, "form-control", 3, "readonly", "ngModel", "ngModelChange"], ["rows", "3", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "modal-footer", "text-right"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-flat"], ["type", "button", 1, "btn", "btn-primary", 3, "click"], [1, "col-md-4", "col-lg-4", "d-flex", "align-items-stretch"], [1, "item"], [1, "heading", "bg-blue"], [1, "mb-0", "text-white"], [1, "item-body"], [1, "pricing-discount"], [1, "price"], ["class", "features", 4, "ngFor", "ngForOf"], [1, "footer"], ["data-toggle", "modal", "data-target", "#subscribe", "class", "btn btn-block btn-primary", 3, "click", 4, "ngIf"], ["class", "btn btn-block btn-primary", 3, "routerLink", 4, "ngIf"], [1, "features"], [3, "ngClass"], [1, "text-bold"], ["data-toggle", "modal", "data-target", "#subscribe", 1, "btn", "btn-block", "btn-primary", 3, "click"], [1, "btn", "btn-block", "btn-primary", 3, "routerLink"]],
+  template: function PricingComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "h2");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, "Ace Your Next Interview with ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "span", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](8, "AI-Powered Interviews ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](9, " on WitMyWorld");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](11, " Are you ready to shine in your next interview? WitMyWorld offers advanced AI-powered mock interviews designed to help students and candidates like you excel. Our innovative platform simulates real interview scenarios, providing personalized feedback and actionable insights to boost your confidence and performance. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](12, "div", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](13, "img", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "section", 8)(15, "div", 1)(16, "div", 9)(17, "h2", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](18, "Why Choose Our AI-Powered Interviews?");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "div", 11)(20, "div", 12)(21, "div", 13)(22, "div", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](23, "img", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "div", 16)(25, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](26, "Realistic Interview Experience ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](27, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](28, "Experience a true-to-life interview setting with our AI-driven platform. Practice answering questions that mirror those asked by top employers and get a feel for the real interview atmosphere.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "div", 12)(30, "div", 13)(31, "div", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](32, "img", 17);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "div", 16)(34, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](35, "Personalized Feedback ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](36, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](37, "Receive detailed feedback on your performance. Our AI analyzes your responses to identify strengths and areas for improvement, helping you refine your answers and presentation skills.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "div", 12)(39, "div", 13)(40, "div", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](41, "img", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](42, "div", 16)(43, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](44, "Tailored Insights ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](45, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](46, "Get customized insights based on your industry and role. Our AI adapts the interview questions to match the specific requirements of your desired job, giving you a competitive edge.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](47, "div", 12)(48, "div", 13)(49, "div", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](50, "img", 19);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](51, "div", 16)(52, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](53, " Flexible and Convenient ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](54, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](55, " Access our AI-powered mock interviews anytime, anywhere. Whether you\u2019re at home or on the go, you can practice at your convenience and pace. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](56, "div", 0)(57, "div", 1)(58, "div", 20)(59, "div", 9)(60, "h2", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](61, "How it works");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](62, "div", 21)(63, "div", 22)(64, "div", 23)(65, "p", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](66, "01");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](67, "h6", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](68, " Sign Up and Choose Your Plan ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](69, "p", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](70, " Select the plan that suits your needs and budget. We offer flexible options to accommodate different preparation levels. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](71, "div", 22)(72, "div", 23)(73, "p", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](74, "02");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](75, "h6", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](76, " Customize Your Mock Interview ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](77, "p", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](78, " Input details about your desired job, industry, and any specific areas you want to focus on. Our AI will tailor the interview to your needs. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](79, "div", 22)(80, "div", 23)(81, "p", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](82, "03");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](83, "h6", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](84, " Start Your Mock Interview ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](85, "p", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](86, " Engage in a realistic interview session with our AI. Answer questions, and receive real-time feedback. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](87, "div", 22)(88, "div", 23)(89, "p", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](90, "04");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](91, "h6", 25);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](92, " Review and Improve ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](93, "p", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](94, " Analyze your performance with our detailed feedback and insights. Practice multiple times to see continuous improvement. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](95, "section", 8)(96, "div", 1)(97, "div", 9)(98, "h2", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](99, "Pricing Plans");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](100, "section", 27)(101, "div", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](102, PricingComponent_div_102_Template, 15, 6, "div", 29);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](103, "div", 0)(104, "div", 1)(105, "div", 2)(106, "div", 30)(107, "div", 31)(108, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](109, " Get Started Today! ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](110, "p", 32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](111, "Choose the plan that fits your needs and start preparing for your dream job with WitMyWorld\u2019s AI-powered mock interviews. Sign up now and take the first step towards interview success!");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](112, "a", 33);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](113, "Sign in Now");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](114, "div", 34)(115, "div", 35)(116, "div", 36)(117, "div", 37)(118, "h5", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](119, "Subscribe");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](120, "button", 39)(121, "span", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](122, "\u00D7");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](123, "div", 41)(124, "div", 42)(125, "h4", 43);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](126, "Amount Payable");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](127, "h4", 44);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](128);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](129, "h6", 32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](130, "Please enter the below details carefully");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](131, "div", 45)(132, "label", 46);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](133, "Phone Number");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](134, "input", 47);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngModelChange", function PricingComponent_Template_input_ngModelChange_134_listener($event) {
+        return (ctx.candidateDetails == null ? null : ctx.candidateDetails.phone) ? ctx.candidateDetails.phone : ctx.unassigned = $event;
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](135, "div", 45)(136, "label", 46);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](137, "Email Address");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](138, "input", 48);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngModelChange", function PricingComponent_Template_input_ngModelChange_138_listener($event) {
+        return (ctx.candidateDetails == null ? null : ctx.candidateDetails.email) ? ctx.candidateDetails.email : ctx.unassigned = $event;
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](139, "div", 45)(140, "label", 46);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](141, "Address");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](142, "textarea", 49);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("ngModelChange", function PricingComponent_Template_textarea_ngModelChange_142_listener($event) {
+        return (ctx.candidateDetails == null ? null : ctx.candidateDetails.address) ? ctx.candidateDetails.address : ctx.unassigned = $event;
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](143, "div", 50)(144, "button", 51);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](145, "Close");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](146, "a", 52);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function PricingComponent_Template_a_click_146_listener() {
+        return ctx.payWithRazor();
+      });
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](147, "Subscribe");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
+    }
+
+    if (rf & 2) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](102);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx.offers);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("routerLink", "/login");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("\u20B9 ", ctx.selectedOffer + 1 ? ctx.offers[ctx.selectedOffer]["discountPrice"] : "", "");
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngModel", (ctx.candidateDetails == null ? null : ctx.candidateDetails.phone) ? ctx.candidateDetails.phone : ctx.unassigned);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("readonly", true)("ngModel", (ctx.candidateDetails == null ? null : ctx.candidateDetails.email) ? ctx.candidateDetails.email : ctx.unassigned);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngModel", (ctx.candidateDetails == null ? null : ctx.candidateDetails.address) ? ctx.candidateDetails.address : ctx.unassigned);
+    }
+  },
+  directives: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_11__.RouterLinkWithHref, _angular_forms__WEBPACK_IMPORTED_MODULE_12__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_12__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_12__.NgModel, ngx_intl_tel_input__WEBPACK_IMPORTED_MODULE_13__.NativeElementInjectorDirective],
+  styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcmljaW5nLmNvbXBvbmVudC5jc3MifQ== */"]
+});
 
 /***/ }),
 
@@ -13154,7 +15612,7 @@ class PrivacyPolicyComponent {
     }
 }
 PrivacyPolicyComponent.ɵfac = function PrivacyPolicyComponent_Factory(t) { return new (t || PrivacyPolicyComponent)(); };
-PrivacyPolicyComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PrivacyPolicyComponent, selectors: [["app-privacy-policy"]], decls: 238, vars: 0, consts: [[1, "container", "section"], [1, "mb-4"], [1, "mb-3", "d-flex"], [1, "pr-2", "text-semibold"], [1, "lower-roman"], [1, "text-semibold"], [1, "lower-latin"], [1, "bg-light", "p-4"], [1, "lower-roman", "p-0", "m-0", "ml-2"], ["href", "mailto:contact@witmyworld.com"]], template: function PrivacyPolicyComponent_Template(rf, ctx) { if (rf & 1) {
+PrivacyPolicyComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PrivacyPolicyComponent, selectors: [["app-privacy-policy"]], decls: 238, vars: 0, consts: [[1, "container", "section"], [1, "mb-4"], [1, "mb-3", "d-flex"], [1, "pr-2", "text-semibold"], [1, "lower-roman"], [1, "text-semibold"], [1, "lower-latin"], [1, "bg-light", "p-4"], [1, "lower-roman", "p-0", "m-0", "ml-2"], ["href", "mailto:contact-us@witmyworld.com"]], template: function PrivacyPolicyComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0)(1, "h3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Privacy Policy");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -13419,7 +15877,7 @@ PrivacyPolicyComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MOD
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, "You can exercise any of these rights at any time by contacting us at ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](210, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](211, "contact@witmyworld.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](211, "contact-us@witmyworld.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](212, ". However, we require a reasonable period of 30 (thirty) days to comply with any of your requests. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
@@ -13542,7 +16000,7 @@ class TermsConditionsComponent {
     }
 }
 TermsConditionsComponent.ɵfac = function TermsConditionsComponent_Factory(t) { return new (t || TermsConditionsComponent)(); };
-TermsConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TermsConditionsComponent, selectors: [["app-terms-conditions"]], decls: 187, vars: 0, consts: [[1, "container", "section"], [1, "mb-4"], [1, "lower-roman"], ["href", "mailto:contact@witmyworld.com"], [1, "list-style-bullet"], [1, "d-flex", "mb-3"], [1, "pr-2", "text-semibold"], [1, "lower-roman", "p-0", "mb-2", "ml-3"], [1, "mb-3"], [1, "mb-3", "d-flex"], [1, "d-flex"]], template: function TermsConditionsComponent_Template(rf, ctx) { if (rf & 1) {
+TermsConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TermsConditionsComponent, selectors: [["app-terms-conditions"]], decls: 187, vars: 0, consts: [[1, "container", "section"], [1, "mb-4"], [1, "lower-roman"], ["href", "mailto:contact-us@witmyworld.com"], [1, "list-style-bullet"], [1, "d-flex", "mb-3"], [1, "pr-2", "text-semibold"], [1, "lower-roman", "p-0", "mb-2", "ml-3"], [1, "mb-3"], [1, "mb-3", "d-flex"], [1, "d-flex"]], template: function TermsConditionsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0)(1, "h3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Terms and Conditions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -13603,11 +16061,11 @@ TermsConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_M
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, " Please let us know as soon as possible if you believe that someone else is using your Account (or if you suspect any other breach of security) by contacting our support team at ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "contact@witmyworld.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "contact-us@witmyworld.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, ". You can at any time decide to terminate your account by contacting us at ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "contact@witmyworld.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "contact-us@witmyworld.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Please refer to our Privacy Policy to know about what happens when you terminate your Account. ");
@@ -13699,7 +16157,7 @@ TermsConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_M
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div")(120, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, " Refunds We are happy to provide you with a refund of 100% refund within 7 days of the start using the platform services. If you want to claim a refund, please do so by a. Drop an email on: ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "contact@witmyworld.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "contact-us@witmyworld.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, " with the subject \u201CREFUND REQUEST | REGISTERED EMAIL ID\u201D Please do not forget to provide the registered email ID in the subject b. Give your reason for the refund, for your internal purposes. c. Please ensure that the email is received within five days of starting using the platform. For example: If platform services /account creation starts on 15th Jan 2022, you should send the refund email on or before 12:00 am, 10th Jan 2022. d. Calculation of refunds (i) 100%: if you have not started using any of the services yet that is before the start date. (ii) Prorated: case to case basis. Refunds will be processed within 10 to 20 working days of receiving the refund email with the necessary details (and subject line).");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -13769,7 +16227,7 @@ TermsConditionsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_M
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](179, " Mechanism for Complaints In case any transaction or attempted transaction in violation of these Terms and/or any applicable law, rules, regulations, etc. come to your knowledge, or if you have any queries or concerns regarding the Terms, please feel free to reach out to our grievance officer Mr. XYZ at: ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "contact@witmyworld.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "contact-us@witmyworld.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](182, "div", 9)(183, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](184, "8.8");
@@ -14078,7 +16536,7 @@ HeaderComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_7__[
   },
   decls: 1,
   vars: 1,
-  consts: [["class", "navbar navbar-expand-lg fixed-top navbar-light scrolling-navbar top-nav-collapse", 4, "ngIf"], [1, "navbar", "navbar-expand-lg", "fixed-top", "navbar-light", "scrolling-navbar", "top-nav-collapse"], [1, "container"], [1, "navbar-brand", 3, "routerLink"], ["alt", "", "src", "/assets/Images/witmyworld-logo.png"], ["aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", "data-target", "#navbarNav", "data-toggle", "collapse", "type", "button", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["class", "collapse navbar-collapse", "id", "navbarNav", 4, "ngIf"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto", "w-100", "justify-content-between"], ["class", "nav-item", 3, "active", 4, "ngFor", "ngForOf"], ["class", "button-group", 4, "ngIf"], ["class", "user-profile", 4, "ngIf"], [1, "nav-item"], [1, "nav-link", 3, "routerLink", "click"], [1, "button-group"], [1, "button", "btn", "btn-common", 3, "routerLink"], [1, "user-profile"], [1, "dropdown"], ["data-toggle", "dropdown", 1, "dropdown-toggle"], ["alt", "Profile image", "onerror", "this.onerror=null; this.src='../../assets/Images/login.jpg'", 1, "avatar"], ["profileImage", ""], [1, "dropdown-menu"], [1, "dropdown-item", 3, "routerLink"], ["href", "javascript:void(0);", 1, "dropdown-item", 3, "click"]],
+  consts: [["class", "navbar navbar-expand-lg fixed-top navbar-light scrolling-navbar top-nav-collapse", 4, "ngIf"], [1, "navbar", "navbar-expand-lg", "fixed-top", "navbar-light", "scrolling-navbar", "top-nav-collapse"], [1, "container"], [1, "navbar-brand", 3, "routerLink"], ["alt", "", "src", "/assets/Images/witmyworld-logo.png"], ["aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", "data-target", "#navbarNav", "data-toggle", "collapse", "type", "button", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["class", "collapse navbar-collapse", "id", "navbarNav", 4, "ngIf"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto", "w-100", "justify-content-between"], ["class", "nav-item", 3, "active", 4, "ngFor", "ngForOf"], ["class", "button-group", 4, "ngIf"], ["class", "user-profile", 4, "ngIf"], [1, "nav-item"], [1, "nav-link", 3, "routerLink", "click"], [1, "button-group"], [1, "button", "btn", "btn-common", 3, "routerLink"], [1, "user-profile"], [1, "dropdown"], ["data-toggle", "dropdown", 1, "dropdown-toggle"], ["alt", "", "onerror", "this.onerror=null; this.src='../../assets/Images/login.jpg'", 1, "avatar"], ["profileImage", ""], [1, "dropdown-menu"], [1, "dropdown-item", 3, "routerLink"], ["href", "javascript:void(0);", 1, "dropdown-item", 3, "click"]],
   template: function HeaderComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](0, HeaderComponent_nav_0_Template, 7, 2, "nav", 0);
@@ -14128,7 +16586,7 @@ __webpack_require__.r(__webpack_exports__);
 const _c0 = ["search"];
 const _c1 = ["sidenav"];
 function HomePageComponent_a_11_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "a", 50);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "a", 55);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, "Sign In");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -14337,7 +16795,7 @@ HomePageComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵloadQuery"]()) && (ctx.searchTextBox = _t.first);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵloadQuery"]()) && (ctx.sidenav = _t.first);
-    } }, decls: 173, vars: 8, consts: [["id", "carousel-area"], [1, "container", "home-banner"], [1, "row", "align-items-center"], [1, "col-lg-7", "col-md-6", "col-sm-12", "col-xs-12", "content"], [1, "text-primary"], [1, "description"], ["class", "btn btn-lg btn-primary btn-effect", 3, "routerLink", 4, "ngIf"], [1, "col-lg-5", "col-md-6", "col-sm-12", "col-xs-12"], [1, "herobanner__video", "registerarea__video"], ["loading", "lazy", "src", "../../assets/Images/herobanner__video.jpg", "alt", "Video Banner"], [1, "video__pop__btn"], ["href", "#", "data-toggle", "modal", "data-target", "#witmyworldBot", 1, "video-btn", 3, "click"], ["loading", "lazy", "src", "../../assets/Images/video.png", "alt", ""], ["id", "blog", 1, "section"], [1, "container"], [1, "section-header"], [1, "section-title"], [1, "row"], [1, "col-lg-4", "col-md-6", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-wrapper", "card"], [1, "blog-item-img", "p-3"], ["alt", "", "src", "/assets/Images/witmyworld-candidate.svg", 1, "img-auto"], [1, "blog-item-text", "card-body"], [1, "learn-more", 3, "routerLink"], ["alt", "", "src", "/assets/Images/witmyworld-corporate.svg", 1, "img-auto"], ["alt", "", "src", "/assets/Images/witmyworld-interviwer.svg", 1, "img-auto"], ["id", "blog", 1, "section", "bg-gray"], [1, "col-lg-4", "col-md-4", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-img"], ["src", "/assets/Images/home-banner-1.jpg", "alt", ""], [1, "mb-3"], ["href", "#", "data-toggle", "modal", "data-target", "#walkthrough-video", 1, "learn-more", 3, "click"], [1, "icon-play3", "font-medium-3", "mr-2"], ["src", "/assets/Images/home-banner-2.jpg", "alt", ""], ["src", "/assets/Images/home-banner-3.jpg", "alt", ""], ["href", "#", "data-toggle", "modal", "data-target", "#walkthrough-video-interviewer", 1, "learn-more", 3, "click"], ["id", "witmyworldBot", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", 1, "close", 3, "click"], [1, "modal-body", "p-0"], ["width", "100%", "height", "500", "title", "Witmyworld", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], ["id", "walkthrough-video", 1, "modal"], [1, "modal-dialog", "modal-lg"], [1, "modal-body", "p-1"], ["height", "500", "title", "Witmyworld", "width", "100%", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], ["id", "walkthrough-video-interviewer", 1, "modal"], ["width", "100%", "height", "500", "title", "Witmyworld", "frameborder", "0", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], [1, "btn", "btn-lg", "btn-primary", "btn-effect", 3, "routerLink"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 183, vars: 8, consts: [["id", "carousel-area"], [1, "container", "home-banner"], [1, "row", "align-items-center"], [1, "col-lg-7", "col-md-6", "col-sm-12", "col-xs-12", "content"], [1, "text-primary"], [1, "description"], ["class", "btn btn-lg btn-primary btn-effect", 3, "routerLink", 4, "ngIf"], [1, "col-lg-5", "col-md-6", "col-sm-12", "col-xs-12"], [1, "herobanner__video", "registerarea__video"], ["loading", "lazy", "src", "../../assets/Images/herobanner__video.jpg", "alt", "Video Banner"], [1, "video__pop__btn"], ["href", "#", "data-toggle", "modal", "data-target", "#witmyworldBot", 1, "video-btn", 3, "click"], ["loading", "lazy", "src", "../../assets/Images/video.png", "alt", ""], [1, "container"], [1, "banner"], [1, "banner-content"], [1, "row"], [1, "col-md-10", "offset-md-1"], [1, "px-5"], ["routerLink", "/pricing", 1, "btn", "btn-primary", "btn-lg"], ["id", "blog", 1, "section"], [1, "section-header"], [1, "section-title"], [1, "col-lg-4", "col-md-6", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-wrapper", "card"], [1, "blog-item-img", "p-3"], ["alt", "", "src", "/assets/Images/witmyworld-candidate.svg", 1, "img-auto"], [1, "blog-item-text", "card-body"], [1, "learn-more", 3, "routerLink"], ["alt", "", "src", "/assets/Images/witmyworld-corporate.svg", 1, "img-auto"], ["alt", "", "src", "/assets/Images/witmyworld-interviwer.svg", 1, "img-auto"], ["id", "blog", 1, "section", "bg-gray"], [1, "col-lg-4", "col-md-4", "col-xs-12", "d-flex", "align-items-stretch"], [1, "blog-item-img"], ["src", "/assets/Images/home-banner-1.jpg", "alt", ""], [1, "mb-3"], ["href", "#", "data-toggle", "modal", "data-target", "#walkthrough-video", 1, "learn-more", 3, "click"], [1, "icon-play3", "font-medium-3", "mr-2"], ["src", "/assets/Images/home-banner-2.jpg", "alt", ""], ["src", "/assets/Images/home-banner-3.jpg", "alt", ""], ["href", "#", "data-toggle", "modal", "data-target", "#walkthrough-video-interviewer", 1, "learn-more", 3, "click"], ["id", "witmyworldBot", "tabindex", "-1", "role", "dialog", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], ["role", "document", 1, "modal-dialog", "modal-lg"], [1, "modal-content"], [1, "modal-header"], [1, "modal-title"], ["type", "button", "data-dismiss", "modal", 1, "close", 3, "click"], [1, "modal-body", "p-0"], ["width", "100%", "height", "500", "title", "Witmyworld", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], ["id", "walkthrough-video", 1, "modal"], [1, "modal-dialog", "modal-lg"], [1, "modal-body", "p-1"], ["height", "500", "title", "Witmyworld", "width", "100%", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], ["id", "walkthrough-video-interviewer", 1, "modal"], ["width", "100%", "height", "500", "title", "Witmyworld", "frameborder", "0", "frameborder", "0", "frameborder", "0", "allowfullscreen", "", "allow", "autoplay", 3, "src"], [1, "btn", "btn-lg", "btn-primary", "btn-effect", 3, "routerLink"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "Modernize ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](6, "br");
@@ -14355,172 +16813,179 @@ HomePageComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_a_click_16_listener() { return ctx.openVideo(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "img", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "section", 13)(19, "div", 14)(20, "div", 15)(21, "h2", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "Why WitMyWorld?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "section", 13)(19, "div", 14)(20, "div", 15)(21, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "AI powered Mock Interviews that Mirror Reality");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](24, "Candidate \u2022 Corporate \u2022 Interviewer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "div", 16)(24, "div", 17)(25, "p", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](26, "Our real-time mock interviews provide a realistic experience with comprehensive feedback on every response. Join now and transform your interview anxiety into confidence! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](28, "Explore Services");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "section", 20)(30, "div", 13)(31, "div", 21)(32, "h2", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "Why WitMyWorld?");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](25, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](26, "Build a faster, fairer, friendlier talent assessment process with WitMyWorld. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, "Candidate \u2022 Corporate \u2022 Interviewer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](37, "Build a faster, fairer, friendlier talent assessment process with WitMyWorld. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 17)(28, "div", 18)(29, "div", 19)(30, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](31, "img", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "div", 16)(39, "div", 23)(40, "div", 24)(41, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](42, "img", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "div", 22)(33, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](34, "CANDIDATE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "div", 27)(44, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](45, "CANDIDATE");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, "Seamless Candidate Experiences.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](47, "Seamless Candidate Experiences.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "ul")(38, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Talented candidates always appreciate good screening process.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "ul")(49, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](50, "Talented candidates always appreciate good screening process.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, "The first step in using the platform is to create a profile. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](52, "The first step in using the platform is to create a profile. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "With very minimal inputs your profile is done and next, you can complete the assessment process. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](53, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](54, "With very minimal inputs your profile is done and next, you can complete the assessment process. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](44, "div")(45, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](46, "Sign In");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](55, "div")(56, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](57, "Sign In");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](47, "div", 18)(48, "div", 19)(49, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](50, "img", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "div", 23)(59, "div", 24)(60, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](61, "img", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](51, "div", 22)(52, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](53, "CORPORATES");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](62, "div", 27)(63, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](64, "CORPORATES");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](54, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](55, "Welcome to smart recruitment");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](65, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](66, "Welcome to smart recruitment");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](56, "ul")(57, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](58, "Offering seamless talent assessment thorugh our assessment tests and interviews.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "ul")(68, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Offering seamless talent assessment thorugh our assessment tests and interviews.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](59, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](60, "We have partnered with talented individuals as our interviewers. Corporates can choose to onboard their interviewers as well.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](70, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](71, "We have partnered with talented individuals as our interviewers. Corporates can choose to onboard their interviewers as well.");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](61, "div")(62, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](63, "Sign In");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](72, "div")(73, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](74, "Sign In");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](64, "div", 18)(65, "div", 19)(66, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](67, "img", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](75, "div", 23)(76, "div", 24)(77, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](78, "img", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](68, "div", 22)(69, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](70, "INTERVIEWER");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](79, "div", 27)(80, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](81, "INTERVIEWER");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](71, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](72, "Become our interviewer partner to earn more. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](82, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](83, "Become our interviewer partner to earn more. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](73, "ul")(74, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](75, "In case you have more than 6 years of experience in a relevant field and you have been part of the interview process before please come and join us. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](84, "ul")(85, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](86, "In case you have more than 6 years of experience in a relevant field and you have been part of the interview process before please come and join us. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](76, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](77, " We have very standard process for screening as an interviewer which is followed by hiring test and interview. There will be very short trainings that... ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](87, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](88, " We have very standard process for screening as an interviewer which is followed by hiring test and interview. There will be very short trainings that... ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](78, "div")(79, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](80, "Sign In");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](89, "div")(90, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](91, "Sign In");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](81, "section", 26)(82, "div", 14)(83, "div", 15)(84, "h2", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](85, "How it Works?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](92, "section", 31)(93, "div", 13)(94, "div", 21)(95, "h2", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](96, "How it Works?");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](86, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](87, "Our goal is to make the assessment process easy and streamlined with less hassle and stress. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](97, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](98, "Our goal is to make the assessment process easy and streamlined with less hassle and stress. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](88, "div", 17)(89, "div", 27)(90, "div", 19)(91, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](92, "img", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](99, "div", 16)(100, "div", 32)(101, "div", 24)(102, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](103, "img", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](93, "div", 22)(94, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](95, "CANDIDATE");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](104, "div", 27)(105, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](106, "CANDIDATE");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](96, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](97, "A simple 3 step process: ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](107, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](108, "A simple 3 step process: ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](98, "ul", 30)(99, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](100, " Sign up with us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](109, "ul", 35)(110, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](111, " Sign up with us");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](101, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](102, " Complete your assessment test ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](112, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](113, " Complete your assessment test ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](103, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](104, " Complete your interview ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](114, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](115, " Complete your interview ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](105, "div")(106, "a", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_a_click_106_listener() { return ctx.openVideoCandidate(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](107, "i", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](108, "Video Walkthrough ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](116, "div")(117, "a", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_a_click_117_listener() { return ctx.openVideoCandidate(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](118, "i", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](119, "Video Walkthrough ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](109, "div", 27)(110, "div", 19)(111, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](112, "img", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](120, "div", 32)(121, "div", 24)(122, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](123, "img", 38);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](113, "div", 22)(114, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](115, "CORPORATES");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](124, "div", 27)(125, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](126, "CORPORATES");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](116, "ul")(117, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](118, "Please reach out to us for more details. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](127, "ul")(128, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](129, "Please reach out to us for more details. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](119, "div")(120, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](121, "Contact us ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](130, "div")(131, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](132, "Contact us ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](122, "div", 27)(123, "div", 19)(124, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](125, "img", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](133, "div", 32)(134, "div", 24)(135, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](136, "img", 39);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](126, "div", 22)(127, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](128, "INTERVIEWERS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](137, "div", 27)(138, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](139, "INTERVIEWERS");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](129, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](130, "A simple 3 step process:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](140, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](141, "A simple 3 step process:");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](131, "ul")(132, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](133, "Sign up with us ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](142, "ul")(143, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](144, "Sign up with us ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](134, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](135, "Complete the assement process and get onboard ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](145, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](146, "Complete the assement process and get onboard ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](136, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](137, " Become a partner and start taking interviews ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](147, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](148, " Become a partner and start taking interviews ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](138, "div")(139, "a", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_a_click_139_listener() { return ctx.openVideoInterviewer(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](140, "i", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](141, " Video Walkthrough ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](149, "div")(150, "a", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_a_click_150_listener() { return ctx.openVideoInterviewer(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](151, "i", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](152, " Video Walkthrough ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](142, "div", 36)(143, "div", 37)(144, "div", 38)(145, "div", 39)(146, "h4", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](147, "Witmyworld Walkthrough");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](153, "div", 41)(154, "div", 42)(155, "div", 43)(156, "div", 44)(157, "h4", 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](158, "Witmyworld Walkthrough");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](148, "button", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_button_click_148_listener() { return ctx.closeModal(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](149, "\u00D7");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](159, "button", 46);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_button_click_159_listener() { return ctx.closeModal(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](160, "\u00D7");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](150, "div", 42);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](151, "iframe", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](161, "div", 47);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](162, "iframe", 48);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](152, "div", 44)(153, "div", 45)(154, "div", 38)(155, "div", 39)(156, "h4", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](157, "Video Walkthrough");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](158, "button", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_button_click_158_listener() { return ctx.closeModal(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](159, "\u00D7");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](160, "div", 46);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](161, "iframe", 47);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](162, "div", 48);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](163, "s ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](164, "div", 45)(165, "div", 38)(166, "div", 39)(167, "h4", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](163, "div", 49)(164, "div", 50)(165, "div", 43)(166, "div", 44)(167, "h4", 45);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](168, "Video Walkthrough");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](169, "button", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](169, "button", 46);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_button_click_169_listener() { return ctx.closeModal(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](170, "\u00D7");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](171, "div", 46);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](172, "iframe", 49);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](171, "div", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](172, "iframe", 52);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](173, "div", 53)(174, "div", 50)(175, "div", 43)(176, "div", 44)(177, "h4", 45);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](178, "Video Walkthrough");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](179, "button", 46);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function HomePageComponent_Template_button_click_179_listener() { return ctx.closeModal(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](180, "\u00D7");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](181, "div", 51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](182, "iframe", 54);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx.isLoggedIn);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](45);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", "/candidate");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](17);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", "/recruiter");
@@ -14532,7 +16997,7 @@ HomePageComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ctx.displayURL, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeResourceUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ctx.interviewVideoURL, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeResourceUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ctx.candidateVideoURL, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeResourceUrl"]);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterLinkWithHref], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lLXBhZ2UuY29tcG9uZW50LmNzcyJ9 */"] });
 
@@ -19802,7 +22267,7 @@ function CreateReferenceComponent_tr_25_Template(rf, ctx) {
   }
 }
 
-function CreateReferenceComponent_ng_container_68_tr_1_em_5_Template(rf, ctx) {
+function CreateReferenceComponent_ng_container_70_tr_1_em_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "em", 108);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, "Please enter a valid count.");
@@ -19810,7 +22275,7 @@ function CreateReferenceComponent_ng_container_68_tr_1_em_5_Template(rf, ctx) {
   }
 }
 
-function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
+function CreateReferenceComponent_ng_container_70_tr_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r28 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
 
@@ -19818,16 +22283,16 @@ function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "td")(4, "input", 100);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_change_4_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_change_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](2);
       return ctx_r27.updateTotal();
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](5, CreateReferenceComponent_ng_container_68_tr_1_em_5_Template, 2, 0, "em", 101);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](5, CreateReferenceComponent_ng_container_70_tr_1_em_5_Template, 2, 0, "em", 101);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "td", 26)(7, "input", 102);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_change_7_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_change_7_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       const ctx_r29 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
@@ -19835,7 +22300,7 @@ function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](8, "td", 26)(9, "input", 102);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_change_9_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_change_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       const ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
@@ -19843,7 +22308,7 @@ function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](10, "td", 26)(11, "input", 102);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_change_11_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_change_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       const ctx_r33 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
@@ -19851,25 +22316,25 @@ function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](12, "td", 26)(13, "input", 103);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_ngModelChange_13_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_13_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       return skill_r23.custom_bank = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](14, "td", 26)(15, "input", 69);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_ngModelChange_15_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_15_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       return skill_r23.live_code = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](16, "td")(17, "div", 64)(18, "input", 104);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_change_18_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_change_18_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const ctx_r39 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](2);
       return ctx_r39.updateTotalCutOff();
-    })("ngModelChange", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_ngModelChange_18_listener($event) {
+    })("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_18_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       return skill_r23.cutoff = $event;
@@ -19879,21 +22344,21 @@ function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](20, " % ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](21, "td")(22, "div", 64)(23, "input", 35);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_ngModelChange_23_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_23_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       return skill_r23.depth = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](24, "td")(25, "div", 64)(26, "input", 35);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_ngModelChange_26_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_26_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       return skill_r23.experience = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](27, "td")(28, "div", 64)(29, "input", 35);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_ngModelChange_29_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_29_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       return skill_r23.weightage = $event;
@@ -19903,20 +22368,27 @@ function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](31, " % ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](32, "td")(33, "div", 64)(34, "input", 105);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_68_tr_1_Template_input_ngModelChange_34_listener($event) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_34_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       return skill_r23.duration = $event;
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](35, "td", 26)(36, "a", 106);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_ng_container_68_tr_1_Template_a_click_36_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](35, "td")(36, "div", 64)(37, "input", 35);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_ng_container_70_tr_1_Template_input_ngModelChange_37_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
       const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
-      const ctx_r50 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-      return ctx_r50.removeskill(skill_r23);
+      return skill_r23.sequence = $event;
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](37, "i", 107);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](38, "td", 26)(39, "a", 106);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_ng_container_70_tr_1_Template_a_click_39_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r28);
+      const skill_r23 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
+      const ctx_r52 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
+      return ctx_r52.removeskill(skill_r23);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](40, "i", 107);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
   }
 
@@ -19949,13 +22421,15 @@ function CreateReferenceComponent_ng_container_68_tr_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngModel", skill_r23.weightage);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngModel", skill_r23.duration);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngModel", skill_r23.sequence);
   }
 }
 
-function CreateReferenceComponent_ng_container_68_Template(rf, ctx) {
+function CreateReferenceComponent_ng_container_70_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, CreateReferenceComponent_ng_container_68_tr_1_Template, 38, 14, "tr", 99);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, CreateReferenceComponent_ng_container_70_tr_1_Template, 41, 15, "tr", 99);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementContainerEnd"]();
   }
 
@@ -19966,31 +22440,15 @@ function CreateReferenceComponent_ng_container_68_Template(rf, ctx) {
   }
 }
 
-function CreateReferenceComponent_button_99_Template(rf, ctx) {
-  if (rf & 1) {
-    const _r54 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
-
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "button", 109);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_button_99_Template_button_click_0_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r54);
-      const ctx_r53 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-      return ctx_r53.fileChange(null);
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "mat-icon", 110);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "close");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-  }
-}
-
-function CreateReferenceComponent_button_117_Template(rf, ctx) {
+function CreateReferenceComponent_button_101_Template(rf, ctx) {
   if (rf & 1) {
     const _r56 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
 
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "button", 109);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_button_117_Template_button_click_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_button_101_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r56);
       const ctx_r55 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-      return ctx_r55.fileChange_questions(null);
+      return ctx_r55.fileChange(null);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "mat-icon", 110);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "close");
@@ -19998,7 +22456,23 @@ function CreateReferenceComponent_button_117_Template(rf, ctx) {
   }
 }
 
-function CreateReferenceComponent_option_273_Template(rf, ctx) {
+function CreateReferenceComponent_button_119_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
+
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "button", 109);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_button_119_Template_button_click_0_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r58);
+      const ctx_r57 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
+      return ctx_r57.fileChange_questions(null);
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "mat-icon", 110);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2, "close");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
+  }
+}
+
+function CreateReferenceComponent_option_275_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "option", 111);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1);
@@ -20006,10 +22480,10 @@ function CreateReferenceComponent_option_273_Template(rf, ctx) {
   }
 
   if (rf & 2) {
-    const subscription_r57 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngValue", subscription_r57);
+    const subscription_r59 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngValue", subscription_r59);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", subscription_r57.description, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", subscription_r59.description, " ");
   }
 }
 
@@ -20163,7 +22637,8 @@ class CreateReferenceComponent {
               depth: 0,
               experience: 5,
               weightage: 0,
-              duration: 2
+              duration: 2,
+              sequence: 1
             };
           });
 
@@ -20236,6 +22711,7 @@ class CreateReferenceComponent {
         count: data.count.value
       });
     });
+    skills_array.sort((a, b) => a.sequence - b.sequence);
     let input = {
       skills: skills_array,
       max_tests: this.no_of_tests,
@@ -20504,12 +22980,12 @@ CreateReferenceComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MO
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵloadQuery"]()) && (ctx.fileInputquestions = _t.first);
     }
   },
-  decls: 279,
+  decls: 281,
   vars: 33,
   consts: [[1, "tab-pane", "active"], [1, "row", "mb-3"], [1, "col-md-3", "col-lg-3"], [1, "example-container1", "card"], [1, "card-header", "filter-by"], [1, "mb-0"], [1, "card-body", "filter-card-body", "create-test-skills-table"], ["matInput", "", "placeholder", "Ex. search", 3, "keyup"], ["input", ""], [1, "example-container", "mat-elevation-z8", "mb-3"], ["mat-table", "", "matSort", "", 3, "dataSource"], ["skillsMat", "", "skillsMatSort", "matSort"], ["matColumnDef", "select"], ["class", "width-40", "mat-header-cell", "", 4, "matHeaderCellDef"], ["mat-cell", "", 4, "matCellDef"], ["matColumnDef", "name"], ["mat-header-cell", "", "mat-sort-header", "", 4, "matHeaderCellDef"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["mat-row", "", 4, "matRowDef", "matRowDefColumns"], ["class", "mat-row", 4, "matNoDataRow"], [1, "pretty", "p-default", "pretty-sm", "ml-2"], ["type", "checkbox", 3, "ngModel", "change", "ngModelChange"], [1, "state", "p-primary"], [1, "col-md-5", "col-lg-6"], [1, "table-responsive", "mb-1", "max-height-210"], [1, "table", "table-striped", "table-sm", "v-align-middle", "table-fixed-head", "mb-1"], [1, "text-center"], [4, "ngFor", "ngForOf"], [1, "row", "mb-4"], [1, "col-sm-6"], [1, "mb-2"], [1, "font-medium-1"], [1, "text-semibold", "text-success"], [1, "text-left", "font-medium-3", "mb-2", "form-inline", "float-right"], [1, "pr-2", "font-medium-1"], ["min", "0", "type", "number", 1, "form-control", "xs", "pl-1", "width-50", 3, "ngModel", "ngModelChange"], [1, "pl-1"], [1, "card", "mb-3"], [1, "card-body", "p-3"], [1, "row", "align-items-center"], [1, "col-lg-5", "mb-2", "mb-lg-0"], [1, "card-title"], [1, "font-small-3", "text-muted"], [1, "col-lg-2"], [1, "upload-btn-wrapper"], ["hidden", "", "type", "file", 3, "change"], ["fileInput", ""], [1, "btn", "btn-border", "btn-sm", 3, "click"], [1, "col-lg-5"], [1, "d-flex"], ["aria-labelledby", "Clear Selection", "class", "button-close-file", "mat-icon-button", "", "matSuffix", "", 3, "click", 4, "ngIf"], ["matInput", "", "readonly", "", "type", "text", 1, "font-small-3", "text-black", 3, "value"], [1, "font-small-3", "text-muted", "line-height-small-3"], ["fileInputquestions", ""], ["matInput", "", "readonly", "", "type", "text", 1, "font-small-3", "text-success", 3, "value"], [1, "col-lg-7", "mb-2", "mb-lg-0"], [1, "switch", "switch-primary"], ["id", "switch-p-001", "type", "checkbox", 3, "ngModel", "ngModelChange"], ["for", "switch-p-001", 1, "cr", "top-0"], [1, "col-md-4", "col-lg-3"], [1, "list-group", "list-group-bg-light"], [1, "list-group-item", "d-flex", "justify-content-between", "align-items-center"], [1, "form-group"], [1, "label-control", "mb-2"], [1, "d-flex", "align-items-center"], ["id", "switch-p-002", "type", "checkbox", 1, "", 3, "ngModel", "change", "ngModelChange"], ["for", "switch-p-002", 1, "cr", "top-0"], [1, "pl-4"], [1, "pretty", "pretty-sm", "p-default", "mr-0"], ["type", "checkbox", 3, "ngModel", "disabled", "ngModelChange"], ["id", "switch-p-004", "type", "checkbox", 3, "ngModel", "change", "ngModelChange"], ["for", "switch-p-004", 1, "cr", "top-0"], ["id", "switch-p-005", "type", "checkbox", 3, "ngModel", "change", "ngModelChange"], ["for", "switch-p-005", 1, "cr", "top-0"], [1, "list-group-item"], [1, "label-control"], [1, "form-control", "xs", "width-60", 3, "ngModel", "ngModelChange"], ["value", "0"], [1, "p-1", "font-medium-1", "text-muted"], [1, "form-control", "xs", "width-60", "ml-1", 3, "ngModel", "ngModelChange"], ["disabled", "", "hidden", "", "selected", "selected", "value", ""], ["value", "30"], [1, "form-group", "field-md"], ["type", "text", 1, "form-control", "sm", 3, "ngModel", "ngModelChange"], [1, "form-control", "sm", 3, "ngModel", "ngModelChange"], ["disabled", "", "hidden", "", "selected", "", "value", "null"], [3, "ngValue", 4, "ngFor", "ngForOf"], [1, "text-right"], [1, "btn", "btn-border", "mr-2", 3, "click"], [1, "btn", "btn-primary", "create-test", 3, "disabled", "click"], ["mat-header-cell", "", 1, "width-40"], ["mat-cell", ""], [3, "ngModel", "ngModelChange"], ["mat-header-cell", "", "mat-sort-header", ""], [1, "pl-2"], ["mat-header-row", ""], ["mat-row", ""], [1, "mat-row"], ["colspan", "4", 1, "mat-cell"], [4, "ngIf"], ["min", "0", "type", "number", 1, "form-control", "xs", "pl-1", "width-70", 3, "formControl", "change"], ["class", "mat-error font-small-3", 4, "ngIf"], ["type", "checkbox", 3, "checked", "change"], ["type", "checkbox", 3, "ngModel", "ngModelChange"], ["min", "0", "type", "number", 1, "form-control", "xs", "pl-1", "width-50", 3, "ngModel", "change", "ngModelChange"], ["min", "2", "type", "number", 1, "form-control", "xs", "pl-1", "width-50", 3, "ngModel", "ngModelChange"], ["href", "javascript:void(0);", "title", "Remove", 3, "click"], [1, "icon-bin", "text-danger"], [1, "mat-error", "font-small-3"], ["aria-labelledby", "Clear Selection", "mat-icon-button", "", "matSuffix", "", 1, "button-close-file", 3, "click"], [1, "font-medium-2", "text-danger"], [3, "ngValue"]],
   template: function CreateReferenceComponent_Template(rf, ctx) {
     if (rf & 1) {
-      const _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
+      const _r60 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
 
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "h5", 5);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](6, "Skills");
@@ -20592,301 +23068,304 @@ CreateReferenceComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MO
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](64, "Duration ");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](65, "th", 26);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](66, "Remove");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](67, "tbody");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](68, CreateReferenceComponent_ng_container_68_Template, 2, 1, "ng-container", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](69, "div", 28)(70, "div", 29)(71, "div", 30)(72, "span", 31);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](73, "Total Questions:");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](66, "Sequence ");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](74, "span", 32);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](75);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](67, "th", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](68, "Remove");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](76, "div", 29)(77, "div", 33)(78, "span", 34);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](79, "Total CutOff: ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](69, "tbody");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](70, CreateReferenceComponent_ng_container_70_Template, 2, 1, "ng-container", 27);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](71, "div", 28)(72, "div", 29)(73, "div", 30)(74, "span", 31);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](75, "Total Questions:");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](80, "input", 35);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_80_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](76, "span", 32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](77);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](78, "div", 29)(79, "div", 33)(80, "span", 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](81, "Total CutOff: ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](82, "input", 35);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_82_listener($event) {
         return ctx.total_cutoff = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](81, "span", 36);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](82, "%");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](83, "span", 36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](84, "%");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](83, "div", 37)(84, "div", 38)(85, "div", 39)(86, "div", 40)(87, "h5", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](88, "Upload JD");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](85, "div", 37)(86, "div", 38)(87, "div", 39)(88, "div", 40)(89, "h5", 41);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](90, "Upload JD");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](89, "span", 42);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](90, "Job description in PDF format");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](91, "span", 42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](92, "Job description in PDF format");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](91, "div", 43)(92, "div", 44)(93, "input", 45, 46);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_93_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](93, "div", 43)(94, "div", 44)(95, "input", 45, 46);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_95_listener($event) {
         return ctx.fileChange($event.target.files);
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](95, "button", 47);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_95_listener() {
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r58);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](97, "button", 47);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_97_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r60);
 
-        const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](94);
+        const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](96);
 
         return _r11.click();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](96, "Browse");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](98, "Browse");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](97, "div", 48)(98, "div", 49);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](99, CreateReferenceComponent_button_99_Template, 3, 0, "button", 50);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](100, "input", 51);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](99, "div", 48)(100, "div", 49);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](101, CreateReferenceComponent_button_101_Template, 3, 0, "button", 50);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](102, "input", 51);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](101, "div", 37)(102, "div", 38)(103, "div", 39)(104, "div", 40)(105, "h5", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](106, "Interview questions");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](103, "div", 37)(104, "div", 38)(105, "div", 39)(106, "div", 40)(107, "h5", 41);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](108, "Interview questions");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](107, "p", 52);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](108, "Mandatory questions that best match the requirement in PDF format");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](109, "p", 52);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](110, "Mandatory questions that best match the requirement in PDF format");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](109, "div", 43)(110, "div", 44)(111, "input", 45, 53);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_111_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](111, "div", 43)(112, "div", 44)(113, "input", 45, 53);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_113_listener($event) {
         return ctx.fileChange_questions($event.target.files);
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](113, "button", 47);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_113_listener() {
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r58);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](115, "button", 47);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_115_listener() {
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r60);
 
-        const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](112);
+        const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵreference"](114);
 
         return _r13.click();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](114, "Browse ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](116, "Browse ");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](115, "div", 48)(116, "div", 49);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](117, CreateReferenceComponent_button_117_Template, 3, 0, "button", 50);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](118, "input", 54);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](117, "div", 48)(118, "div", 49);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](119, CreateReferenceComponent_button_119_Template, 3, 0, "button", 50);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](120, "input", 54);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](119, "div", 37)(120, "div", 38)(121, "div", 39)(122, "div", 55)(123, "h5", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](124, "Activate Reference");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](121, "div", 37)(122, "div", 38)(123, "div", 39)(124, "div", 55)(125, "h5", 41);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](126, "Activate Reference");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](125, "p", 52);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](126, "Activate reference code for the candidates");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](127, "p", 52);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](128, "Activate reference code for the candidates");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](127, "div", 48)(128, "div", 56)(129, "input", 57);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_129_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](129, "div", 48)(130, "div", 56)(131, "input", 57);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_131_listener($event) {
         return ctx.activateFlag = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](130, "label", 58);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](132, "label", 58);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](131, "div", 59)(132, "ul", 60)(133, "li", 61)(134, "div", 62)(135, "label", 63);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](136, "Enable Assessment Tests");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](133, "div", 59)(134, "ul", 60)(135, "li", 61)(136, "div", 62)(137, "label", 63);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](138, "Enable Assessment Tests");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](137, "div", 64)(138, "div")(139, "div", 56)(140, "input", 65);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_140_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](139, "div", 64)(140, "div")(141, "div", 56)(142, "input", 65);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_142_listener() {
         return ctx.enable_test();
-      })("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_140_listener($event) {
+      })("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_142_listener($event) {
         return ctx.no_of_tests = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](141, "label", 66);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](143, "label", 66);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](142, "div", 67)(143, "div")(144, "div", 68)(145, "input", 69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_145_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](144, "div", 67)(145, "div")(146, "div", 68)(147, "input", 69);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_147_listener($event) {
         return ctx.testImagesFlag = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](146, "div", 22)(147, "label");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](148, "Still Images");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](148, "div", 22)(149, "label");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](150, "Still Images");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](149, "div")(150, "div", 68)(151, "input", 69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_151_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](151, "div")(152, "div", 68)(153, "input", 69);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_153_listener($event) {
         return ctx.testVideoFlag = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](152, "div", 22)(153, "label");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](154, " Video");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](154, "div", 22)(155, "label");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](156, " Video");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](155, "li", 61)(156, "div", 62)(157, "label", 63);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](158, "Enable Interviews");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](157, "li", 61)(158, "div", 62)(159, "label", 63);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](160, "Enable Panel Assessments");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](159, "div", 64)(160, "div")(161, "div", 56)(162, "input", 70);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_162_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](161, "div", 64)(162, "div")(163, "div", 56)(164, "input", 70);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_164_listener() {
         return ctx.enable_interview();
-      })("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_162_listener($event) {
+      })("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_164_listener($event) {
         return ctx.no_of_interviews = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](163, "label", 71);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](165, "label", 71);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](164, "div", 67)(165, "div", 68)(166, "input", 69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_166_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](166, "div", 67)(167, "div", 68)(168, "input", 69);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_168_listener($event) {
         return ctx.interviewVideoFlag = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](167, "div", 22)(168, "label");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](169, " Video");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](169, "div", 22)(170, "label");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](171, " Video");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](170, "div")(171, "div", 68)(172, "input", 69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_172_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](172, "div")(173, "div", 68)(174, "input", 69);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_174_listener($event) {
         return ctx.autoScheduleFlag = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](173, "div", 22)(174, "label");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](175, "Auto schedule");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](175, "div", 22)(176, "label");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](177, "Auto schedule");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](176, "li", 61)(177, "div", 62)(178, "label", 63);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](179, "Enable Bot interviews");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](178, "li", 61)(179, "div", 62)(180, "label", 63);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](181, "Enable AI Assessments");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](180, "div", 64)(181, "div")(182, "div", 56)(183, "input", 72);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_183_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](182, "div", 64)(183, "div")(184, "div", 56)(185, "input", 72);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function CreateReferenceComponent_Template_input_change_185_listener() {
         return ctx.enable_bot_interview();
-      })("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_183_listener($event) {
+      })("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_185_listener($event) {
         return ctx.bot_interview = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](184, "label", 73);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](186, "label", 73);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](185, "div", 67)(186, "div", 68)(187, "input", 69);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_187_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](187, "div", 67)(188, "div", 68)(189, "input", 69);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_189_listener($event) {
         return ctx.botInterviewVideoFlag = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](188, "div", 22)(189, "label");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](190, " Video");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](190, "div", 22)(191, "label");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](192, " Video");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](191, "li", 74)(192, "div", 62)(193, "label", 75);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](194, "Test duration");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](193, "li", 74)(194, "div", 62)(195, "label", 75);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](196, "Test duration");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](195, "div", 49)(196, "div")(197, "select", 76);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_select_ngModelChange_197_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](197, "div", 49)(198, "div")(199, "select", 76);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_select_ngModelChange_199_listener($event) {
         return ctx.duration.hours = $event;
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](198, "option", 77);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](199, "00");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](200, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](201, "01");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](200, "option", 77);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](201, "00");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](202, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](203, "02");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](203, "01");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](204, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](205, "03");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](205, "02");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](206, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](207, "04");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](207, "03");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](208, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](209, "05");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](209, "04");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](210, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](211, "06");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](211, "05");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](212, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](213, "07");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](213, "06");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](214, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](215, "08");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](215, "07");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](216, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](217, "09");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](217, "08");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](218, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](219, "10");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](219, "09");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](220, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](221, "11");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](221, "10");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](222, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](223, "12");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](223, "11");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](224, "option");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](225, "12");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](224, "span", 78);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](225, "Hours");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](226, "span", 78);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](227, "Hours");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](226, "div")(227, "select", 79);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_select_ngModelChange_227_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](228, "div")(229, "select", 79);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_select_ngModelChange_229_listener($event) {
         return ctx.duration.minutes = $event;
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](228, "option", 80);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](229, "Min. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](230, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](231, "00");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](230, "option", 80);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](231, "Min. ");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](232, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](233, "05");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](233, "00");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](234, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](235, "10");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](235, "05");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](236, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](237, "15");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](237, "10");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](238, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](239, "20");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](239, "15");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](240, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](241, "25");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](241, "20");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](242, "option", 81);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](243, "30");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](242, "option");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](243, "25");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](244, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](245, "35");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](244, "option", 81);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](245, "30");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](246, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](247, "40");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](247, "35");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](248, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](249, "45");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](249, "40");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](250, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](251, "50");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](251, "45");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](252, "option");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](253, "55");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](254, "span", 78);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](255, "Minutes");
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](256, "li", 74)(257, "div", 82)(258, "label", 75);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](259, "Job ID");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](253, "50");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](260, "input", 83);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_260_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](254, "option");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](255, "55");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](256, "span", 78);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](257, "Minutes");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](258, "li", 74)(259, "div", 82)(260, "label", 75);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](261, "Job ID");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](262, "input", 83);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_262_listener($event) {
         return ctx.job_id = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](261, "li", 74)(262, "div", 82)(263, "label", 75);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](264, "Name");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](263, "li", 74)(264, "div", 82)(265, "label", 75);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](266, "Name");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](265, "input", 83);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_265_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](267, "input", 83);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_input_ngModelChange_267_listener($event) {
         return ctx.reference_name = $event;
       });
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](266, "li", 74)(267, "div", 82)(268, "label", 75);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](269, "Supscription");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](268, "li", 74)(269, "div", 82)(270, "label", 75);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](271, "Supscription");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](270, "select", 84);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_select_ngModelChange_270_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](272, "select", 84);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("ngModelChange", function CreateReferenceComponent_Template_select_ngModelChange_272_listener($event) {
         return ctx.selected_subscription = $event;
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](271, "option", 85);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](272, "Select a Supscription");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](273, "option", 85);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](274, "Select a Supscription");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](273, CreateReferenceComponent_option_273_Template, 2, 2, "option", 86);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](275, CreateReferenceComponent_option_275_Template, 2, 2, "option", 86);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](274, "div", 87)(275, "button", 88);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_275_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](276, "div", 87)(277, "button", 88);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_277_listener() {
         return ctx.initialize();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](276, "Discard");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](278, "Discard");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](277, "button", 89);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_277_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](279, "button", 89);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function CreateReferenceComponent_Template_button_click_279_listener() {
         return ctx.create_reference();
       });
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](278, "Create Reference ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](280, "Create Reference ");
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
     }
 
@@ -20901,7 +23380,7 @@ CreateReferenceComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MO
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngModel", ctx.selected_aptitude);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngModel", ctx.selected_psychometric);
-      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](38);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngForOf", ctx.dataSource.data);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](7);
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", ctx.total_questions, "");
@@ -22631,7 +25110,7 @@ function ViewReferenceComponent_div_124_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](120, " Video");
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()()()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](121, "li", 106)(122, "div", 107)(123, "label", 108);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](124, "Bot Interviews");
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](124, "AI Assessments");
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](125, "div", 109)(126, "div", 110);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelement"](127, "input", 111);
@@ -22644,7 +25123,7 @@ function ViewReferenceComponent_div_124_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](130, "span", 113);
-    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](131, "Bot Interviews conducted");
+    _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](131, "AI Assessments conducted");
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](132, "div", 110)(133, "div", 114)(134, "input", 115);
     _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵlistener"]("ngModelChange", function ViewReferenceComponent_div_124_Template_input_ngModelChange_134_listener($event) {
@@ -23291,10 +25770,10 @@ ViewReferenceComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](87, "Tests");
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](88, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](89, "Interviews");
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](89, "Panel Assessments");
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](90, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](91, "Bot Interviews");
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](91, "AI Assessments");
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](92, "th");
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](93, "Tests Conducted");
@@ -23303,7 +25782,7 @@ ViewReferenceComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODU
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](95, "Interviews Conducted");
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](96, "th");
-      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](97, "Bot Interviews Conducted");
+      _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](97, "AI Assessment Conducted");
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵelementStart"](98, "th");
       _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵtext"](99, "Description");
@@ -24802,7 +27281,7 @@ function ProfilesComponent_div_332_div_13_a_45_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementStart"](0, "a", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelement"](1, "i", 138);
-    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](2, " Download Xceedance Cultural Report Report");
+    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](2, " Download Xceedance Cultural Report");
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementEnd"]();
   }
 
@@ -25217,7 +27696,7 @@ function ProfilesComponent_div_332_div_13_Template(rf, ctx) {
       const ctx_r163 = _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵnextContext"](2);
       return ctx_r163.watch_video(ctx_r163.selected_row_id, "", "BOT_INTERVIEW");
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](20, "Bot Interview Video");
+    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](20, "AI Assessment Video");
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementStart"](21, "li", 114)(22, "a", 130);
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵlistener"]("click", function ProfilesComponent_div_332_div_13_Template_a_click_22_listener() {
@@ -25244,7 +27723,7 @@ function ProfilesComponent_div_332_div_13_Template(rf, ctx) {
       const ctx_r166 = _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵnextContext"](2);
       return ctx_r166.show_video_link(ctx_r166.selected_row_id, "BOT_INTERVIEW");
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](32, "Share Bot Interview link");
+    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](32, "Share AI Assessment link");
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementStart"](33, "li", 114)(34, "a", 134);
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵlistener"]("click", function ProfilesComponent_div_332_div_13_Template_a_click_34_listener() {
@@ -25372,7 +27851,7 @@ function ProfilesComponent_div_332_div_13_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtemplate"](141, ProfilesComponent_div_332_div_13_div_141_Template, 5, 1, "div", 61);
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementStart"](142, "div", 165)(143, "div", 123)(144, "h5", 124);
-    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](145, "Bot interview Details");
+    _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtext"](145, "AI Assessment Details");
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵelementStart"](146, "div", 43);
     _angular_core__WEBPACK_IMPORTED_MODULE_24__["ɵɵtemplate"](147, ProfilesComponent_div_332_div_13_app_bot_feedback_147_Template, 1, 1, "app-bot-feedback", 167);
@@ -27762,50 +30241,71 @@ function BotFeedbackComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx_r0.softSkillSummary);
 } }
-function BotFeedbackComponent_div_36_tr_11_Template(rf, ctx) { if (rf & 1) {
+function BotFeedbackComponent_div_34_th_8_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, "AI guidance");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} }
+function BotFeedbackComponent_div_34_tr_12_td_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const i_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().index;
+    const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r14.interview_summary[i_r13].idealresponse);
+} }
+function BotFeedbackComponent_div_34_tr_12_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "tr")(1, "td");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "td");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](5, BotFeedbackComponent_div_34_tr_12_td_5_Template, 2, 1, "td", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "td");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
 } if (rf & 2) {
-    const i_r12 = ctx.index;
-    const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](2);
+    const i_r13 = ctx.index;
+    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r10.interview_summary[i_r12].skill);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r11.interview_summary[i_r13].skill);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r10.interview_summary[i_r12].summary);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r11.interview_summary[i_r13].summary);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r11.enableAiGuidanceTab);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r10.interview_summary[i_r12].score);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r11.interview_summary[i_r13].score);
 } }
-function BotFeedbackComponent_div_36_Template(rf, ctx) { if (rf & 1) {
+function BotFeedbackComponent_div_34_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 58)(1, "table", 59)(2, "thead")(3, "tr")(4, "th");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "Candidate skill ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7, "Bot summary");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7, "AI assessment");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "th");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9, "Score");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](8, BotFeedbackComponent_div_34_th_8_Template, 2, 0, "th", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "th");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10, "Score");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "tbody");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](11, BotFeedbackComponent_div_36_tr_11_Template, 7, 3, "tr", 34);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "tbody");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](12, BotFeedbackComponent_div_34_tr_12_Template, 8, 4, "tr", 34);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("dtOptions", ctx_r1.dtOptions_feedback)("dtTrigger", ctx_r1.dtTrigger_feedback);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r1.enableAiGuidanceTab);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx_r1.interview_summary);
 } }
-function BotFeedbackComponent_div_37_Template(rf, ctx) { if (rf & 1) {
-    const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
+function BotFeedbackComponent_div_35_Template(rf, ctx) { if (rf & 1) {
+    const _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "mat-form-field", 60)(2, "textarea", 61);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngModelChange", function BotFeedbackComponent_div_37_Template_textarea_ngModelChange_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r14); const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](); return ctx_r13.fraud_details = $event; });
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngModelChange", function BotFeedbackComponent_div_35_Template_textarea_ngModelChange_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r17); const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](); return ctx_r16.fraud_details = $event; });
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
@@ -27848,6 +30348,7 @@ class BotFeedbackComponent {
         };
         this.interview_summary = [];
         this.softSkillSummary = [];
+        this.custom_features = [];
         this.dtOptions_feedback = {};
         this.dtTrigger_feedback = new rxjs__WEBPACK_IMPORTED_MODULE_3__.Subject();
         this.dtOptions_feedback_2 = {};
@@ -27855,8 +30356,10 @@ class BotFeedbackComponent {
         this.overall_feedback = 0;
         this.fraud_detected = 0;
         this.fraud_details = "";
+        this.enableAiGuidanceTab = false;
     }
     ngOnInit() {
+        this.fetchfeatures();
         this.fetchBotInterviewSummary();
     }
     ngOnChanges() {
@@ -27880,7 +30383,7 @@ class BotFeedbackComponent {
             let softSkillSummary = [];
             for (let i = 0; i < skills.length; i++) {
                 let skill = skills[i];
-                interview_summary.push({ "skill": skill, "summary": feedback['techSkills'][skill]['summary'], "score": feedback['techSkills'][skill]['score'] });
+                interview_summary.push({ "skill": skill, "summary": feedback['techSkills'][skill]['summary'], "idealresponse": feedback['techSkills'][skill]['idealresponse'], "score": feedback['techSkills'][skill]['score'] });
             }
             this.interview_summary = interview_summary;
             for (let i = 0; i < softskills.length; i++) {
@@ -27914,9 +30417,24 @@ class BotFeedbackComponent {
                 return '';
         }
     }
+    fetchfeatures() {
+        this.enableAiGuidanceTab = false;
+        let input = {
+            "fetchType": "botInterviewId",
+            "id": this.interview_id,
+        };
+        this.apiService.fetchfeatures(input).then((data) => {
+            data.forEach(element => {
+                if (element['name'] == "BOT_REPORT_CORRECT_ANSWER" && element['enabled'] == 1) {
+                    this.enableAiGuidanceTab = true;
+                }
+            });
+            this.custom_features = data;
+        });
+    }
 }
 BotFeedbackComponent.ɵfac = function BotFeedbackComponent_Factory(t) { return new (t || BotFeedbackComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](ng_http_loader__WEBPACK_IMPORTED_MODULE_4__.SpinnerVisibilityService), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](src_app_api_service__WEBPACK_IMPORTED_MODULE_0__.ApiService)); };
-BotFeedbackComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: BotFeedbackComponent, selectors: [["app-bot-feedback"]], inputs: { interview_id: "interview_id" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵNgOnChangesFeature"]], decls: 38, vars: 26, consts: [["class", "row mb-4", 4, "ngIf"], [1, "row", "mb-4"], [1, "col-lg-6"], [1, "row"], [1, "col-5", "col-sm-3"], [1, "col-5", "col-sm-7"], [1, "rating"], ["id", "4star5", "name", "4rating", "type", "radio", "value", "5", 3, "checked"], ["for", "4star5", 1, "full"], ["id", "4star4half", "name", "4rating", "type", "radio", "value", "4 and a half", 3, "checked"], ["for", "4star4half", 1, "half"], ["id", "4star4", "name", "4rating", "type", "radio", "value", "4", 3, "checked"], ["for", "4star4", 1, "full"], ["id", "4star3half", "name", "4rating", "type", "radio", "value", "3 and a half", 3, "checked"], ["for", "4star3half", 1, "half"], ["id", "4star3", "name", "4rating", "type", "radio", "value", "3", 3, "checked"], ["for", "4star3", 1, "full"], ["id", "4star2half", "name", "4rating", "type", "radio", "value", "2 and a half", 3, "checked"], ["for", "4star2half", 1, "half"], ["id", "4star2", "name", "4rating", "type", "radio", "value", "2", 3, "checked"], ["for", "4star2", 1, "full"], ["id", "4star1half", "name", "4rating", "type", "radio", "value", "1 and a half", 3, "checked"], ["for", "4star1half", 1, "half"], ["id", "4star1", "name", "4rating", "type", "radio", "value", "1", 3, "checked"], ["for", "4star1", 1, "full"], ["id", "4starhalf", "name", "4rating", "type", "radio", "value", "half", 3, "checked"], ["for", "4starhalf", 1, "half"], ["disabled", "", 1, "badge", "ml-1"], [1, "badge-danger", "badge", "ml-1", 3, "hidden"], [1, "col-lg-8"], ["class", "table-responsive", 4, "ngIf"], [4, "ngIf"], [1, "table-responsive", "mb-1"], ["id", "upcoming-table-2", "datatable", "", 1, "table", "table-bordered", "table-striped", "table-hover", 3, "dtOptions", "dtTrigger"], [4, "ngFor", "ngForOf"], [1, "font-medium-3"], ["class", "row mb-1", 4, "ngFor", "ngForOf"], ["feedback_column", ""], ["type", "radio", "value", "5", 3, "id", "name", "checked"], [1, "full", 3, "for"], ["type", "radio", "value", "4 and a half", 3, "id", "name", "checked"], [1, "half", 3, "for"], ["type", "radio", "value", "4", 3, "id", "name", "checked"], ["type", "radio", "value", "3 and a half", 3, "id", "name", "checked"], ["type", "radio", "value", "3", 3, "id", "name", "checked"], ["type", "radio", "value", "2 and a half", 3, "id", "name", "checked"], ["type", "radio", "value", "2", 3, "id", "name", "checked"], ["type", "radio", "value", "1 and a half", 3, "id", "name", "checked"], ["type", "radio", "value", "1", 3, "id", "name", "checked"], ["type", "radio", "value", "half", 3, "id", "name", "checked"], [1, "row", "mb-1"], [1, "col-4", "col-sm-5"], [1, "col-6", "col-sm-5"], ["type", "radio", "value", "2 and a half", 3, "checked", "id", "name"], ["type", "radio", "value", "2", 3, "checked", "id", "name"], ["type", "radio", "value", "1 and a half", 3, "checked", "id", "name"], ["type", "radio", "value", "1", 3, "checked", "id", "name"], ["type", "radio", "value", "half", 3, "checked", "id", "name"], [1, "table-responsive"], ["contenteditable", "", "id", "upcoming-table", "datatable", "", 1, "table", "table-bordered", "table-striped", "table-hover", 3, "dtOptions", "dtTrigger"], ["appearance", "outline", 1, "input-field", 2, "width", "100%"], ["autosize", "", "matInput", "", "name", "fraudText", "required", "", 3, "ngModel", "ngModelChange"]], template: function BotFeedbackComponent_Template(rf, ctx) { if (rf & 1) {
+BotFeedbackComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: BotFeedbackComponent, selectors: [["app-bot-feedback"]], inputs: { interview_id: "interview_id" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵNgOnChangesFeature"]], decls: 36, vars: 21, consts: [["class", "row mb-4", 4, "ngIf"], [1, "row", "mb-4"], [1, "col-lg-6"], [1, "row"], [1, "col-5", "col-sm-3"], [1, "col-5", "col-sm-7"], [1, "rating"], ["id", "4star5", "name", "4rating", "type", "radio", "value", "5", 3, "checked"], ["for", "4star5", 1, "full"], ["id", "4star4half", "name", "4rating", "type", "radio", "value", "4 and a half", 3, "checked"], ["for", "4star4half", 1, "half"], ["id", "4star4", "name", "4rating", "type", "radio", "value", "4", 3, "checked"], ["for", "4star4", 1, "full"], ["id", "4star3half", "name", "4rating", "type", "radio", "value", "3 and a half", 3, "checked"], ["for", "4star3half", 1, "half"], ["id", "4star3", "name", "4rating", "type", "radio", "value", "3", 3, "checked"], ["for", "4star3", 1, "full"], ["id", "4star2half", "name", "4rating", "type", "radio", "value", "2 and a half", 3, "checked"], ["for", "4star2half", 1, "half"], ["id", "4star2", "name", "4rating", "type", "radio", "value", "2", 3, "checked"], ["for", "4star2", 1, "full"], ["id", "4star1half", "name", "4rating", "type", "radio", "value", "1 and a half", 3, "checked"], ["for", "4star1half", 1, "half"], ["id", "4star1", "name", "4rating", "type", "radio", "value", "1", 3, "checked"], ["for", "4star1", 1, "full"], ["id", "4starhalf", "name", "4rating", "type", "radio", "value", "half", 3, "checked"], ["for", "4starhalf", 1, "half"], ["disabled", "", 1, "badge", "ml-1"], [1, "badge-danger", "badge", "ml-1", 3, "hidden"], [1, "col-lg-8"], ["class", "table-responsive", 4, "ngIf"], [4, "ngIf"], [1, "table-responsive", "mb-1"], ["id", "upcoming-table-2", "datatable", "", 1, "table", "table-bordered", "table-striped", "table-hover", 3, "dtOptions", "dtTrigger"], [4, "ngFor", "ngForOf"], [1, "font-medium-3"], ["class", "row mb-1", 4, "ngFor", "ngForOf"], ["feedback_column", ""], ["type", "radio", "value", "5", 3, "id", "name", "checked"], [1, "full", 3, "for"], ["type", "radio", "value", "4 and a half", 3, "id", "name", "checked"], [1, "half", 3, "for"], ["type", "radio", "value", "4", 3, "id", "name", "checked"], ["type", "radio", "value", "3 and a half", 3, "id", "name", "checked"], ["type", "radio", "value", "3", 3, "id", "name", "checked"], ["type", "radio", "value", "2 and a half", 3, "id", "name", "checked"], ["type", "radio", "value", "2", 3, "id", "name", "checked"], ["type", "radio", "value", "1 and a half", 3, "id", "name", "checked"], ["type", "radio", "value", "1", 3, "id", "name", "checked"], ["type", "radio", "value", "half", 3, "id", "name", "checked"], [1, "row", "mb-1"], [1, "col-4", "col-sm-5"], [1, "col-6", "col-sm-5"], ["type", "radio", "value", "2 and a half", 3, "checked", "id", "name"], ["type", "radio", "value", "2", 3, "checked", "id", "name"], ["type", "radio", "value", "1 and a half", 3, "checked", "id", "name"], ["type", "radio", "value", "1", 3, "checked", "id", "name"], ["type", "radio", "value", "half", 3, "checked", "id", "name"], [1, "table-responsive"], ["contenteditable", "", "id", "upcoming-table", "datatable", "", 1, "table", "table-bordered", "table-striped", "table-hover", 3, "dtOptions", "dtTrigger"], ["appearance", "outline", 1, "input-field", 2, "width", "100%"], ["autosize", "", "matInput", "", "name", "fraudText", "required", "", 3, "ngModel", "ngModelChange"]], template: function BotFeedbackComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](0, BotFeedbackComponent_div_0_Template, 16, 4, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, " Overall Rating: ");
@@ -27927,15 +30445,12 @@ BotFeedbackComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODUL
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](28, "span", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](29);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "span", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "span", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "FRAUD DETECTED");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "span", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, "FRAUD DETECTED");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "div", 3)(35, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](36, BotFeedbackComponent_div_36_Template, 12, 3, "div", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](37, BotFeedbackComponent_div_37_Template, 3, 1, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "div", 3)(33, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](34, BotFeedbackComponent_div_34_Template, 13, 4, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](35, BotFeedbackComponent_div_35_Template, 3, 1, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.fraud_detected == 0);
@@ -27960,10 +30475,6 @@ BotFeedbackComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODUL
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("checked", ctx.overall_feedback > 0 && ctx.overall_feedback <= 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵclassProp"]("badge-danger", ctx.overall_feedback < 60)("success", ctx.overall_feedback >= 60);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx.overall_feedback < 60 ? "Rejected" : "Cleared");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵclassProp"]("badge-danger", ctx.overall_feedback < 60)("badge-warning", ctx.overall_feedback == 60)("success", ctx.overall_feedback > 60);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx.ratingText);
@@ -28556,6 +31067,7 @@ class FeedbackComponent {
         ];
     }
     ngOnInit() {
+        console.log(this.interview_id);
         this.initialize();
         this.fetchinterviews();
         // this.populatefeedback()
@@ -71639,6 +74151,9 @@ const environment = {
         },
         bot_interviewer_function_url: "https://tuwk4y6c6d4szdeeic2j6ntnxm0rabki.lambda-url.ap-south-1.on.aws",
         candidate_interviewer_match_functionurl: "https://3uhpmbyplqbuzjk7bpjcwur5ki0ilxmz.lambda-url.ap-south-1.on.aws"
+    },
+    Razorpay: {
+        accountKey: "rzp_test_RPGfFLdKWfde2k"
     }
 };
 /*
@@ -71951,6 +74466,7 @@ __webpack_require__.r(__webpack_exports__);
 const interviewErrorCodes = {
     "SCREEN_SHARE_STOPPED": "SCREEN_SHARE_STOPPED",
     "SCREEN_NOT_SHARED": "SCREEN_NOT_SHARED",
+    "TAB_NOT_SHARED": "TAB_NOT_SHARED",
     "TIME_LIMIT_EXCEEDED": "TIME_LIMIT_EXCEEDED",
     "END_INTERVIEW_BY_CANDIDATE": "END_INTERVIEW_BY_CANDIDATE",
     "CAM_PERMISSION_NOT_PROVIDED": "CAM_PERMISSION_NOT_PROVIDED",
@@ -71960,7 +74476,8 @@ const interviewErrorCodes = {
     "SUBMIT_ANSWER_ERROR": "SUBMIT_ANSWER_ERROR",
     "ANSWER_RECORDING_ERROR": "ANSWER_RECORDING_ERROR",
     "PUSH_CHUNKS_ERROR": "PUSH_CHUNKS_ERROR",
-    "GENERAL_RECORDING_ERROR": "GENERAL_RECORDING_ERROR"
+    "GENERAL_RECORDING_ERROR": "GENERAL_RECORDING_ERROR",
+    "VIDEO_CAPTURE_ERROR": "VIDEO_CAPTURE_ERROR"
 };
 const requestTypes = {
     "COMPLETE_INTERVIEW": "COMPLETE_INTERVIEW",
@@ -71968,6 +74485,7 @@ const requestTypes = {
     "SUBMIT_ANSWER": "SUBMIT_ANSWER"
 };
 const userMessages = {
+    "WAIT": "This will take a while! Please hold on!",
     "GENERAL_ERROR": "Something went wrong ! Please try again or contact WitMyWorld support !",
     "INTERVIEW_COMPLETE_SUCCESS": "Interview completed !",
     "INTERVIEW_COMPLETE_ERROR": "Interview aborted !",
@@ -71977,13 +74495,15 @@ const userMessages = {
     "PUSH_CHUNKS_ERROR": "Your system is blocking interview video to be uploaded on WitMyWorld server !",
     "SCREEN_SHARE_STOPPED": "You stopped sharing screen during interview !",
     "SCREEN_NOT_SHARED": "You didn't share your full screen !",
+    "TAB_NOT_SHARED": "You didn't share the current tab !",
     "TIME_LIMIT_EXCEEDED": "Oops ! Interview time limit exceeded !",
     "END_INTERVIEW_BY_CANDIDATE": "You have ended the interview mid-way !",
     "CAM_PERMISSION_NOT_PROVIDED": "You have not provided permission for camera or mike !",
     "CAM_PERMISSION_REVOKED": "You have revoked permission of camera or mike !",
     "SYSTEM_AUDIO_NOT_SHARED": "You have not selected system audio option while sharing screen ! ",
     "BACKEND_ERROR": "Something went wrong ! Please try again or contact WitMyWorld support !",
-    "ANSWER_RECORDING_NOT_SUPPORTED": "Oops ! Seems like your setup doesn't support mike input, switching to text mode !"
+    "ANSWER_RECORDING_NOT_SUPPORTED": "Oops ! Seems like your setup doesn't support mike input, switching to text mode !",
+    "VIDEO_CAPTURE_ERROR": "Seems like your video is not getting recorded. It could be poor network or a firewall issue !"
 };
 const mediaStreamOptions = {
     "USER_AUDIO": "USER_AUDIO",
@@ -72038,6 +74558,7 @@ var AssessmentEnum;
     AssessmentEnum["INTERVIEW"] = "INTERVIEW";
     AssessmentEnum["INTERVIEWER"] = "INTERVIEWER";
     AssessmentEnum["BOT_INTERVIEW"] = "BOT_INTERVIEW";
+    AssessmentEnum["CONFIGURE"] = "CONFIGURE";
 })(AssessmentEnum || (AssessmentEnum = {}));
 
 
@@ -72632,23 +75153,12 @@ function QuestionComponent_div_7_pre_3_Template(rf, ctx) {
   }
 }
 
-function QuestionComponent_div_7_img_4_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "img", 26);
-  }
-
-  if (rf & 2) {
-    const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpropertyInterpolate"]("src", ctx_r11.question_image_path, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsanitizeUrl"]);
-  }
-}
-
-function QuestionComponent_div_7_div_5_div_1_Template(rf, ctx) {
+function QuestionComponent_div_7_div_4_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r21 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 29)(1, "input", 30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function QuestionComponent_div_7_div_5_div_1_Template_input_change_1_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 28)(1, "input", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("change", function QuestionComponent_div_7_div_4_div_1_Template_input_change_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r21);
       const option_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
       const question_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
@@ -72656,7 +75166,7 @@ function QuestionComponent_div_7_div_5_div_1_Template(rf, ctx) {
       return ctx_r19.answerSelected(question_r8, option_r16);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "div", 31)(3, "label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "div", 30)(3, "label");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
   }
@@ -72674,10 +75184,10 @@ function QuestionComponent_div_7_div_5_div_1_Template(rf, ctx) {
   }
 }
 
-function QuestionComponent_div_7_div_5_Template(rf, ctx) {
+function QuestionComponent_div_7_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 27);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, QuestionComponent_div_7_div_5_div_1_Template, 5, 3, "div", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, QuestionComponent_div_7_div_4_div_1_Template, 5, 3, "div", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
   }
 
@@ -72686,6 +75196,17 @@ function QuestionComponent_div_7_div_5_Template(rf, ctx) {
     const question_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", question_r8[option_r16]);
+  }
+}
+
+function QuestionComponent_div_7_img_5_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "img", 31);
+  }
+
+  if (rf & 2) {
+    const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpropertyInterpolate"]("src", ctx_r12.question_image_path, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsanitizeUrl"]);
   }
 }
 
@@ -72729,8 +75250,8 @@ function QuestionComponent_div_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](3, QuestionComponent_div_7_pre_3_Template, 2, 1, "pre", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](4, QuestionComponent_div_7_img_4_Template, 1, 1, "img", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](5, QuestionComponent_div_7_div_5_Template, 2, 1, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](4, QuestionComponent_div_7_div_4_Template, 2, 1, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](5, QuestionComponent_div_7_img_5_Template, 1, 1, "img", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "div", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](7, QuestionComponent_div_7_button_7_Template, 2, 0, "button", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](8, QuestionComponent_div_7_button_8_Template, 2, 0, "button", 24);
@@ -72752,11 +75273,11 @@ function QuestionComponent_div_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"]("Question ", idx_r9 + 1, "");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r1.split_text(question_r8.question) === "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r1.split_text(question_r8.question) !== "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r1.has_text(question_r8));
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngForOf", ctx_r1.randomOptions);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r1.has_image(question_r8));
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", idx_r9 > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
@@ -72868,15 +75389,31 @@ class QuestionComponent {
     this.changeTotalDuration(durationLeft);
   }
 
-  split_text(text) {
-    if (text.split(":")[0] == "IMAGE") {
-      this.question_image_path = "assets/assessment/questions/images/psychometric/" + text.split(":")[1] + ".jpg";
-      return text.split(":")[1];
+  has_text(question) {
+    if ("question" in question) {
+      return true;
     } else {
-      this.question_image_path = "";
-      return "";
+      return false;
     }
   }
+
+  has_image(question) {
+    if ("image" in question) {
+      this.question_image_path = "https://s3.ap-south-1.amazonaws.com/resumes.ap-south-1/" + question['image'];
+      return true;
+    } else {
+      return false;
+    }
+  } // split_text(text: string) {
+  //   if (text.split(":")[0] == "IMAGE") {
+  //     this.question_image_path = "assets/assessment/questions/images/psychometric/" + text.split(":")[1] + ".jpg"
+  //     return text.split(":")[1]
+  //   } else {
+  //     this.question_image_path = ""
+  //     return ""
+  //   }
+  // }
+
 
   changeTestId(testId) {
     this.testId = testId;
@@ -72957,7 +75494,7 @@ QuestionComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4_
   },
   decls: 17,
   vars: 4,
-  consts: [["data-keyboard", "false", 1, "test-wizard", "start"], ["role", "tablist", 1, "nav", "nav-tabs", "flex-nowrap"], ["class", "nav-item", "role", "presentation", 4, "ngFor", "ngForOf"], [1, "row"], [1, "col-md-8"], ["role", "form"], [1, "tab-content", "wizard-content", "p-4"], ["class", "tab-pane", "role", "tabpanel", 3, "active", 4, "ngFor", "ngForOf"], [1, "clearfix"], [1, "col-md-4", "d-flex", "align-items-center", "justify-content-center"], [1, "timer"], [1, "text-center", "icon"], [1, "icon-alarm"], [3, "config", "event"], ["countDown", ""], [3, "recordImage", "recordVideo", "testId", 4, "ngIf"], ["role", "presentation", 1, "nav-item"], ["data-toggle", "tab", "role", "tab", 1, "nav-link", 3, "href", "click"], ["role", "tabpanel", 1, "tab-pane"], [4, "ngIf"], [3, "src", 4, "ngIf"], ["class", "mb-1", 4, "ngFor", "ngForOf"], [1, "mt-4"], ["class", "btn btn-primary next-step mt-2 mr-2", "href", "#step2", "type", "button", 3, "click", 4, "ngIf"], ["class", "btn btn-primary next-step mt-2", "href", "#step2", "type", "button", 3, "click", 4, "ngIf"], ["type", "button", 1, "btn", "btn-primary", "next-step", "mt-2", "btn-finish", 2, "float", "right", 3, "click"], [3, "src"], [1, "mb-1"], ["class", "pretty p-default p-round p-smooth", 4, "ngIf"], [1, "pretty", "p-default", "p-round", "p-smooth"], ["type", "radio", 3, "checked", "change"], [1, "state", "p-primary"], ["href", "#step2", "type", "button", 1, "btn", "btn-primary", "next-step", "mt-2", "mr-2", 3, "click"], ["href", "#step2", "type", "button", 1, "btn", "btn-primary", "next-step", "mt-2", 3, "click"], [3, "recordImage", "recordVideo", "testId"]],
+  consts: [["data-keyboard", "false", 1, "test-wizard", "start"], ["role", "tablist", 1, "nav", "nav-tabs", "flex-nowrap"], ["class", "nav-item", "role", "presentation", 4, "ngFor", "ngForOf"], [1, "row"], [1, "col-md-8"], ["role", "form"], [1, "tab-content", "wizard-content", "p-4"], ["class", "tab-pane", "role", "tabpanel", 3, "active", 4, "ngFor", "ngForOf"], [1, "clearfix"], [1, "col-md-4", "d-flex", "align-items-center", "justify-content-center"], [1, "timer"], [1, "text-center", "icon"], [1, "icon-alarm"], [3, "config", "event"], ["countDown", ""], [3, "recordImage", "recordVideo", "testId", 4, "ngIf"], ["role", "presentation", 1, "nav-item"], ["data-toggle", "tab", "role", "tab", 1, "nav-link", 3, "href", "click"], ["role", "tabpanel", 1, "tab-pane"], [4, "ngIf"], ["class", "mb-1", 4, "ngFor", "ngForOf"], [3, "src", 4, "ngIf"], [1, "mt-4"], ["class", "btn btn-primary next-step mt-2 mr-2", "href", "#step2", "type", "button", 3, "click", 4, "ngIf"], ["class", "btn btn-primary next-step mt-2", "href", "#step2", "type", "button", 3, "click", 4, "ngIf"], ["type", "button", 1, "btn", "btn-primary", "next-step", "mt-2", "btn-finish", 2, "float", "right", 3, "click"], [1, "mb-1"], ["class", "pretty p-default p-round p-smooth", 4, "ngIf"], [1, "pretty", "p-default", "p-round", "p-smooth"], ["type", "radio", 3, "checked", "change"], [1, "state", "p-primary"], [3, "src"], ["href", "#step2", "type", "button", 1, "btn", "btn-primary", "next-step", "mt-2", "mr-2", 3, "click"], ["href", "#step2", "type", "button", 1, "btn", "btn-primary", "next-step", "mt-2", 3, "click"], [3, "recordImage", "recordVideo", "testId"]],
   template: function QuestionComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 0)(1, "ul", 1);
@@ -72992,7 +75529,7 @@ QuestionComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4_
     }
   },
   directives: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgIf, ngx_countdown__WEBPACK_IMPORTED_MODULE_6__.CountdownComponent, _app_util_web_cam_web_cam_web_cam_component__WEBPACK_IMPORTED_MODULE_3__.WebCamComponent],
-  styles: ["pre[_ngcontent-%COMP%] {\n  white-space: pre-wrap;       \n  white-space: -moz-pre-wrap;  \n  white-space: -o-pre-wrap;    \n  word-wrap: break-word;       \n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInF1ZXN0aW9uLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxxQkFBcUIsUUFBUSxVQUFVO0VBQ3ZDLDBCQUEwQixHQUFHLHdCQUF3QjtFQUNyRCx3QkFBd0IsS0FBSyxZQUFZO0VBQ3pDLHFCQUFxQixRQUFRLDJCQUEyQjtBQUMxRCIsImZpbGUiOiJxdWVzdGlvbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsicHJlIHtcbiAgd2hpdGUtc3BhY2U6IHByZS13cmFwOyAgICAgICAvKiBjc3MtMyAqL1xuICB3aGl0ZS1zcGFjZTogLW1vei1wcmUtd3JhcDsgIC8qIE1vemlsbGEsIHNpbmNlIDE5OTkgKi9cbiAgd2hpdGUtc3BhY2U6IC1vLXByZS13cmFwOyAgICAvKiBPcGVyYSA3ICovXG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDsgICAgICAgLyogSW50ZXJuZXQgRXhwbG9yZXIgNS41KyAqL1xufVxuIl19 */"]
+  styles: ["pre[_ngcontent-%COMP%] {\n  white-space: pre-wrap;       \n  white-space: -moz-pre-wrap;  \n  white-space: -o-pre-wrap;    \n  word-wrap: break-word;       \n}\n.question-image[_ngcontent-%COMP%] {\n  width:200px;\n  height:200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInF1ZXN0aW9uLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxxQkFBcUIsUUFBUSxVQUFVO0VBQ3ZDLDBCQUEwQixHQUFHLHdCQUF3QjtFQUNyRCx3QkFBd0IsS0FBSyxZQUFZO0VBQ3pDLHFCQUFxQixRQUFRLDJCQUEyQjtBQUMxRDtBQUNBO0VBQ0UsV0FBVztFQUNYLFlBQVk7QUFDZCIsImZpbGUiOiJxdWVzdGlvbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsicHJlIHtcbiAgd2hpdGUtc3BhY2U6IHByZS13cmFwOyAgICAgICAvKiBjc3MtMyAqL1xuICB3aGl0ZS1zcGFjZTogLW1vei1wcmUtd3JhcDsgIC8qIE1vemlsbGEsIHNpbmNlIDE5OTkgKi9cbiAgd2hpdGUtc3BhY2U6IC1vLXByZS13cmFwOyAgICAvKiBPcGVyYSA3ICovXG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDsgICAgICAgLyogSW50ZXJuZXQgRXhwbG9yZXIgNS41KyAqL1xufVxuLnF1ZXN0aW9uLWltYWdlIHtcbiAgd2lkdGg6MjAwcHg7XG4gIGhlaWdodDoyMDBweDtcbn0iXX0= */"]
 });
 
 /***/ }),
@@ -73057,18 +75594,21 @@ class StartTestComponent {
     this.testService = testService;
     this.startTestChange = new _angular_core__WEBPACK_IMPORTED_MODULE_2__.EventEmitter();
     this.cancelTestChange = new _angular_core__WEBPACK_IMPORTED_MODULE_2__.EventEmitter();
-    this.audioAndCameraPermissions = null;
+    this.isStartButtonDisabled = true;
+    this.audioAndCameraPermissions = "denied";
     this.iAgree = false;
+    this.isVideoPermissionsRequired = true;
     this._errorMessage = null; //
   }
 
   get errorMessage() {
     return this._errorMessage;
-  }
+  } // get isStartButtonDisabled(): boolean {
+  //   return (this.isVideoPermissionsRequired && this.audioAndCameraPermissions != "granted")
+  //     || !!this.errorMessage
+  //     || !this.iAgree;
+  // }
 
-  get isStartButtonDisabled() {
-    return this.isVideoPermissionsRequired && this.audioAndCameraPermissions === null || !!this.errorMessage || !this.iAgree;
-  }
 
   ngOnInit() {
     var _this = this;
@@ -73080,7 +75620,9 @@ class StartTestComponent {
           "assessmentType": "TEST"
         };
         const ref = yield _this.testService.validateReferenceId(input);
-        _this.isVideoPermissionsRequired = ref.videoPermissionRequired;
+        _this.isVideoPermissionsRequired = ref.videoPermissionRequired != null;
+        ref.videoPermissionRequired;
+        false;
 
         if (ref.videoPermissionRequired) {
           yield _this.checkCameraAndAudioPermissions();
@@ -73105,12 +75647,14 @@ class StartTestComponent {
 
         if (stream.active) {
           _this2.audioAndCameraPermissions = 'granted';
+          _this2.isStartButtonDisabled = false;
           stream.getTracks().forEach(track => track.stop());
         }
 
         _this2._errorMessage = null;
       } catch (e) {
         _this2.audioAndCameraPermissions = 'denied';
+        _this2.isStartButtonDisabled = true;
 
         if (e.message === "Could not start video source") {
           _this2._errorMessage = "Could not start video source, camera might already in use or no camera source available";
@@ -74495,6 +77039,9 @@ class HeaderService {
       name: 'Assessment',
       route: '/candidate/assessment'
     }, {
+      name: 'Pricing',
+      route: '/pricing'
+    }, {
       name: 'Contact Us',
       route: '/contact-us'
     }];
@@ -74680,6 +77227,322 @@ ProfileService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__[
   token: ProfileService,
   factory: ProfileService.ɵfac,
   providedIn: 'root'
+});
+
+/***/ }),
+
+/***/ 96388:
+/*!***************************************!*\
+  !*** ./src/services/realtimeconvo.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "RealTimeConvoService": () => (/* binding */ RealTimeConvoService)
+/* harmony export */ });
+/* harmony import */ var _home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 28784);
+
+
+
+
+class RealTimeConvoService {
+  constructor(http) {
+    this.http = http;
+    this.myEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_1__.EventEmitter();
+    this.silenceDurationThreshold = 10; //secs, determines how much time we call as silence.
+
+    this.silenceInterruptionThreshold = 2; //if 2 silences in a conversation then end it.
+
+    this.noOfSilenceInterruptions = 0; //tracks silences in a sequence.
+
+    this.isThisLastResponse = false; //if this is true then conversation should end after AI delivers this message.
+
+    this.activeSession = false; //whether an active conversation session is already there.
+
+    this.useCases = {
+      "INTERVIEW": "INTERVIEW"
+    };
+    this.fullTranscript = "";
+    this.detectEndPrompt = `
+  Analyze the conversational content to determine whether the conversation should conclude or continue. 
+  Output "endConvo" if the conversation meets any of the following criteria for termination. 
+
+Termination Criteria: 
+
+1. If the candidate has completely failed to provide an answer to a question.
+2. If the candidate explicitly expresses a desire to move on to the next question.
+3. If the candidate has provided sufficient information that demonstrates a comprehensive understanding or 
+lack of knowledge on the discussed topic, indicating that no further questions are necessary to assess their 
+proficiency in that area.   
+  `;
+    this.instruction = `
+  You are tasked with conducting an interview. Your role is strictly to ask questions relevant to the topic or 
+  position being discussed. You should not provide answers to any questions the candidate poses, nor should you 
+  explain concepts or provide any informational content beyond the questions themselves. Focus solely on obtaining 
+  information by asking questions.
+
+  Guidelines:
+  
+  1. If the candidate asks for information or a clarification on a topic or concept, redirect the conversation 
+  back to the original question without providing the requested details.
+  2. Ensure each of your interactions aims to elicit a response or detail relevant to the evaluation of the candidate.
+  3. If clarification is sought by the candidate regarding a question you asked, you can rephrase or elaborate 
+  on the question without deviating from its original intent.
+  4. Avoid diverting from the assessment focus to maintain a clear and professional interview process.
+  5. Your primary objective is to facilitate a dialogue that allows the candidate to showcase their 
+  qualifications and suitability for the role, without imparting your knowledge or insights during the conversation.
+  6. You can answer the candidate's question on whether to continue with the conversation or conclude it.
+  `;
+  }
+
+  startConvo(prompt, usecase, duration = 2, EPHEMERAL_KEY) {
+    var _this = this;
+
+    return (0,_home_runner_work_ui_ui_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this.isThisLastResponse = false;
+
+      try {
+        // EPHEMERAL_KEY = "XXXX"  //can mimic real time failure when we want to test
+        _this.fullTranscript = ""; //otherwise it will keep adding up during multiple calls.
+
+        _this.convoTimer = setTimeout(() => {
+          if (_this.activeSession) {
+            _this.endConvo();
+          }
+        }, duration * 1000 * 60); // create a peer connection instance
+
+        _this.peerConnection = new RTCPeerConnection(); // Create an audio element to play the audio from the model
+
+        const audioElement = document.createElement('audio');
+        audioElement.autoplay = true; // when we get a new audio track from the model
+        // set it as the source of the audio element
+
+        _this.peerConnection.ontrack = e => {
+          audioElement.srcObject = e.streams[0];
+        }; // add local audio track for microphone input in the browser
+
+
+        const clientMedia = yield navigator.mediaDevices.getUserMedia({
+          audio: true
+        });
+        const audioTrack = clientMedia.getAudioTracks()[0];
+
+        _this.peerConnection.addTrack(audioTrack);
+
+        _this.dataChannel = _this.peerConnection.createDataChannel('oai-events'); // set up data channel for sending and receiving events
+
+        _this.dataChannel.addEventListener('open', () => {
+          // readyState is now 'open'
+          // Now that we have a data channel, we can send events to the model
+          // We'll update the session, and give it instructions on how to act.
+          _this.updateSession(prompt, ["text", "audio"]);
+
+          _this.dataChannel.send(JSON.stringify({
+            type: 'response.create'
+          }));
+        });
+
+        _this.dataChannel.addEventListener('message', e => {
+          clearTimeout(_this.silenceTimer); //reset silence everytime we have some message
+          //[TBD] exact sequence of conversations can be traced via event "converation.item.created". it contains current item id
+          // as well as previous item id
+
+          const json_data = JSON.parse(e['data']);
+
+          if (json_data.type === "response.done" && json_data.response.output[0].type == "function_call") {
+            // this server event pertained to our OOB model response
+            if (JSON.parse(json_data.response.output[0].arguments)['conversationEnd'] == "endConvo") {
+              //[TBD] switch off turn detection here as well.
+              _this.sendTextMessage("Tell the candidate that you are moving onto next topic. Don't say anything else apart from this. Dont ask any other question.");
+
+              _this.isThisLastResponse = true;
+            }
+          }
+
+          if (json_data['type'] == "conversation.item.input_audio_transcription.completed") {
+            _this.fullTranscript = _this.fullTranscript + "Candidate response: " + json_data['transcript'];
+            _this.noOfSilenceInterruptions = 0;
+          }
+
+          if (json_data['type'] == "response.audio_transcript.done") {
+            _this.fullTranscript = _this.fullTranscript + "Interviewer response: " + json_data['transcript'];
+          }
+
+          if (json_data['type'] == "output_audio_buffer.stopped") {
+            if (_this.isThisLastResponse) {
+              _this.endConvo();
+            } else {
+              _this.handleSilence();
+            }
+          }
+        });
+
+        _this.dataChannel.addEventListener('closing', e => {
+          console.log(e); // readyState is now 'closing'
+        });
+
+        _this.dataChannel.addEventListener('close', () => {// readyState is now 'closed'
+        }); // start the session using the Session Description Protocol (SDP)
+        // we create an offer, set it as the local description, and send it to the model
+
+
+        const offer = yield _this.peerConnection.createOffer();
+        yield _this.peerConnection.setLocalDescription(offer); // send the offer to the model
+
+        const baseUrl = "https://api.openai.com/v1/realtime"; // const model = "gpt-4o-realtime-preview-2024-12-17"; very costly and bit slow
+
+        const model = "gpt-4o-mini-realtime-preview-2024-12-17"; //cheaper and faster
+
+        const sdpResponse = yield fetch(`${baseUrl}?model=${model}`, {
+          method: "POST",
+          body: offer.sdp,
+          headers: {
+            Authorization: `Bearer ${EPHEMERAL_KEY}`,
+            "Content-Type": "application/sdp"
+          }
+        }); // once we get a response from the model, we set it as the remote description
+
+        const answer = {
+          type: "answer",
+          sdp: yield sdpResponse.text()
+        };
+        yield _this.peerConnection.setRemoteDescription(answer); // we now have a peer connection with the model!!!
+
+        _this.activeSession = true;
+        return _this.fullTranscript;
+      } catch (error) {
+        console.log(error);
+        throw error.toString();
+      }
+    })();
+  }
+
+  endConvo(hardKill = 0) {
+    if (!this.activeSession) return;
+    this.activeSession = false;
+    this.updateSession("", ["text"]); //this stops abrupt speech end when convo ends.
+
+    clearTimeout(this.silenceTimer);
+    clearTimeout(this.convoTimer);
+    this.noOfSilenceInterruptions = 0;
+    setTimeout(() => {
+      // To stop the session we need to close both the data channel and the peer connection
+      if (this.dataChannel) {
+        this.dataChannel.close();
+      }
+
+      if (this.peerConnection) {
+        this.peerConnection.close();
+      }
+
+      this.peerConnection = null;
+
+      if (hardKill != 1) {
+        this.triggerEvent({
+          message: 'Emit event for convo ending'
+        }); //coz otherwise on finish interview it will emit event which will eventually trigger submit answer and next question will come
+      }
+    }, hardKill == 0 ? 2000 : 1);
+  }
+
+  sendTextMessage(message) {
+    const event = {
+      type: "conversation.item.create",
+      item: {
+        type: "message",
+        role: "system",
+        content: [{
+          type: "input_text",
+          text: message
+        }]
+      }
+    };
+    this.dataChannel.send(JSON.stringify(event));
+    this.dataChannel.send(JSON.stringify({
+      type: 'response.create'
+    }));
+  }
+
+  triggerEvent(data) {
+    this.myEvent.emit(data);
+  }
+
+  handleSilence() {
+    this.noOfSilenceInterruptions += 1;
+
+    if (this.noOfSilenceInterruptions > this.silenceInterruptionThreshold) {
+      this.endConvo();
+    } else {
+      this.silenceTimer = setTimeout(() => {
+        this.sendTextMessage("Ask the candidate if they are going to respond ?");
+      }, this.silenceDurationThreshold * 1000);
+    }
+  }
+
+  updateSession(prompt, modalities) {
+    // updateSession is going to update our session with new instructions for the model to follow
+    // we can send any event we want to the model (except updating the voice)
+    // for more information on the events you can send, check out the API documentation
+    const event = {
+      type: "session.update",
+      session: {
+        "instructions": this.instruction + prompt,
+        'temperature': 0.6,
+        // "modalities": ["text", "audio"],
+        "modalities": modalities,
+        input_audio_transcription: {
+          model: 'whisper-1'
+        },
+        //   "turn_detection": {
+        //     "type": "server_vad",
+        //     "threshold": 0.5,
+        //     "prefix_padding_ms": 300,
+        //     "silence_duration_ms": 3000,
+        //     "create_response": true
+        // },        
+        "turn_detection": {
+          "type": "semantic_vad",
+          // "eagerness": "low" | "medium" | "high" | "auto", // optional
+          "create_response": true,
+          "interrupt_response": true // only in conversation mode
+
+        },
+        "tools": [{
+          "type": "function",
+          "name": "detect_end_of_conversation",
+          "description": this.detectEndPrompt,
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "conversationEnd": {
+                "type": "string",
+                "description": "The value to indicate whether to conclude the conversation.",
+                "enum": ["endConvo"]
+              }
+            },
+            "required": ["conversationEnd"]
+          }
+        }],
+        "tool_choice": "auto"
+      }
+    };
+    this.dataChannel.send(JSON.stringify(event));
+  }
+
+}
+
+RealTimeConvoService.ɵfac = function RealTimeConvoService_Factory(t) {
+  return new (t || RealTimeConvoService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__.HttpClient));
+};
+
+RealTimeConvoService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
+  token: RealTimeConvoService,
+  factory: RealTimeConvoService.ɵfac,
+  providedIn: "root"
 });
 
 /***/ }),
